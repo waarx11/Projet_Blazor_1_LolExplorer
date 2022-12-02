@@ -1,9 +1,12 @@
 ﻿@page "/"
+@using System.Globalization
+@using LolExplorer.Modele
 
-<PageTitle>Index</PageTitle>
+<PageTitle>@Localizer["TitleIndex"]</PageTitle>
 
-<h1>Hello, world!</h1>
+<h2>@Localizer["LangueIndex"]</h2>
 
-Welcome to your new app.
+<p>
+    <b>@Localizer["PresentationIndex"]</b>
+</p>
 
-<SurveyPrompt Title="How is Blazor working for you?" />

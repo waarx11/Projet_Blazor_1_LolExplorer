@@ -1,0 +1,32 @@
+﻿@page "/listitems"
+@using LolExplorer.Modele
+
+<h3>@Localizer["TitleItems"]</h3>
+<div>
+    <NavLink class="btn btn-primary" href="Add" Match="NavLinkMatch.All">
+        <i class="fa fa-plus"></i> Ajouter
+    </NavLink>
+</div>
+<DataGrid TItem="ItemApi"
+          Data="@items"
+           ReadData="@OnReadData"
+          TotalItems="@totalItem"
+          PageSize="10"
+          ShowPager
+          Responsive>
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.into)" Caption="#" />
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.tags)" Caption="Display name" />
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.plaintext)" Caption="Stack size" />
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.name)" Caption="Maximum durability" />
+
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.icon)" Caption="Enchant categories">
+        <DisplayTemplate>
+           <image src=((ItemApi)context).icon)/> 
+        </DisplayTemplate>
+    </DataGridColumn>
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.name)" Caption="Repair with">
+        <DisplayTemplate>
+            @(string.Join(", ", ((ItemApi)context).purchasable))
+        </DisplayTemplate>
+    </DataGridColumn>
+</DataGrid>
