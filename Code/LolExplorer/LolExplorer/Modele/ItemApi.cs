@@ -21,7 +21,7 @@ namespace LolExplorer.Modele
         [JsonPropertyName("purchasable")]
         public bool Purchasable { get; set; }
         [JsonPropertyName("from")]
-        public List<string> From { get; set; }
+        public List<int> From { get; set; }
 
     }
 }

@@ -12,15 +12,17 @@
           ReadData="@OnReadData"
           TotalItems="@totalItem"
           ShowPager
-          PageSize="10">
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Into)" Caption="#" />
+          PageSize="20">
+    
+
+
     <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Tags)" Caption="Display name" />
     <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Plaintext)" Caption="Stack size" />
     <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Maximum durability" />
 
     <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Icon)" Caption="Enchant categories">
         <DisplayTemplate>
-           <image src=((ItemApi)context).icon)/> 
+            <image src="@context.Icon"/> 
         </DisplayTemplate>
     </DataGridColumn>
     <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Repair with">

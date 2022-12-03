@@ -9,7 +9,7 @@ namespace LolExplorer.Modele
         public int Id { get; set; }
 
         [Required]
-        [StringLength(50, ErrorMessage = "The display name must not exceed 50 characters.")]
+        [StringLength(500, ErrorMessage = "The display name must not exceed 500 characters.")]
         public string Name { get; set; }
         [Required]
         [StringLength(500, ErrorMessage = "The description must not exceed 500 characters.")]

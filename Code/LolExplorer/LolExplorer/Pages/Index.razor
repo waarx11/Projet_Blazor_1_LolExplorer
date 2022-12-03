@@ -16,17 +16,18 @@
 <p>
     @Localizer["PresentationIndex"]
 </p>
+<image src="http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1001.png"></image>
 <EditForm Model="Tags">
     <DataAnnotationsValidator />
     <ValidationSummary />
-<p>
+    <p>
         <label>
             Tags :
             <label>
-            @foreach (var item in Tags)
-            {             
-                <text>@item</text>            
-            }
+                @foreach (var item in Tags)
+                {             
+                    <text> #@item </text>            
+                }
                 <InputText id="tag" @bind-Value="TagContent" />
                 <button @onclick="ajoutTag"></button>
             </label>

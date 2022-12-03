@@ -61,6 +61,8 @@ namespace LolExplorer.Pages
                 items = new List<ItemApi>(response); // an actual data for the current page
             }
         }
+        
+        
 
 
     }
