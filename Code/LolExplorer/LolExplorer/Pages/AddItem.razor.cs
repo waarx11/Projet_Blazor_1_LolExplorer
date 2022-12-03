@@ -1,4 +1,6 @@
 ﻿using Blazored.LocalStorage;
+using Blazorise;
+using Blazorise.Extensions;
 using LolExplorer.Modele;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
@@ -14,6 +16,7 @@ namespace LolExplorer.Pages
         public IWebHostEnvironment WebHostEnvironment { get; set; }
 
         private ItemApiModel itemModel=new() ;
+        private string TagContent;
 
         private async void HandleValidSubmit()
         {
@@ -62,7 +65,15 @@ namespace LolExplorer.Pages
             }
         }
 
-        
+        void ajoutTag()
+        {
+            if(TagContent.IsNullOrEmpty() || !itemModel.Tags.Contains(TagContent))
+            {
+                itemModel.Tags.Add(TagContent);
+            }
+        }
+
+
     }
 }
 

@@ -29,6 +29,7 @@ namespace LolExplorer.Modele
         [Required]
         [Range(typeof(bool), "true", "false", ErrorMessage = "You must decide if its pruchisible or not.")]
         public bool Purchasable { get; set; }
-        
+        public List<string> Tags { get; set; } = new(); 
+
     }
 }

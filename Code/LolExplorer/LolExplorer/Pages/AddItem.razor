@@ -37,11 +37,27 @@
             <InputFile OnChange="@LoadImage" accept=".png" />
         </label>
     </p>
+     <p>
+        <label>
+            Tags :
+            <label>
+                @foreach (var item in itemModel.Tags)
+                {             
+                    <text>@item</text>            
+                }
+                <InputText id="tag" @bind-Value="TagContent" />
+                <button @onclick="ajoutTag"></button>
+            </label>
+        </label> 
+    </p>
+
     <p>
         <label>
-            Accept Condition:
-            <InputCheckbox @bind-Value="itemModel.Purchasable" />
-        </label>
+            Prushsable :
+            <label>
+                <input type="checkbox" @bind-value="itemModel.Purchasable" />
+            </label>
+        </label> 
     </p>
 
     <button type="submit">Submit</button>

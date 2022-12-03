@@ -16,4 +16,21 @@
 <p>
     @Localizer["PresentationIndex"]
 </p>
+<EditForm Model="Tags">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+<p>
+        <label>
+            Tags :
+            <label>
+            @foreach (var item in Tags)
+            {             
+                <text>@item</text>            
+            }
+                <InputText id="tag" @bind-Value="TagContent" />
+                <button @onclick="ajoutTag"></button>
+            </label>
+        </label> 
+    </p>
+</EditForm>
 
