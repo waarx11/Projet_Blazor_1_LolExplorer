@@ -24,6 +24,8 @@ builder.Services.AddHttpClient();
 
 
 
+//builder.Services.AddSingleton<IDataAccess, DataAccess>();
+
 // Add the controller of the app
 builder.Services.AddControllers();
 

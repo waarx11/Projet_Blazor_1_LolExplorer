@@ -9,24 +9,23 @@
 </div>
 <DataGrid TItem="ItemApi"
           Data="@items"
-           ReadData="@OnReadData"
+          ReadData="@OnReadData"
           TotalItems="@totalItem"
-          PageSize="10"
           ShowPager
-          Responsive>
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.into)" Caption="#" />
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.tags)" Caption="Display name" />
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.plaintext)" Caption="Stack size" />
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.name)" Caption="Maximum durability" />
+          PageSize="10">
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Into)" Caption="#" />
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Tags)" Caption="Display name" />
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Plaintext)" Caption="Stack size" />
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Maximum durability" />
 
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.icon)" Caption="Enchant categories">
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Icon)" Caption="Enchant categories">
         <DisplayTemplate>
            <image src=((ItemApi)context).icon)/> 
         </DisplayTemplate>
     </DataGridColumn>
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.name)" Caption="Repair with">
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Repair with">
         <DisplayTemplate>
-            @(string.Join(", ", ((ItemApi)context).purchasable))
+            @(string.Join(", ", ((ItemApi)context).Purchasable))
         </DisplayTemplate>
     </DataGridColumn>
 </DataGrid>

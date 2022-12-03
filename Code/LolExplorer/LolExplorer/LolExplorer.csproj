@@ -8,16 +8,19 @@
 
 
   <ItemGroup>
-    <EmbeddedResource Remove="Ressources\List.fr-FR.resx" />
-    <EmbeddedResource Remove="Ressources\Pages.List.fr-FR.resx" />
-    <EmbeddedResource Remove="Ressources\Pages.List.resx" />
-    <EmbeddedResource Remove="Ressources\Pages.tItem.fr-FR.resx" />
+    <EmbeddedResource Remove="Resources\List.fr-FR.resx" />
+    <EmbeddedResource Remove="Resources\Pages.List.fr-FR.resx" />
+    <EmbeddedResource Remove="Resources\Pages.List.resx" />
+    <EmbeddedResource Remove="Resources\Pages.tItem.fr-FR.resx" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Components\NewFile.txt" />
     <None Remove="Controllers\NewFile.txt" />
+    <None Remove="Modele\NewFile.txt" />
     <None Remove="Pages\NewFile.txt" />
-    <None Remove="Ressources\NewFile.txt" />
+    <None Remove="Resources\NewFile.txt" />
+    <None Remove="Service\NewFile.txt" />
     <None Remove="Shared\NewFile.txt" />
   </ItemGroup>
 
@@ -26,6 +29,7 @@
     <PackageReference Include="Blazorise.Bootstrap" Version="1.1.4.1" />
     <PackageReference Include="Blazorise.DataGrid" Version="1.1.4.1" />
     <PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.1.4.1" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="7.0.0" />
   </ItemGroup>
 
 </Project>

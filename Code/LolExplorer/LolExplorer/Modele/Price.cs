@@ -2,8 +2,15 @@
 {
     public class Price
     {
-        public int @base { get; set; }
-        public int total { get; set; }
-        public int sell { get; set; }
+        public int Base { get; set; }
+        public int Total { get; set; }
+        public int Sell { get; set; }
+
+        public Price(int Base, int Total, int Sell)
+        {
+            Base = Base;
+            Total = Total;
+            Sell = Sell;
+        }
     }
 }

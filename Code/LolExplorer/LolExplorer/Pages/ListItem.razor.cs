@@ -28,7 +28,6 @@ namespace LolExplorer.Pages
 
         protected override async Task OnAfterRenderAsync(bool firstRender)
         {
-            // Do not treat this action if is not the first render
             if (!firstRender)
             {
                 return;
@@ -40,7 +39,7 @@ namespace LolExplorer.Pages
             if (currentData == null)
             {
                 // this code add in the local storage the fake data (we load the data sync for initialize the data before load the OnReadData method)
-                var originalData = Http.GetFromJsonAsync<ItemApi[]>($"{NavigationManager.BaseUri}apiLolItem.json").Result;
+                var originalData = Http.GetFromJsonAsync<ItemApi[]>($"{NavigationManager.BaseUri}fake-data.json").Result;
                 await LocalStorage.SetItemAsync("data", originalData);
             }
         }
@@ -53,15 +52,18 @@ namespace LolExplorer.Pages
             }
 
             // When you use a real API, we use this follow code
-            //var response = await Http.GetJsonAsync<Data[]>( $"http://my-api/api/data?page={e.Page}&pageSize={e.PageSize}" );
-            var response = (await LocalStorage.GetItemAsync<ItemApi[]>("data")).Skip((e.Page - 1) * e.PageSize).Take(e.PageSize).ToList();
+            //var response = await Http.GetJsonAsync<Item[]>( $"http://my-api/api/data?page={e.Page}&pageSize={e.PageSize}" );
+            var response = (await Http.GetFromJsonAsync<ItemApi[]>($"{NavigationManager.BaseUri}fake-data.json")).Skip((e.Page - 1) * e.PageSize).Take(e.PageSize).ToList();
 
             if (!e.CancellationToken.IsCancellationRequested)
             {
-                totalItem = (await LocalStorage.GetItemAsync<List<ItemApi>>("data")).Count;
+                totalItem = (await Http.GetFromJsonAsync<List<ItemApi>>($"{NavigationManager.BaseUri}fake-data.json")).Count;
                 items = new List<ItemApi>(response); // an actual data for the current page
             }
         }
+
+
     }
+    
 }
 

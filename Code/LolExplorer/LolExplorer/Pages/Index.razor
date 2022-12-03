@@ -1,12 +1,19 @@
 ﻿@page "/"
 @using System.Globalization
-@using LolExplorer.Modele
 
 <PageTitle>@Localizer["TitleIndex"]</PageTitle>
+
+<h1>LOL EXPLORER</h1>
+
+<h2>@Localizer["TitleIndex"]</h2>
 
 <h2>@Localizer["LangueIndex"]</h2>
 
 <p>
-    <b>@Localizer["PresentationIndex"]</b>
+    <b>CurrentCulture</b>: @CultureInfo.CurrentCulture
+</p>
+
+<p>
+    @Localizer["PresentationIndex"]
 </p>
 

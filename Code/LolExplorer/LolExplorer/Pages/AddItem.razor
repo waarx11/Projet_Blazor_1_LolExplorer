@@ -2,16 +2,10 @@
 
 <h3>Add</h3>
 
-<EditForm Model="@itemModel" OnValidSubmit="@HandleValidSubmit">
+<EditForm Model="@itemModel" >
     <DataAnnotationsValidator />
     <ValidationSummary />
 
-    <p>
-        <label for="display-name">
-            Display name:
-            <InputText id="display-name" @bind-Value="itemModel.DisplayName" />
-        </label>
-    </p>
     <p>
         <label for="name">
             Name:
@@ -20,38 +14,23 @@
     </p>
     <p>
         <label for="stack-size">
-            Stack size:
-            <InputNumber id="stack-size" @bind-Value="itemModel.StackSize" />
+            Base Price:
+            <InputNumber id="base-price" @bind-Value="itemModel.Base" />
         </label>
     </p>
     <p>
         <label for="max-durability">
-            Max durability:
-            <InputNumber id="max-durability" @bind-Value="itemModel.MaxDurability" />
+            Total Price:
+            <InputNumber id="total-price" @bind-Value="itemModel.Total" />
         </label>
     </p>
-    <p>
-        Enchant categories:
-        <div>
-            @foreach (var item in enchantCategories)
-            {
-                <label>
-                    <input type="checkbox" @onchange="@(e => OnEnchantCategoriesChange(item, e.Value))" />@item
-                </label>
-            }
-        </div>
+     <p>
+        <label for="max-durability">
+            Sell Price:
+            <InputNumber id="sell-durability" @bind-Value="itemModel.Sell" />
+        </label>
     </p>
-    <p>
-        Repair with:
-        <div>
-            @foreach (var item in repairWith)
-            {
-                <label>
-                    <input type="checkbox" @onchange="@(e => OnRepairWithChange(item, e.Value))" />@item
-                </label>
-            }
-        </div>
-    </p>
+   
     <p>
         <label>
             Item image:
@@ -61,7 +40,7 @@
     <p>
         <label>
             Accept Condition:
-            <InputCheckbox @bind-Value="itemModel.AcceptCondition" />
+            <InputCheckbox @bind-Value="itemModel.Purchasable" />
         </label>
     </p>
 
