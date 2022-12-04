@@ -13,21 +13,62 @@
           TotalItems="@totalItem"
           ShowPager
           PageSize="20">
+
+    
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Nom" />
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Plaintext)" Caption="Description"/>
     
 
-
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Tags)" Caption="Display name" />
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Plaintext)" Caption="Stack size" />
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Maximum durability" />
-
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Icon)" Caption="Enchant categories">
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Icon)" Caption="Image">
         <DisplayTemplate>
-            <image src="@context.Icon"/> 
+
+            <img src="@context.Icon"/> 
         </DisplayTemplate>
     </DataGridColumn>
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Repair with">
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Prushsable">
         <DisplayTemplate>
             @(string.Join(", ", ((ItemApi)context).Purchasable))
         </DisplayTemplate>
+    </DataGridColumn>
+    <DataGridColumn TItem="ItemApi"  Caption="Tags">
+        <DisplayTemplate>
+            @foreach (var item in @context.Tags)
+            {
+                    <p> #@item</p>
+            }
+        </DisplayTemplate>
+
+    </DataGridColumn>
+    <DataGridColumn TItem="ItemApi" Caption="From">
+        <DisplayTemplate>
+            @if (@context.From != null)
+            {
+                @foreach (var item in @context.From)
+                {
+                            <p> -@item</p>
+                }
+            }
+            else
+            {
+                    <p>No From</p>
+            }
+        </DisplayTemplate>
+
+    </DataGridColumn>
+    <DataGridColumn TItem="ItemApi" Caption="Into">
+        <DisplayTemplate>
+            @if (@context.Into != null)
+            {
+                @foreach (var item in @context.Into)
+                {
+                            <p> -@item</p>
+                }
+            }
+            else
+            {
+                    <p>No Into</p>
+            }
+        </DisplayTemplate>
+
     </DataGridColumn>
 </DataGrid>
