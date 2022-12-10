@@ -10,7 +10,7 @@ namespace LolExplorer.Modele
         public int Total { get; set; }
         [JsonPropertyName("sell")]
         public int Sell { get; set; }
-
+        public Price() { }
         public Price(int Base, int Total, int Sell)
         {
             Base = Base;

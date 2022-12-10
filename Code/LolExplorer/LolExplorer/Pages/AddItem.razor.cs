@@ -36,13 +36,14 @@ namespace LolExplorer.Pages
                 Purchasable = itemModel.Purchasable,
             });
 
+
             // Save the image
-            var imagePathInfo = new DirectoryInfo($"{WebHostEnvironment.WebRootPath}/images");
+            var imagePathInfo = Path.Combine(WebHostEnvironment.WebRootPath, "images");
 
             // Check if the folder "images" exist
-            if (!imagePathInfo.Exists)
+            if (!Directory.Exists(imagePathInfo))
             {
-                imagePathInfo.Create();
+                Directory.CreateDirectory(imagePathInfo);
             }
 
             // Determine the image name

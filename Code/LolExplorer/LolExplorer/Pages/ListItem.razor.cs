@@ -39,7 +39,7 @@ namespace LolExplorer.Pages
             if (currentData == null)
             {
                 // this code add in the local storage the fake data (we load the data sync for initialize the data before load the OnReadData method)
-                var originalData = Http.GetFromJsonAsync<ItemApi[]>($"{NavigationManager.BaseUri}apiLolItem.json").Result;
+                var originalData = await Http.GetFromJsonAsync<ItemApi[]>($"{NavigationManager.BaseUri}apiLolItem.json");
                 await LocalStorage.SetItemAsync("data", originalData);
             }
         }

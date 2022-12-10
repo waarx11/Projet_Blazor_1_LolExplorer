@@ -27,8 +27,7 @@ namespace LolExplorer.Modele
         [Range(0, int.MaxValue)]
         public int Sell { get; set;}
         [Required]
-        [Range(typeof(bool), "true", "false", ErrorMessage = "You must decide if its pruchisible or not.")]
-        public bool Purchasable { get; set; }
+        public bool Purchasable { get; set; } = true;
         public List<string> Tags { get; set; } = new(); 
 
     }

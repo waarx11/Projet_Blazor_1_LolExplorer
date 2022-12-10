@@ -30,6 +30,13 @@
             <InputNumber id="sell-durability" @bind-Value="itemModel.Sell" />
         </label>
     </p>
+
+      <p>
+        <label for="Description">
+            Sell Price:
+            <InputText id="sell-durability" @bind-Value="itemModel.Plaintext" />
+        </label>
+    </p>
    
     <p>
         <label>
@@ -43,10 +50,10 @@
             <label>
                 @foreach (var item in itemModel.Tags)
                 {             
-                    <text>@item</text>            
+                    <text>#@item </text>            
                 }
                 <InputText id="tag" @bind-Value="TagContent" />
-                <button @onclick="ajoutTag"></button>
+                <button type="button" @onclick="ajoutTag"></button>
             </label>
         </label> 
     </p>
