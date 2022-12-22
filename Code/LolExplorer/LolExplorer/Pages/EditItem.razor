@@ -1,6 +1,6 @@
-﻿@page "/add"
+﻿@page "/edit/{Id:int}"
 
-<h3>Add</h3>
+<h3>Edit</h3>
 
 <EditForm Model="@itemModel" OnValidSubmit="@HandleValidSubmit">
     <DataAnnotationsValidator />

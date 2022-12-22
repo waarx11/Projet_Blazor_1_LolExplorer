@@ -21,8 +21,21 @@
 
     <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Icon)" Caption="Image">
         <DisplayTemplate>
-
-            <img src="@context.Icon"/> 
+            @if (@context.Icon.Contains("ddragon"))
+            {
+                <img src="@context.Icon" class="img-thumbnail" title="@context.Name" alt="@context.Name" style="max-width: 150px" />
+            }
+            else
+            {
+                @if (File.Exists($"{WebHostEnvironment.WebRootPath}/images/{context.Name}.png"))
+                {
+                    <img src="images/@(context.Name).png" class="img-thumbnail" title="@context.Name" alt="@context.Name" style="max-width: 150px"/>
+                }
+                else
+                {
+                    <img src="images/default.png" class="img-thumbnail" title="@context.Name" alt="@context.Name" style="max-width: 150px"/>
+                }
+            }                     
         </DisplayTemplate>
     </DataGridColumn>
     <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Prushsable">
@@ -69,6 +82,10 @@
                     <p>No Into</p>
             }
         </DisplayTemplate>
-
+    </DataGridColumn>
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Id)" Caption="Action">
+        <DisplayTemplate>
+            <a href="Edit/@(context.Id)" class="btn btn-primary"><i class="fa fa-edit"></i> Editer</a>
+        </DisplayTemplate>
     </DataGridColumn>
 </DataGrid>

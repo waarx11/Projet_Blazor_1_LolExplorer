@@ -16,7 +16,7 @@ public partial class CraftingItem
 
     [CascadingParameter]
     public CraftingAction Parent { get; set; }
-    
+    /*
     internal void OnDragEnter()
     {
         if (NoDrop)
@@ -58,5 +58,5 @@ public partial class CraftingItem
         Parent.CurrentDragItem = this.Item;
 
         Parent.Actions.Add(new CraftingAction { Action = "Drag Start", Item = this.Item, Index = this.Index });
-    }
+    }*/
 }

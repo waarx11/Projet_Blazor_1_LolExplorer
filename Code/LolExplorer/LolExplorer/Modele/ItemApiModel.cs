@@ -13,9 +13,8 @@ namespace LolExplorer.Modele
         public string Name { get; set; }
         [Required]
         [StringLength(500, ErrorMessage = "The description must not exceed 500 characters.")]
-        [RegularExpression(@"^[a-z''-'\s]{1,40}$", ErrorMessage = "Only lowercase characters are accepted.")]
         public string Plaintext { get; set; }
-        [Required(ErrorMessage = "The image of the item is mandatory!")]
+       
         public byte[] Icon { get; set; }
         [Required]
         [Range(0,int.MaxValue)]

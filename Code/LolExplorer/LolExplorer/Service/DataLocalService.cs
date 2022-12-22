@@ -1,15 +1,17 @@
 ﻿using Blazored.LocalStorage;
+using Blazorise;
 using LolExplorer.Modele;
 using Microsoft.AspNetCore.Components;
+using System.Xml.Linq;
 
-public class DataLocalService //: IDataService
+public class DataLocalService : IDataService
 {
-    /*
+    
     private readonly HttpClient _http;
     private readonly ILocalStorageService _localStorage;
     private readonly NavigationManager _navigationManager;
     private readonly IWebHostEnvironment _webHostEnvironment;
-
+    
     public DataLocalService(
         ILocalStorageService localStorage,
         HttpClient http,
@@ -22,23 +24,16 @@ public class DataLocalService //: IDataService
         _navigationManager = navigationManager;
     }
 
-    public async Task Add(ItemApiModel model)
+    public async Task Add(ItemApiModel itemModel)
     {
         // Get the current data
-        var currentData = await _localStorage.GetItemAsync<List<Item>>("data");
+        var currentData = await _localStorage.GetItemAsync<List<ItemApi>>("data");
 
         // Simulate the Id
-        model.Id = currentData.Max(s => s.Id) + 1;
+        itemModel.Id = currentData.Max(s => s.Id) + 1;
 
-        // Add the item to the current data
-        currentData.Add(new ItemApi
-        {
-            Id = itemModel.Id,
-            Name = itemModel.Name,
-            Plaintext = itemModel.Plaintext,
-            Price = new Price(itemModel.Base, itemModel.Total, itemModel.Sell),
-            Purchasable = itemModel.Purchasable,
-        });
+        // Add the item to the current data c
+        
 
         // Save the image
         var imagePathInfo = new DirectoryInfo($"{_webHostEnvironment.WebRootPath}/images");
@@ -50,11 +45,21 @@ public class DataLocalService //: IDataService
         }
 
         // Determine the image name
-        var fileName = new FileInfo($"{imagePathInfo}/{model.Name}.png");
+        var fileName = new FileInfo($"{imagePathInfo}/{itemModel.Name}.png");
 
         // Write the file content
-        await File.WriteAllBytesAsync(fileName.FullName, model.ImageContent);
+        await File.WriteAllBytesAsync(fileName.FullName, itemModel.Icon);
 
+        currentData.Add(new ItemApi
+        {
+            Id = itemModel.Id,
+            Name = itemModel.Name,
+            Plaintext = itemModel.Plaintext,
+            Price = new Price(itemModel.Base, itemModel.Total, itemModel.Sell),
+            Purchasable = itemModel.Purchasable,
+            Icon= $"{imagePathInfo}/{itemModel.Name}.png",
+            Tags=itemModel.Tags
+        });
         // Save the data
         await _localStorage.SetItemAsync("data", currentData);
     }
@@ -62,45 +67,112 @@ public class DataLocalService //: IDataService
     public async Task<int> Count()
     {
         // Load data from the local storage
-        var currentData = await _localStorage.GetItemAsync<Item[]>("data");
+        var currentData = await _localStorage.GetItemAsync<ItemApi[]>("data");
 
         // Check if data exist in the local storage
         if (currentData == null)
         {
             // this code add in the local storage the fake data
-            var originalData = await _http.GetFromJsonAsync<Item[]>($"{_navigationManager.BaseUri}fake-data.json");
+            var originalData = await _http.GetFromJsonAsync<ItemApi[]>($"{_navigationManager.BaseUri}apiLolItem.json");
             await _localStorage.SetItemAsync("data", originalData);
         }
 
-        return (await _localStorage.GetItemAsync<Item[]>("data")).Length;
+        return (await _localStorage.GetItemAsync<ItemApi[]>("data")).Length;
     }
-
-    public Task<ItemApi> GetById(int id)
-    {
-        throw new NotImplementedException();
-    }
+    
 
     public async Task<List<ItemApi>> List(int currentPage, int pageSize)
     {
         // Load data from the local storage
-        var currentData = await _localStorage.GetItemAsync<Item[]>("data");
+        var currentData = await _localStorage.GetItemAsync<ItemApi[]>("data");
 
         // Check if data exist in the local storage
         if (currentData == null)
         {
             // this code add in the local storage the fake data
-            var originalData = await _http.GetFromJsonAsync<Item[]>($"{_navigationManager.BaseUri}fake-data.json");
+            var originalData = await _http.GetFromJsonAsync<ItemApi[]>($"{_navigationManager.BaseUri}fake-data.json");
             await _localStorage.SetItemAsync("data", originalData);
         }
 
-        return (await _localStorage.GetItemAsync<Item[]>("data")).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
+
+
+        return (await _localStorage.GetItemAsync<ItemApi[]>("data")).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
     }
 
-    public Task Update(int id, ItemApiModel model)
+    public async Task<ItemApi> GetById(int id)
     {
-        throw new NotImplementedException();
+        // Get the current data
+        var currentData = await _localStorage.GetItemAsync<List<ItemApi>>("data");
+
+        // Get the item int the list
+        var item = currentData.FirstOrDefault(w => w.Id == id);
+
+        // Check if item exist
+        if (item == null)
+        {
+            throw new Exception($"Unable to found the item with ID: {id}");
+        }
+
+        return item;
     }
 
+    public async Task Update(int id, ItemApiModel model)
+    {
+        // Get the current data
+        var currentData = await _localStorage.GetItemAsync<List<ItemApi>>("data");
+
+        // Get the item int the list
+        var item = currentData.FirstOrDefault(w => w.Id == id);
+
+        // Check if item exist
+        if (item == null)
+        {
+            throw new Exception($"Unable to found the item with ID: {id}");
+        }
+        if(model.Icon!=null) { 
+            // Save the image
+            var imagePathInfo = new DirectoryInfo($"{_webHostEnvironment.WebRootPath}/images");
+
+            // Check if the folder "images" exist
+            if (!imagePathInfo.Exists)
+            {
+                imagePathInfo.Create();
+            }
+
+            // Delete the previous image
+            if (item.Name != model.Name)
+            {
+                var oldFileName = new FileInfo($"{imagePathInfo}/{item.Name}.png");
+
+                if (oldFileName.Exists)
+                {
+                    File.Delete(oldFileName.FullName);
+                }
+            }
+
+            // Determine the image name
+            var fileName = new FileInfo($"{imagePathInfo}/{model.Name}.png");
+
+            // Write the file content
+            await File.WriteAllBytesAsync(fileName.FullName, model.Icon);
+            item.Icon = $"{imagePathInfo}/{model.Name}.png";
+        }
+        // Modify the content of the item
+        item.Id = model.Id;
+        item.Name = model.Name;
+        item.Plaintext = model.Plaintext;
+        item.Price = new Price(model.Base, model.Total, model.Sell);
+        item.Purchasable = model.Purchasable;
+     
+       
+        item.Tags = model.Tags;
+
+
+        // Save the data
+        await _localStorage.SetItemAsync("data", currentData);
+    }
+
+    /*
     Task<List<ItemApi>> IDataService.List(int currentPage, int pageSize)
     {
         throw new NotImplementedException();

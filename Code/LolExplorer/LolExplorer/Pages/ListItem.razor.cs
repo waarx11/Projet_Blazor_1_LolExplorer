@@ -16,6 +16,9 @@ namespace LolExplorer.Pages
         public ILocalStorageService LocalStorage { get; set; }
 
         [Inject]
+        public IWebHostEnvironment WebHostEnvironment { get; set; }
+
+        [Inject]
         public IStringLocalizer<ListItem> Localizer { get; set; }
 
         [Inject]
@@ -23,6 +26,9 @@ namespace LolExplorer.Pages
 
         [Inject]
         public NavigationManager NavigationManager { get; set; }
+
+        [Inject]
+        public IDataService DataService { get; set; }
 
 
 
@@ -51,14 +57,10 @@ namespace LolExplorer.Pages
                 return;
             }
 
-            // When you use a real API, we use this follow code
-            //var response = await Http.GetJsonAsync<Item[]>( $"http://my-api/api/data?page={e.Page}&pageSize={e.PageSize}" );
-            var response = (await Http.GetFromJsonAsync<ItemApi[]>($"{NavigationManager.BaseUri}apiLolItem.json")).Skip((e.Page - 1) * e.PageSize).Take(e.PageSize).ToList();
-
             if (!e.CancellationToken.IsCancellationRequested)
             {
-                totalItem = (await Http.GetFromJsonAsync<List<ItemApi>>($"{NavigationManager.BaseUri}apiLolItem.json")).Count;
-                items = new List<ItemApi>(response); // an actual data for the current page
+                items = await DataService.List(e.Page, e.PageSize);
+                totalItem = await DataService.Count();
             }
         }
         
