@@ -1,7 +1,9 @@
 ﻿using Blazorise.Extensions;
+using LolExplorer.Factories;
 using LolExplorer.Modele;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
+using LolExplorer.Services;
 
 namespace LolExplorer.Pages
 {
@@ -29,19 +31,15 @@ namespace LolExplorer.Pages
         {
             var item = await DataService.GetById(Id);
 
-            // Set the model with the item
-            itemModel = new ItemApiModel
-            {
-                Id = item.Id,
-                Name = item.Name,
-                Plaintext = item.Plaintext,
-                Base = item.Price.Base,
-                Total = item.Price.Total,
-                Sell = item.Price.Sell,
-                Purchasable = item.Purchasable,
-                Tags = item.Tags,
+            var fileContent = await File.ReadAllBytesAsync($"{WebHostEnvironment.WebRootPath}/images/default.png");
 
-            };
+            if (File.Exists($"{WebHostEnvironment.WebRootPath}/images/{itemModel.Name}.png"))
+            {
+                fileContent = await File.ReadAllBytesAsync($"{WebHostEnvironment.WebRootPath}/images/{item.Name}.png");
+            }
+
+            // Set the model with the item
+            itemModel = ItemFactory.ToModel(item, fileContent);
         }
 
         private async Task LoadImage(InputFileChangeEventArgs e)
@@ -68,7 +66,7 @@ namespace LolExplorer.Pages
             }
             
 
-            NavigationManager.NavigateTo("list");
+            NavigationManager.NavigateTo("listitems");
         }
         void ajoutTag()
         {

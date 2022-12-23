@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.Options;
 using System.Globalization;
+using Blazored.Modal;
+using LolExplorer.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +19,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddScoped<IDataService, DataLocalService>();
+builder.Services.AddBlazoredModal();
 
 builder.Services
 .AddBlazorise()

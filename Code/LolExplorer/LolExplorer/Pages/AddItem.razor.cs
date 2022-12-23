@@ -5,6 +5,7 @@ using Blazorise.Extensions;
 using LolExplorer.Modele;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
+using LolExplorer.Services;
 
 namespace LolExplorer.Pages
 {
@@ -45,7 +46,6 @@ namespace LolExplorer.Pages
                 itemModel.Tags.Add(TagContent);
             }
         }
-
 
     }
 }

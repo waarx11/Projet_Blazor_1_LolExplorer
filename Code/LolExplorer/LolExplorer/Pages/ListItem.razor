@@ -86,6 +86,7 @@
     <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Id)" Caption="Action">
         <DisplayTemplate>
             <a href="Edit/@(context.Id)" class="btn btn-primary"><i class="fa fa-edit"></i> Editer</a>
+            <button type="button" class="btn btn-danger" @onclick="() => OnDelete(context.Id)"><i class="fa fa-trash"></i> Supprimer</button>
         </DisplayTemplate>
     </DataGridColumn>
 </DataGrid>

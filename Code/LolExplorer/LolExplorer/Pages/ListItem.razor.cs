@@ -1,9 +1,14 @@
 ﻿using Blazorise.DataGrid;
 using LolExplorer.Modele;
+using LolExplorer;
 using Microsoft.AspNetCore.Components;
 using Blazored.LocalStorage;
 using Microsoft.Extensions.Localization;
 using System.Collections.Generic;
+using Blazored.Modal.Services;
+using Blazored.Modal;
+using LolExplorer.Modals;
+using LolExplorer.Services;
 
 namespace LolExplorer.Pages
 {
@@ -26,10 +31,15 @@ namespace LolExplorer.Pages
 
         [Inject]
         public NavigationManager NavigationManager { get; set; }
+        
+        [CascadingParameter]
+        public IModalService Modal { get; set; }
 
         [Inject]
         public IDataService DataService { get; set; }
 
+
+       
 
 
         protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -63,8 +73,26 @@ namespace LolExplorer.Pages
                 totalItem = await DataService.Count();
             }
         }
-        
-        
+
+        private async void OnDelete(int id)
+        {
+            var parameters = new ModalParameters();
+            parameters.Add(nameof(ItemApi.Id), id);
+
+            var modal = Modal.Show<DeleteConfirmation>("Delete Confirmation", parameters);
+            var result = await modal.Result;
+
+            if (result.Cancelled)
+            {
+                return;
+            }
+
+            await DataService.Delete(id);
+
+            // Reload the page
+            NavigationManager.NavigateTo("listitems", true);
+
+        }
 
 
     }
