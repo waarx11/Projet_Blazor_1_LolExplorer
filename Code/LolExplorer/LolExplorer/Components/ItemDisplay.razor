@@ -1,0 +1,29 @@
+﻿@page "/itemdisplay"
+@if(@ItemApi!=null){
+    <a style="all:unset;" href="viewItem/@(ItemApi.Id)" class="btn btn-primary" >
+        @if (@ItemApi.Icon != null)
+        {
+                 @if (@ItemApi.Icon.Contains("ddragon"))
+            {
+                <img src="@ItemApi.Icon" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px" />
+            }
+            else
+            {
+                @if (File.Exists($"{WebHostEnvironment.WebRootPath}/images/{ItemApi.Name}.png"))
+                {
+                    <img src="images/@(ItemApi.Name).png" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px"/>
+                }
+                else
+                {
+                    <img src="images/default.png" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px"/>
+                }
+            } 
+        }
+          
+
+        <p>@ItemApi.Name</p>
+    </a>
+}
+else{
+    <p>Item Does Not Exist</p>
+}

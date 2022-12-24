@@ -19,7 +19,6 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddScoped<IDataService, DataLocalService>();
-builder.Services.AddBlazoredModal();
 
 builder.Services
 .AddBlazorise()
@@ -48,7 +47,7 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
     options.SupportedUICultures = new List<CultureInfo> { new CultureInfo("en-US"), new CultureInfo("fr-FR") };
 });
 builder.Services.AddBlazoredLocalStorage();
-
+builder.Services.AddBlazoredModal();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

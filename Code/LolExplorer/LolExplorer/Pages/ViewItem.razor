@@ -1,0 +1,80 @@
+﻿@page "/viewItem/{Id:int}"
+
+
+<h3>@ItemApi.Name</h3>
+@if (@ItemApi.Icon != null)
+{
+            @if (@ItemApi.Icon.Contains("ddragon"))
+    {
+        <img src="@ItemApi.Icon" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px" />
+    }
+    else
+    {
+        @if (File.Exists($"{WebHostEnvironment.WebRootPath}/images/{ItemApi.Name}.png"))
+        {
+            <img src="images/@(ItemApi.Name).png" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px"/>
+        }
+        else
+        {
+            <img src="images/default.png" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px"/>
+        }
+    } 
+}
+<h5>@ItemApi.Plaintext</h5>
+@if (@ItemApi.Price != null)
+{
+    <h5>Base Price @ItemApi.Price.Base</h5>
+    <h5>Sell Pric @(ItemApi.Price.Sell) </h5>
+    <h5>Total Pric @ItemApi.Price.Total</h5>
+}
+
+@if (@ItemApi.From != null)
+{
+
+    <DataGrid TItem="int"
+              Data="@ItemApi.From"
+              TotalItems="@ItemApi.From.Count()"
+              ShowPager
+              PageSize="2">
+
+        <DataGridColumn TItem="int"  Caption="From">
+            <DisplayTemplate>
+                <LolExplorer.Components.ItemDisplay Id=@(context)></LolExplorer.Components.ItemDisplay>
+             </DisplayTemplate>
+        </DataGridColumn>
+    </DataGrid>
+}
+
+ @if (@ItemApi.Into != null){
+<DataGrid TItem="int"
+          Data="@ItemApi.Into"
+          TotalItems="@ItemApi.Into.Count()"
+          ShowPager
+          PageSize="2">
+
+    <DataGridColumn TItem="int"  Caption="Into">
+        <DisplayTemplate>
+            <LolExplorer.Components.ItemDisplay Id=@(context)></LolExplorer.Components.ItemDisplay>
+         </DisplayTemplate>
+    </DataGridColumn>
+</DataGrid>
+}
+
+
+@*<div>
+    <h5>Into</h5>
+      @if (@ItemApi.Into != null)
+            {
+                @foreach (var item in @ItemApi.Into)
+                {
+                    <p>hello</p>
+                   <LolExplorer.Components.ItemDisplay Id=@(item)/>
+                }
+            }
+        else
+        {
+                <p>No From</p>
+        }
+     }
+</div>
+*@

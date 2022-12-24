@@ -96,7 +96,7 @@ namespace LolExplorer.Services
             if (currentData == null)
             {
                 // this code add in the local storage the fake data
-                var originalData = await _http.GetFromJsonAsync<ItemApi[]>($"{_navigationManager.BaseUri}fake-data.json");
+                var originalData = await _http.GetFromJsonAsync<ItemApi[]>($"{_navigationManager.BaseUri}apiLolItem.json");
                 await _localStorage.SetItemAsync("data", originalData);
             }
 
@@ -104,6 +104,25 @@ namespace LolExplorer.Services
 
             return (await _localStorage.GetItemAsync<ItemApi[]>("data")).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
         }
+
+        public async Task<List<ItemApi>> List()
+        {
+            // Load data from the local storage
+            var currentData = await _localStorage.GetItemAsync<ItemApi[]>("data");
+
+            // Check if data exist in the local storage
+            if (currentData == null)
+            {
+                // this code add in the local storage the fake data
+                var originalData = await _http.GetFromJsonAsync<ItemApi[]>($"{_navigationManager.BaseUri}apiLolItem.json");
+                await _localStorage.SetItemAsync("data", originalData);
+            }
+
+
+
+            return (await _localStorage.GetItemAsync<ItemApi[]>("data")).ToList();
+        }
+
 
         public async Task<ItemApi> GetById(int id)
         {

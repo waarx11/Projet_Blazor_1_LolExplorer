@@ -8,6 +8,7 @@ namespace LolExplorer.Services
         Task<int> Count();
 
         Task<List<ItemApi>> List(int currentPage, int pageSize);
+        Task<List<ItemApi>> List();
 
         Task<ItemApi> GetById(int id);
 

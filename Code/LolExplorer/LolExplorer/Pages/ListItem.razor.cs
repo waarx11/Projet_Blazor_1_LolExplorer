@@ -14,14 +14,15 @@ namespace LolExplorer.Pages
 {
     public partial class ListItem
     {
-        private List<ItemApi> items;
+
+        private List<ItemApi> items =new();
         private int totalItem;
 
         [Inject]
         public ILocalStorageService LocalStorage { get; set; }
-
         [Inject]
         public IWebHostEnvironment WebHostEnvironment { get; set; }
+
 
         [Inject]
         public IStringLocalizer<ListItem> Localizer { get; set; }
@@ -31,15 +32,11 @@ namespace LolExplorer.Pages
 
         [Inject]
         public NavigationManager NavigationManager { get; set; }
-        
         [CascadingParameter]
         public IModalService Modal { get; set; }
 
         [Inject]
         public IDataService DataService { get; set; }
-
-
-       
 
 
         protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -79,13 +76,13 @@ namespace LolExplorer.Pages
             var parameters = new ModalParameters();
             parameters.Add(nameof(ItemApi.Id), id);
 
-            var modal = Modal.Show<DeleteConfirmation>("Delete Confirmation", parameters);
-            var result = await modal.Result;
+            /* var modal = Modal.Show<DeleteConfirmation>("Delete Confirmation", parameters);
+             var result = await modal.Result;
 
-            if (result.Cancelled)
-            {
-                return;
-            }
+             if (result.Cancelled)
+             {
+                 return;
+             }*/
 
             await DataService.Delete(id);
 
@@ -94,7 +91,9 @@ namespace LolExplorer.Pages
 
         }
 
+       
 
+       
     }
     
 }

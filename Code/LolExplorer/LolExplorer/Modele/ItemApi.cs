@@ -9,7 +9,7 @@ namespace LolExplorer.Modele
         [JsonPropertyName("plaintext")]
         public string Plaintext { get; set; }
         [JsonPropertyName("into")]
-        public List<string> Into { get; set; }
+        public List<int> Into { get; set; }
         [JsonPropertyName("tags")]
         public List<string> Tags { get; set; }
         [JsonPropertyName("id")]

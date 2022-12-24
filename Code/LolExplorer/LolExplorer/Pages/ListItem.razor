@@ -12,10 +12,14 @@
           ReadData="@OnReadData"
           TotalItems="@totalItem"
           ShowPager
-          PageSize="20">
+          PageSize="10">
 
-    
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Nom" />
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Nom">
+        <DisplayTemplate>
+            <LolExplorer.Components.ItemDisplay Id=@(context.Id)></LolExplorer.Components.ItemDisplay>
+         </DisplayTemplate>
+    </DataGridColumn>
+    @*<DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Nom" />
     <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Plaintext)" Caption="Description"/>
     
 
@@ -82,7 +86,7 @@
                     <p>No Into</p>
             }
         </DisplayTemplate>
-    </DataGridColumn>
+    </DataGridColumn>*@
     <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Id)" Caption="Action">
         <DisplayTemplate>
             <a href="Edit/@(context.Id)" class="btn btn-primary"><i class="fa fa-edit"></i> Editer</a>
