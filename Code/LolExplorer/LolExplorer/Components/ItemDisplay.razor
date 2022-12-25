@@ -1,6 +1,7 @@
 ﻿@page "/itemdisplay"
+
 @if(@ItemApi!=null){
-    <a style="all:unset;" href="viewItem/@(ItemApi.Id)" class="btn btn-primary" >
+    <a href="viewItem/@(ItemApi.Id)" class="btn btn-primary" >
         @if (@ItemApi.Icon != null)
         {
                  @if (@ItemApi.Icon.Contains("ddragon"))
@@ -17,10 +18,8 @@
                 {
                     <img src="images/default.png" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px"/>
                 }
-            } 
+            }
         }
-          
-
         <p>@ItemApi.Name</p>
     </a>
 }

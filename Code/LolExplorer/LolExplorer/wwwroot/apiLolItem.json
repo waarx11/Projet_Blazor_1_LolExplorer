@@ -1,30 +1,16 @@
 [
   {
-    "name": "Boots of Speed",
-    "description": "<groupLimit>Limited to 1.</groupLimit><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +25 Movement Speed",
     "plaintext": "Slightly increases Movement Speed",
+    "name": "Boots of Speed",
     "into": [
       "3006",
-      "3047",
-      "3020",
-      "3158",
-      "3111",
-      "3117",
       "3009"
     ],
     "tags": [
       "Boots"
     ],
-    "stats": {
-      "FlatMovementSpeedMod": 25
-    },
     "id": "1001",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1001.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 0,
-      "y": 0
-    },
     "price": {
       "base": 300,
       "total": 300,
@@ -33,56 +19,16 @@
     "purchasable": true
   },
   {
-    "name": "Faerie Charm",
-    "description": "<stats><mana>+25% Base Mana Regen </mana></stats>",
-    "plaintext": "Slightly increases Mana Regen",
-    "into": [
-      "3028",
-      "3070",
-      "3073",
-      "3114",
-      "3098",
-      "3096"
-    ],
-    "tags": [
-      "ManaRegen"
-    ],
-    "stats": {},
-    "id": "1004",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1004.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 48,
-      "y": 0
-    },
-    "price": {
-      "base": 125,
-      "total": 125,
-      "sell": 88
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Rejuvenation Bead",
-    "description": "<stats>+50% Base Health Regen </stats>",
     "plaintext": "Slightly increases Health Regen",
+    "name": "Rejuvenation Bead",
     "into": [
-      "3077",
-      "3097",
-      "2053",
-      "3801"
+      "2053"
     ],
     "tags": [
       "HealthRegen"
     ],
-    "stats": {},
     "id": "1006",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1006.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 96,
-      "y": 0
-    },
     "price": {
       "base": 150,
       "total": 150,
@@ -91,33 +37,16 @@
     "purchasable": true
   },
   {
-    "name": "Giant's Belt",
-    "description": "<stats>+380 Health</stats>",
     "plaintext": "Greatly increases Health",
+    "name": "Giant's Belt",
     "from": [
       "1028"
-    ],
-    "into": [
-      "3083",
-      "3143",
-      "3084",
-      "3022",
-      "3742"
     ],
     "tags": [
       "Health"
     ],
-    "stats": {
-      "FlatHPPoolMod": 380
-    },
-    "depth": 2,
     "id": "1011",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1011.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 144,
-      "y": 0
-    },
     "price": {
       "base": 600,
       "total": 1000,
@@ -126,27 +55,16 @@
     "purchasable": true
   },
   {
-    "name": "Cloak of Agility",
-    "description": "<stats>+20% Critical Strike Chance</stats>",
     "plaintext": "Increases critical strike chance",
+    "name": "Cloak of Agility",
     "into": [
-      "3031",
-      "3185",
-      "3508"
+      "3031"
     ],
     "tags": [
       "CriticalStrike"
     ],
-    "stats": {
-      "FlatCritChanceMod": 0.2
-    },
     "id": "1018",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1018.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 192,
-      "y": 0
-    },
     "price": {
       "base": 800,
       "total": 800,
@@ -155,103 +73,18 @@
     "purchasable": true
   },
   {
-    "name": "Blasting Wand",
-    "description": "<stats>+40 Ability Power</stats>",
-    "plaintext": "Moderately increases Ability Power",
-    "into": [
-      "3089",
-      "3135",
-      "3124",
-      "3029",
-      "3151",
-      "3027",
-      "3100",
-      "3116"
-    ],
-    "tags": [
-      "SpellDamage"
-    ],
-    "stats": {
-      "FlatMagicDamageMod": 40
-    },
-    "id": "1026",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1026.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 240,
-      "y": 0
-    },
-    "price": {
-      "base": 850,
-      "total": 850,
-      "sell": 595
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Sapphire Crystal",
-    "description": "<stats><mana>+250 Mana</mana></stats>",
-    "plaintext": "Increases Mana",
-    "into": [
-      "3057",
-      "3070",
-      "3010",
-      "3024",
-      "3073",
-      "3802"
-    ],
-    "tags": [
-      "Mana"
-    ],
-    "stats": {
-      "FlatMPPoolMod": 250
-    },
-    "id": "1027",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1027.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 288,
-      "y": 0
-    },
-    "price": {
-      "base": 350,
-      "total": 350,
-      "sell": 245
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Ruby Crystal",
-    "description": "<stats>+150 Health</stats>",
     "plaintext": "Increases Health",
+    "name": "Ruby Crystal",
     "into": [
       "1011",
-      "3211",
-      "3136",
       "2045",
-      "2049",
-      "3010",
-      "3801",
-      "3044",
-      "3052",
-      "3067",
-      "3116",
-      "3748",
-      "3751"
+      "2049"
     ],
     "tags": [
       "Health"
     ],
-    "stats": {
-      "FlatHPPoolMod": 150
-    },
     "id": "1028",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1028.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 336,
-      "y": 0
-    },
     "price": {
       "base": 400,
       "total": 400,
@@ -260,32 +93,17 @@
     "purchasable": true
   },
   {
-    "name": "Cloth Armor",
-    "description": "<stats>+15 Armor</stats>",
     "plaintext": "Slightly increases Armor",
+    "name": "Cloth Armor",
     "into": [
-      "3047",
       "1031",
-      "3191",
-      "3024",
-      "3082",
-      "3075",
-      "2053",
-      "3105"
+      "2053"
     ],
     "tags": [
       "Armor"
     ],
-    "stats": {
-      "FlatArmorMod": 15
-    },
     "id": "1029",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1029.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 384,
-      "y": 0
-    },
     "price": {
       "base": 300,
       "total": 300,
@@ -294,34 +112,16 @@
     "purchasable": true
   },
   {
-    "name": "Chain Vest",
-    "description": "<stats>+40 Armor</stats>",
     "plaintext": "Greatly increases Armor",
+    "name": "Chain Vest",
     "from": [
       "1029"
-    ],
-    "into": [
-      "3075",
-      "3068",
-      "3026",
-      "3109",
-      "2053",
-      "3742"
     ],
     "tags": [
       "Armor"
     ],
-    "stats": {
-      "FlatArmorMod": 40
-    },
-    "depth": 2,
     "id": "1031",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1031.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 432,
-      "y": 0
-    },
     "price": {
       "base": 500,
       "total": 800,
@@ -330,33 +130,13 @@
     "purchasable": true
   },
   {
-    "name": "Null-Magic Mantle",
-    "description": "<stats>+25 Magic Resist</stats>",
     "plaintext": "Slightly increases Magic Resist",
-    "into": [
-      "3111",
-      "3211",
-      "1057",
-      "3028",
-      "3140",
-      "3155",
-      "3105",
-      "3814",
-      "3190"
-    ],
+    "name": "Null-Magic Mantle",
     "tags": [
       "SpellBlock"
     ],
-    "stats": {
-      "FlatSpellBlockMod": 25
-    },
     "id": "1033",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1033.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 0,
-      "y": 48
-    },
     "price": {
       "base": 450,
       "total": 450,
@@ -365,40 +145,17 @@
     "purchasable": true
   },
   {
-    "name": "Long Sword",
-    "description": "<stats>+10 Attack Damage</stats>",
     "plaintext": "Slightly increases Attack Damage",
+    "name": "Long Sword",
     "into": [
-      "3134",
-      "3077",
-      "3123",
-      "1053",
-      "3133",
-      "3034",
-      "3035",
-      "3044",
-      "3052",
-      "3053",
-      "3072",
-      "3122",
-      "3144",
-      "3155",
-      "3252"
+      "3035"
     ],
     "tags": [
       "Damage",
       "Lane"
     ],
-    "stats": {
-      "FlatPhysicalDamageMod": 10
-    },
     "id": "1036",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1036.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 48,
-      "y": 48
-    },
     "price": {
       "base": 350,
       "total": 350,
@@ -407,33 +164,16 @@
     "purchasable": true
   },
   {
-    "name": "Pickaxe",
-    "description": "<stats>+25 Attack Damage</stats>",
     "plaintext": "Moderately increases Attack Damage",
+    "name": "Pickaxe",
     "into": [
-      "3124",
-      "3004",
-      "3008",
-      "3031",
-      "3074",
-      "3814",
-      "3812",
-      "3139",
-      "3181"
+      "3031"
     ],
     "tags": [
       "Damage"
     ],
-    "stats": {
-      "FlatPhysicalDamageMod": 25
-    },
     "id": "1037",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1037.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 96,
-      "y": 48
-    },
     "price": {
       "base": 875,
       "total": 875,
@@ -442,28 +182,16 @@
     "purchasable": true
   },
   {
-    "name": "B. F. Sword",
-    "description": "<stats>+40 Attack Damage</stats>",
     "plaintext": "Greatly increases Attack Damage",
+    "name": "B. F. Sword",
     "into": [
-      "3031",
-      "3072",
-      "3147",
-      "3508"
+      "3031"
     ],
     "tags": [
       "Damage"
     ],
-    "stats": {
-      "FlatPhysicalDamageMod": 40
-    },
     "id": "1038",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1038.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 144,
-      "y": 48
-    },
     "price": {
       "base": 1300,
       "total": 1300,
@@ -472,75 +200,15 @@
     "purchasable": true
   },
   {
-    "name": "Hunter's Talisman",
-    "description": "<stats><mana>+150% Base Mana Regen while in Jungle  </mana></stats><br><br><unique>UNIQUE Passive - Tooth:</unique> Damaging a monster with a spell or attack  steals 25 Health over 5 seconds. Killing monsters grants <font color='#99BBBB'><a href='SpecialJungleExperience'>special bonus experience</a></font>.",
-    "plaintext": "Provides damage against Monsters and Mana Regen in the Jungle",
-    "into": [
-      "3706",
-      "3711",
-      "3715"
-    ],
-    "tags": [
-      "LifeSteal",
-      "ManaRegen",
-      "OnHit",
-      "Jungle"
-    ],
-    "stats": {},
-    "effect": {
-      "Effect1Amount": "25",
-      "Effect2Amount": "0",
-      "Effect3Amount": "0",
-      "Effect4Amount": "5",
-      "Effect5Amount": "0",
-      "Effect6Amount": "1.5",
-      "Effect7Amount": "15"
-    },
-    "id": "1039",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1039.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 192,
-      "y": 48
-    },
-    "price": {
-      "base": 350,
-      "total": 350,
-      "sell": 245
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Hunter's Machete",
-    "description": "<stats>+10% Life Steal vs. Monsters</stats><br><br><unique>UNIQUE Passive - Nail:</unique> Basic attacks deal 25 bonus damage on hit vs. Monsters. Killing monsters grants <font color='#99BBBB'><a href='SpecialJungleExperience'>special bonus experience</a></font>.",
     "plaintext": "Provides damage and life steal versus Monsters",
-    "into": [
-      "3706",
-      "3711",
-      "3715"
-    ],
+    "name": "Hunter's Machete",
     "tags": [
       "LifeSteal",
       "OnHit",
       "Jungle"
     ],
-    "stats": {},
-    "effect": {
-      "Effect1Amount": "12",
-      "Effect2Amount": "25",
-      "Effect3Amount": "0.1",
-      "Effect4Amount": "2",
-      "Effect5Amount": "0",
-      "Effect6Amount": "0.1",
-      "Effect7Amount": "15"
-    },
     "id": "1041",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1041.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 240,
-      "y": 48
-    },
     "price": {
       "base": 350,
       "total": 350,
@@ -549,31 +217,17 @@
     "purchasable": true
   },
   {
-    "name": "Dagger",
-    "description": "<stats>+12% Attack Speed</stats>",
     "plaintext": "Slightly increases Attack Speed",
+    "name": "Dagger",
     "into": [
       "1043",
-      "3091",
-      "3006",
-      "2015",
-      "3046",
-      "3086",
-      "3101"
+      "3006"
     ],
     "tags": [
       "AttackSpeed"
     ],
-    "stats": {
-      "PercentAttackSpeedMod": 0.12
-    },
     "id": "1042",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1042.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 288,
-      "y": 48
-    },
     "price": {
       "base": 300,
       "total": 300,
@@ -582,41 +236,18 @@
     "purchasable": true
   },
   {
-    "name": "Recurve Bow",
-    "description": "<stats>+25% Attack Speed</stats><br><br><unique>UNIQUE Passive:</unique> Basic attacks deal an additional 15 physical damage on hit.",
     "plaintext": "Greatly increases Attack Speed",
+    "name": "Recurve Bow",
     "from": [
       "1042",
       "1042"
-    ],
-    "into": [
-      "3091",
-      "3153",
-      "3085",
-      "3124",
-      "3675",
-      "1416",
-      "1418",
-      "1419"
     ],
     "tags": [
       "AttackSpeed",
       "OnHit"
     ],
-    "stats": {
-      "PercentAttackSpeedMod": 0.25
-    },
-    "effect": {
-      "Effect1Amount": "15"
-    },
-    "depth": 2,
     "id": "1043",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1043.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 336,
-      "y": 48
-    },
     "price": {
       "base": 400,
       "total": 1000,
@@ -625,69 +256,13 @@
     "purchasable": true
   },
   {
-    "name": "Brawler's Gloves",
-    "description": "<stats>+10% Critical Strike Chance</stats>",
-    "plaintext": "Slightly increases Critical Strike Chance",
-    "into": [
-      "3086",
-      "3122"
-    ],
-    "tags": [
-      "CriticalStrike"
-    ],
-    "stats": {
-      "FlatCritChanceMod": 0.1
-    },
-    "id": "1051",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1051.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 384,
-      "y": 48
-    },
-    "price": {
-      "base": 400,
-      "total": 400,
-      "sell": 280
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Amplifying Tome",
-    "description": "<stats>+20 Ability Power</stats>",
     "plaintext": "Slightly increases Ability Power",
-    "into": [
-      "3108",
-      "3191",
-      "3136",
-      "3135",
-      "3145",
-      "3113",
-      "3090",
-      "3116",
-      "1402",
-      "1410",
-      "1414",
-      "3001",
-      "3050",
-      "3089",
-      "3165",
-      "3673",
-      "3802"
-    ],
+    "name": "Amplifying Tome",
     "tags": [
       "SpellDamage"
     ],
-    "stats": {
-      "FlatMagicDamageMod": 20
-    },
     "id": "1052",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1052.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 432,
-      "y": 48
-    },
     "price": {
       "base": 435,
       "total": 435,
@@ -696,990 +271,8 @@
     "purchasable": true
   },
   {
-    "name": "Vampiric Scepter",
-    "description": "<stats>+15 Attack Damage<br>+10% Life Steal</stats>",
-    "plaintext": "Basic attacks restore Health",
-    "from": [
-      "1036"
-    ],
-    "into": [
-      "3072",
-      "3074",
-      "3812",
-      "3139",
-      "3144",
-      "3181"
-    ],
-    "tags": [
-      "Damage",
-      "LifeSteal"
-    ],
-    "stats": {
-      "FlatPhysicalDamageMod": 15,
-      "PercentLifeStealMod": 0.1
-    },
-    "depth": 2,
-    "id": "1053",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1053.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 0,
-      "y": 96
-    },
-    "price": {
-      "base": 550,
-      "total": 900,
-      "sell": 630
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Doran's Shield",
-    "description": "<stats>+80 Health</stats><br><br><passive>Passive: </passive>Restores 6 Health every 5 seconds.<br><unique>UNIQUE Passive:</unique> Blocks 8 damage from single target attacks and spells from champions.",
-    "plaintext": "Good defensive starting item",
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "Lane"
-    ],
-    "stats": {
-      "FlatHPPoolMod": 80,
-      "FlatHPRegenMod": 1.2
-    },
-    "effect": {
-      "Effect1Amount": "8"
-    },
-    "id": "1054",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1054.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 48,
-      "y": 96
-    },
-    "price": {
-      "base": 450,
-      "total": 450,
-      "sell": 180
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Doran's Blade",
-    "description": "<stats>+8 Attack Damage<br>+80 Health<br>+3% Life Steal</stats>",
-    "plaintext": "Good starting item for attackers",
-    "tags": [
-      "Damage",
-      "Health",
-      "Lane",
-      "LifeSteal"
-    ],
-    "stats": {
-      "FlatPhysicalDamageMod": 8,
-      "FlatHPPoolMod": 80,
-      "PercentLifeStealMod": 0.03
-    },
-    "effect": {
-      "Effect1Amount": "10"
-    },
-    "id": "1055",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1055.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 96,
-      "y": 96
-    },
-    "price": {
-      "base": 450,
-      "total": 450,
-      "sell": 180
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Doran's Ring",
-    "description": "<stats>+60 Health<br>+15 Ability Power<br><mana>+50% Base Mana Regen </mana></stats><br><br><mana><passive>Passive:</passive> Restores 4 Mana upon killing a unit.</mana>",
-    "plaintext": "Good starting item for casters",
-    "tags": [
-      "Health",
-      "Lane",
-      "ManaRegen",
-      "SpellDamage"
-    ],
-    "stats": {
-      "FlatHPPoolMod": 60,
-      "FlatMagicDamageMod": 15
-    },
-    "effect": {
-      "Effect1Amount": "4"
-    },
-    "id": "1056",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1056.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 144,
-      "y": 96
-    },
-    "price": {
-      "base": 400,
-      "total": 400,
-      "sell": 160
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Negatron Cloak",
-    "description": "<stats>+40 Magic Resist</stats>",
-    "plaintext": "Moderately increases Magic Resist",
-    "from": [
-      "1033"
-    ],
-    "into": [
-      "3170",
-      "3091",
-      "3512",
-      "3026",
-      "3001",
-      "3102"
-    ],
-    "tags": [
-      "SpellBlock"
-    ],
-    "stats": {
-      "FlatSpellBlockMod": 40
-    },
-    "depth": 2,
-    "id": "1057",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1057.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 192,
-      "y": 96
-    },
-    "price": {
-      "base": 270,
-      "total": 720,
-      "sell": 504
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Needlessly Large Rod",
-    "description": "<stats>+60 Ability Power</stats>",
-    "plaintext": "Greatly increases Ability Power",
-    "into": [
-      "3089",
-      "3090",
-      "3003",
-      "3007",
-      "3285"
-    ],
-    "tags": [
-      "SpellDamage"
-    ],
-    "stats": {
-      "FlatMagicDamageMod": 60
-    },
-    "id": "1058",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1058.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 240,
-      "y": 96
-    },
-    "price": {
-      "base": 1250,
-      "total": 1250,
-      "sell": 875
-    },
-    "purchasable": true
-  },
-  {
-    "name": "The Dark Seal",
-    "description": "<stats>+15 Ability Power<br>+25% Increased Healing from Potions<br><mana>+100 Mana</mana></stats><br><br><unique>UNIQUE Passive - Dread:</unique> Grants +3 Ability Power per Glory.  <br><unique>UNIQUE Passive - Do or Die:</unique> Grants 2 Glory for a champion kill or 1 Glory for an assist, up to 10 Glory total. Lose 4 Glory on death.",
-    "plaintext": "Provides Ability Power and Mana.  Increases in power as you kill enemies.",
-    "into": [
-      "3041"
-    ],
-    "tags": [
-      "HealthRegen",
-      "SpellDamage",
-      "Mana",
-      "Lane"
-    ],
-    "stats": {
-      "FlatMPPoolMod": 100,
-      "FlatMagicDamageMod": 15
-    },
-    "effect": {
-      "Effect1Amount": "0.25",
-      "Effect2Amount": "2",
-      "Effect3Amount": "1",
-      "Effect4Amount": "10",
-      "Effect5Amount": "3",
-      "Effect6Amount": "4"
-    },
-    "id": "1082",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1082.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 288,
-      "y": 96
-    },
-    "price": {
-      "base": 350,
-      "total": 350,
-      "sell": 245
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Cull",
-    "description": "<stats>+7 Attack Damage<br>+3 Life on Hit</stats><br><br><unique>UNIQUE Passive:</unique> Killing a lane minion grants 1 additional Gold. Killing 100 lane minions grants an additional 350 bonus gold immediately and disables this passive.",
-    "plaintext": "Provides damage and Life Steal on hit - Killing minions grant bonus Gold",
-    "tags": [
-      "Damage",
-      "LifeSteal",
-      "Lane"
-    ],
-    "stats": {
-      "FlatPhysicalDamageMod": 7
-    },
-    "effect": {
-      "Effect1Amount": "3",
-      "Effect2Amount": "1",
-      "Effect3Amount": "100",
-      "Effect4Amount": "350"
-    },
-    "id": "1083",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1083.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 336,
-      "y": 96
-    },
-    "price": {
-      "base": 450,
-      "total": 450,
-      "sell": 180
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Enchantment: Warrior",
-    "description": "<stats>+60 Attack Damage<br>+10% Cooldown Reduction</stats>",
-    "plaintext": "Grants Attack Damage and Cooldown Reduction",
-    "from": [
-      "3133",
-      "3706"
-    ],
-    "hideFromAll": true,
-    "tags": [],
-    "stats": {
-      "FlatPhysicalDamageMod": 60
-    },
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "25",
-      "Effect3Amount": "1.8",
-      "Effect4Amount": "5",
-      "Effect5Amount": "30",
-      "Effect6Amount": "-0.2",
-      "Effect7Amount": "2",
-      "Effect8Amount": "3",
-      "Effect9Amount": "0.1"
-    },
-    "depth": 3,
-    "id": "1400",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1400.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 384,
-      "y": 96
-    },
-    "price": {
-      "base": 525,
-      "total": 2625,
-      "sell": 1838
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Enchantment: Cinderhulk",
-    "description": "<stats>+400 Health<br>+15% Bonus Health</stats><br><br><unique>UNIQUE Passive - Immolate:</unique> Deals 7 (+2 per champion level) magic damage a second to nearby enemies while in combat. Deals 100% bonus damage to monsters. ",
-    "plaintext": "Grants Health and Immolate Aura",
-    "from": [
-      "3751",
-      "3706"
-    ],
-    "hideFromAll": true,
-    "tags": [],
-    "stats": {
-      "FlatHPPoolMod": 400
-    },
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "25",
-      "Effect3Amount": "1.8",
-      "Effect4Amount": "5",
-      "Effect5Amount": "30",
-      "Effect6Amount": "-0.2",
-      "Effect7Amount": "2",
-      "Effect8Amount": "3",
-      "Effect9Amount": "0.1"
-    },
-    "depth": 3,
-    "id": "1401",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1401.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 432,
-      "y": 96
-    },
-    "price": {
-      "base": 525,
-      "total": 2625,
-      "sell": 1838
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Enchantment: Runic Echoes",
-    "description": "<stats>+60 Ability Power<br>+7% Movement Speed</stats><br><br><unique>UNIQUE Passive - Echo:</unique> Gain charges upon moving or casting. At 100 charges, the next damaging spell hit expends all charges to deal 60 (+10% of Ability Power) bonus magic damage to up to 4 targets on hit.<br><br>This effect deals 250% damage to Large Monsters. Hitting a Large Monster with this effect will restore 18% of your missing Mana.",
-    "plaintext": "Grants Ability Power and periodically empowers your Spells",
-    "from": [
-      "3113",
-      "1052",
-      "3706"
-    ],
-    "hideFromAll": true,
-    "tags": [],
-    "stats": {
-      "PercentMovementSpeedMod": 0.07,
-      "FlatMagicDamageMod": 60
-    },
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "25",
-      "Effect3Amount": "1.8",
-      "Effect4Amount": "5",
-      "Effect5Amount": "30",
-      "Effect6Amount": "-0.2",
-      "Effect7Amount": "2",
-      "Effect8Amount": "3",
-      "Effect9Amount": "0.1"
-    },
-    "depth": 3,
-    "id": "1402",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1402.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 0,
-      "y": 144
-    },
-    "price": {
-      "base": 340,
-      "total": 2625,
-      "sell": 1838
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Enchantment: Warrior",
-    "description": "<stats>+60 Attack Damage<br>+10% Cooldown Reduction</stats>",
-    "plaintext": "Grants Attack Damage and Cooldown Reduction",
-    "from": [
-      "3133",
-      "3711"
-    ],
-    "hideFromAll": true,
-    "tags": [],
-    "stats": {
-      "FlatPhysicalDamageMod": 60
-    },
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "25",
-      "Effect3Amount": "1.8",
-      "Effect4Amount": "5",
-      "Effect5Amount": "30",
-      "Effect6Amount": "3",
-      "Effect7Amount": "20",
-      "Effect8Amount": "30",
-      "Effect9Amount": "0.1",
-      "Effect10Amount": "150"
-    },
-    "depth": 3,
-    "id": "1408",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1408.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 48,
-      "y": 144
-    },
-    "price": {
-      "base": 525,
-      "total": 2625,
-      "sell": 1838
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Enchantment: Cinderhulk",
-    "description": "<stats>+400 Health<br>+15% Bonus Health</stats><br><br><unique>UNIQUE Passive - Immolate:</unique> Deals 7 (+2 per champion level) magic damage a second to nearby enemies while in combat. Deals 100% bonus damage to monsters. ",
-    "plaintext": "Grants Health and Immolate Aura",
-    "from": [
-      "3751",
-      "3711"
-    ],
-    "hideFromAll": true,
-    "tags": [],
-    "stats": {
-      "FlatHPPoolMod": 400
-    },
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "25",
-      "Effect3Amount": "1.8",
-      "Effect4Amount": "5",
-      "Effect5Amount": "30",
-      "Effect6Amount": "3",
-      "Effect7Amount": "20",
-      "Effect8Amount": "30",
-      "Effect9Amount": "0.1",
-      "Effect10Amount": "150"
-    },
-    "depth": 3,
-    "id": "1409",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1409.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 96,
-      "y": 144
-    },
-    "price": {
-      "base": 525,
-      "total": 2625,
-      "sell": 1838
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Enchantment: Runic Echoes",
-    "description": "<stats>+60 Ability Power<br>+7% Movement Speed</stats><br><br><unique>UNIQUE Passive - Echo:</unique> Gain charges upon moving or casting. At 100 charges, the next damaging spell hit expends all charges to deal 60 (+10% of Ability Power) bonus magic damage to up to 4 targets on hit.<br><br>This effect deals 250% damage to Large Monsters. Hitting a Large Monster with this effect will restore 18% of your missing Mana.",
-    "plaintext": "Grants Ability Power and periodically empowers your Spells",
-    "from": [
-      "3113",
-      "1052",
-      "3711"
-    ],
-    "hideFromAll": true,
-    "tags": [],
-    "stats": {
-      "PercentMovementSpeedMod": 0.07,
-      "FlatMagicDamageMod": 60
-    },
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "25",
-      "Effect3Amount": "1.8",
-      "Effect4Amount": "5",
-      "Effect5Amount": "30",
-      "Effect6Amount": "3",
-      "Effect7Amount": "20",
-      "Effect8Amount": "30",
-      "Effect9Amount": "0.1",
-      "Effect10Amount": "150"
-    },
-    "depth": 3,
-    "id": "1410",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1410.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 144,
-      "y": 144
-    },
-    "price": {
-      "base": 340,
-      "total": 2625,
-      "sell": 1838
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Enchantment: Warrior",
-    "description": "<stats>+60 Attack Damage<br>+10% Cooldown Reduction</stats>",
-    "plaintext": "Grants Attack Damage and Cooldown Reduction",
-    "from": [
-      "3133",
-      "3715"
-    ],
-    "hideFromAll": true,
-    "tags": [],
-    "stats": {
-      "FlatPhysicalDamageMod": 60
-    },
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "25",
-      "Effect3Amount": "1.8",
-      "Effect4Amount": "5",
-      "Effect5Amount": "30",
-      "Effect6Amount": "3",
-      "Effect7Amount": "20",
-      "Effect8Amount": "18",
-      "Effect9Amount": "0.1",
-      "Effect10Amount": "4"
-    },
-    "depth": 3,
-    "id": "1412",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1412.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 192,
-      "y": 144
-    },
-    "price": {
-      "base": 525,
-      "total": 2625,
-      "sell": 1838
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Enchantment: Cinderhulk",
-    "description": "<stats>+400 Health<br>+15% Bonus Health</stats><br><br><unique>UNIQUE Passive - Immolate:</unique> Deals 7 (+2 per champion level) magic damage a second to nearby enemies while in combat. Deals 100% bonus damage to monsters. ",
-    "plaintext": "Grants Health and Immolate Aura",
-    "from": [
-      "3751",
-      "3715"
-    ],
-    "hideFromAll": true,
-    "tags": [],
-    "stats": {
-      "FlatHPPoolMod": 400
-    },
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "25",
-      "Effect3Amount": "1.8",
-      "Effect4Amount": "5",
-      "Effect5Amount": "30",
-      "Effect6Amount": "3",
-      "Effect7Amount": "20",
-      "Effect8Amount": "18",
-      "Effect9Amount": "0.1",
-      "Effect10Amount": "4"
-    },
-    "depth": 3,
-    "id": "1413",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1413.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 240,
-      "y": 144
-    },
-    "price": {
-      "base": 525,
-      "total": 2625,
-      "sell": 1838
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Enchantment: Runic Echoes",
-    "description": "<stats>+60 Ability Power<br>+7% Movement Speed</stats><br><br><unique>UNIQUE Passive - Echo:</unique> Gain charges upon moving or casting. At 100 charges, the next damaging spell hit expends all charges to deal 60 (+10% of Ability Power) bonus magic damage to up to 4 targets on hit.<br><br>This effect deals 250% damage to Large Monsters. Hitting a Large Monster with this effect will restore 18% of your missing Mana.",
-    "plaintext": "Grants Ability Power and periodically empowers your Spells",
-    "from": [
-      "3113",
-      "1052",
-      "3715"
-    ],
-    "hideFromAll": true,
-    "tags": [],
-    "stats": {
-      "PercentMovementSpeedMod": 0.07,
-      "FlatMagicDamageMod": 60
-    },
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "25",
-      "Effect3Amount": "1.8",
-      "Effect4Amount": "5",
-      "Effect5Amount": "30",
-      "Effect6Amount": "3",
-      "Effect7Amount": "20",
-      "Effect8Amount": "18",
-      "Effect9Amount": "0.1",
-      "Effect10Amount": "4"
-    },
-    "depth": 3,
-    "id": "1414",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1414.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 288,
-      "y": 144
-    },
-    "price": {
-      "base": 340,
-      "total": 2625,
-      "sell": 1838
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Enchantment: Bloodrazor",
-    "description": "<stats>+50% Attack Speed</stats><br><br><unique>UNIQUE Passive:</unique> Basic attacks deal 4% of the target's maximum Health in bonus physical damage (max 75 vs. monsters and minions) on hit.",
-    "plaintext": "Increases Attack Speed and deals damage based on the target's Health",
-    "from": [
-      "1043",
-      "3706"
-    ],
-    "hideFromAll": true,
-    "tags": [],
-    "stats": {
-      "PercentAttackSpeedMod": 0.5
-    },
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "25",
-      "Effect3Amount": "1.8",
-      "Effect4Amount": "5",
-      "Effect5Amount": "30",
-      "Effect6Amount": "-0.2",
-      "Effect7Amount": "2",
-      "Effect8Amount": "3",
-      "Effect9Amount": "0.1"
-    },
-    "depth": 3,
-    "id": "1416",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1416.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 336,
-      "y": 144
-    },
-    "price": {
-      "base": 625,
-      "total": 2625,
-      "sell": 1838
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Enchantment: Bloodrazor",
-    "description": "<stats>+50% Attack Speed</stats><br><br><unique>UNIQUE Passive:</unique> Basic attacks deal 4% of the target's maximum Health in bonus physical damage (max 75 vs. monsters and minions) on hit.",
-    "plaintext": "Increases Attack Speed and deals damage based on the target's Health",
-    "from": [
-      "1043",
-      "3711"
-    ],
-    "hideFromAll": true,
-    "tags": [],
-    "stats": {
-      "PercentAttackSpeedMod": 0.5
-    },
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "25",
-      "Effect3Amount": "1.8",
-      "Effect4Amount": "5",
-      "Effect5Amount": "30",
-      "Effect6Amount": "3",
-      "Effect7Amount": "20",
-      "Effect8Amount": "30",
-      "Effect9Amount": "0.1",
-      "Effect10Amount": "150"
-    },
-    "depth": 3,
-    "id": "1418",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1418.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 384,
-      "y": 144
-    },
-    "price": {
-      "base": 625,
-      "total": 2625,
-      "sell": 1838
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Enchantment: Bloodrazor",
-    "description": "<stats>+50% Attack Speed</stats><br><br><unique>UNIQUE Passive:</unique> Basic attacks deal 4% of the target's maximum Health in bonus physical damage (max 75 vs. monsters and minions) on hit.",
-    "plaintext": "Increases Attack Speed and deals damage based on the target's Health",
-    "from": [
-      "1043",
-      "3715"
-    ],
-    "hideFromAll": true,
-    "tags": [],
-    "stats": {
-      "PercentAttackSpeedMod": 0.5
-    },
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "25",
-      "Effect3Amount": "1.8",
-      "Effect4Amount": "5",
-      "Effect5Amount": "30",
-      "Effect6Amount": "3",
-      "Effect7Amount": "20",
-      "Effect8Amount": "18",
-      "Effect9Amount": "0.1",
-      "Effect10Amount": "4"
-    },
-    "depth": 3,
-    "id": "1419",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1419.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 432,
-      "y": 144
-    },
-    "price": {
-      "base": 625,
-      "total": 2625,
-      "sell": 1838
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Health Potion",
-    "description": "<groupLimit>Limited to 5 at one time. Limited to 1 type of Healing Potion.</groupLimit><br><br><consumable>Click to Consume:</consumable> Restores 150 Health over 15 seconds.",
-    "plaintext": "Consume to restore Health over time",
-    "stacks": 5,
-    "consumed": true,
-    "tags": [
-      "Consumable",
-      "Jungle",
-      "Lane"
-    ],
-    "stats": {},
-    "effect": {
-      "Effect1Amount": "150",
-      "Effect2Amount": "15"
-    },
-    "id": "2003",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2003.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 0,
-      "y": 192
-    },
-    "price": {
-      "base": 50,
-      "total": 50,
-      "sell": 20
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Total Biscuit of Rejuvenation",
-    "description": "<consumable>Click to Consume:</consumable> Restores 80 Health and 50 Mana over 10 seconds.",
-    "plaintext": "",
-    "consumed": true,
-    "inStore": false,
-    "tags": [],
-    "stats": {},
-    "id": "2009",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2009.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 48,
-      "y": 192
-    },
-    "price": {
-      "base": 0,
-      "total": 0,
-      "sell": 0
-    },
-    "purchasable": false
-  },
-  {
-    "name": "Total Biscuit of Rejuvenation",
-    "description": "<consumable>Click to Consume:</consumable> Restores 15 Health and 15 Mana immediately and then 150 Health over 15 seconds.",
-    "plaintext": "",
-    "stacks": 5,
-    "consumed": true,
-    "inStore": false,
-    "tags": [],
-    "stats": {},
-    "effect": {
-      "Effect1Amount": "15",
-      "Effect2Amount": "15",
-      "Effect3Amount": "150",
-      "Effect4Amount": "15"
-    },
-    "id": "2010",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2010.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 96,
-      "y": 192
-    },
-    "price": {
-      "base": 50,
-      "total": 50,
-      "sell": 20
-    },
-    "purchasable": false
-  },
-  {
-    "name": "Kircheis Shard",
-    "description": "<stats>+15% Attack Speed</stats><br><br><passive>Passive:</passive> Moving and attacking will make an attack <a href='Energized'>Energized</a>.<br><br><unique>UNIQUE Passive - Energized Strike:</unique> Your Energized attacks deal 40 bonus magic damage on hit.",
-    "plaintext": "Attack speed and a chargable magic hit",
-    "from": [
-      "1042"
-    ],
-    "into": [
-      "3094",
-      "3087"
-    ],
-    "tags": [
-      "AttackSpeed",
-      "OnHit"
-    ],
-    "stats": {
-      "PercentAttackSpeedMod": 0.15
-    },
-    "effect": {
-      "Effect1Amount": "40"
-    },
-    "depth": 2,
-    "id": "2015",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2015.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 144,
-      "y": 192
-    },
-    "price": {
-      "base": 450,
-      "total": 750,
-      "sell": 525
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Refillable Potion",
-    "description": "<groupLimit>Limited to 1 type of Healing Potion.</groupLimit><br><br><active>UNIQUE Active:</active> Consumes a charge to restore 125 Health over 12 seconds. Holds up to 2 charges and refills upon visiting the shop.",
-    "plaintext": "Restores Health over time. Refills at shop.",
-    "into": [
-      "2032",
-      "2033"
-    ],
-    "tags": [
-      "HealthRegen",
-      "Consumable",
-      "Active",
-      "Lane",
-      "Jungle"
-    ],
-    "stats": {},
-    "effect": {
-      "Effect1Amount": "125",
-      "Effect2Amount": "0",
-      "Effect3Amount": "12",
-      "Effect4Amount": "2"
-    },
-    "id": "2031",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2031.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 192,
-      "y": 192
-    },
-    "price": {
-      "base": 150,
-      "total": 150,
-      "sell": 60
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Hunter's Potion",
-    "description": "<groupLimit>Limited to 1 type of Healing Potion.</groupLimit><br><br><active>UNIQUE Active:</active> Consumes a charge to restore 60 Health and 35 Mana over 8 seconds. Holds up to 5 charges and refills upon visiting the shop.<br><br>Killing a Large Monster grants 1 charge.<br><br><rules>(Killing a Large Monster at full charges will automatically consume the newest charge.)</rules>",
-    "plaintext": "Restores Health and Mana over time - Refills at shop and has increased capacity",
-    "from": [
-      "2031"
-    ],
-    "tags": [
-      "HealthRegen",
-      "ManaRegen",
-      "Consumable",
-      "Active",
-      "Jungle"
-    ],
-    "stats": {},
-    "effect": {
-      "Effect1Amount": "60",
-      "Effect2Amount": "35",
-      "Effect3Amount": "8",
-      "Effect4Amount": "5"
-    },
-    "depth": 2,
-    "id": "2032",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2032.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 240,
-      "y": 192
-    },
-    "price": {
-      "base": 250,
-      "total": 400,
-      "sell": 160
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Corrupting Potion",
-    "description": "<groupLimit>Limited to 1 type of Healing Potion.</groupLimit><br><br><active>UNIQUE Active:</active> Consumes a charge to restore 125 Health and 75 Mana over 12 seconds and grants <font color='#FF8811'><u>Touch of Corruption</u></font> during that time. Holds up to 3 charges that refills upon visiting the shop.<br><br><font color='#FF8811'><u>Touch of Corruption:</u></font> Damaging spells and attacks burn enemy champions for <scaleLevel>15 - 30</scaleLevel> magic damage over 3 seconds. (Half Damage for Area of Effect or Damage over Time spells. Damage increases with champion level.)<br><br><rules>(Corrupting Potion can be used even at full Health and Mana.)</rules>",
-    "plaintext": "Restores Health and Mana over time and boosts combat power - Refills at Shop",
-    "from": [
-      "2031"
-    ],
-    "tags": [
-      "Active",
-      "Consumable",
-      "HealthRegen",
-      "Lane",
-      "ManaRegen"
-    ],
-    "stats": {},
-    "effect": {
-      "Effect1Amount": "125",
-      "Effect2Amount": "75",
-      "Effect3Amount": "12",
-      "Effect4Amount": "3",
-      "Effect5Amount": "10",
-      "Effect6Amount": "0.1",
-      "Effect7Amount": "15",
-      "Effect8Amount": "3",
-      "Effect9Amount": "30"
-    },
-    "depth": 2,
-    "id": "2033",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2033.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 288,
-      "y": 192
-    },
-    "price": {
-      "base": 350,
-      "total": 500,
-      "sell": 200
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Ruby Sightstone",
-    "description": "<stats>+500 Health</stats><br><br><unique>UNIQUE Passive:</unique> Item Active cooldowns are reduced by 20%.<br><active>UNIQUE Active - Warding:</active> Consumes a charge to place a <font color='#BBFFFF'>Stealth Ward</font> that reveals the surrounding area for 150 seconds. Holds up to 4 charges and refills when visiting the shop.<br><br><rules>(A player may only have 3 <font color='#BBFFFF'>Stealth Wards</font> on the map at one time. Unique Passives with the same name don't stack.)</rules>",
     "plaintext": "Greatly increases Health and provides Stealth Wards over time",
+    "name": "Ruby Sightstone",
     "from": [
       "2049",
       "1028"
@@ -1689,22 +282,8 @@
       "Health",
       "Vision"
     ],
-    "stats": {
-      "FlatHPPoolMod": 500
-    },
-    "effect": {
-      "Effect1Amount": "-0.2",
-      "Effect2Amount": "4",
-      "Effect3Amount": "150"
-    },
-    "depth": 3,
     "id": "2045",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2045.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 336,
-      "y": 192
-    },
     "price": {
       "base": 400,
       "total": 1600,
@@ -1713,64 +292,21 @@
     "purchasable": true
   },
   {
-    "name": "Oracle's Extract",
-    "description": "<consumable>Click to Consume:</consumable> Grants detection of nearby invisible or unseen enemy units for 5 minutes.",
-    "plaintext": "Allows champion to see invisible or unseen enemy units",
-    "consumed": true,
-    "consumeOnFull": true,
-    "tags": [
-      "Consumable",
-      "Stealth",
-      "Vision"
-    ],
-    "stats": {},
-    "id": "2047",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2047.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 384,
-      "y": 192
-    },
-    "price": {
-      "base": 300,
-      "total": 300,
-      "sell": 120
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Sightstone",
-    "description": "<stats>+150 Health</stats><br><br><active>UNIQUE Active - Warding:</active> Consumes a charge to place a <font color='#BBFFFF'>Stealth Ward</font> that reveals the surrounding area for 150 seconds.  Holds up to 3 charges which refill upon visiting the shop. <br><br><rules>(A player may only have 3 <font color='#BBFFFF'>Stealth Wards</font> on the map at one time. Unique Passives with the same name don't stack.)</rules>",
     "plaintext": "Increases Health and provides Stealth Wards over time",
+    "name": "Sightstone",
+    "into": [
+      "2045"
+    ],
     "from": [
       "1028"
-    ],
-    "into": [
-      "2045",
-      "2301",
-      "2302",
-      "2303"
     ],
     "tags": [
       "Active",
       "Health",
       "Vision"
     ],
-    "stats": {
-      "FlatHPPoolMod": 150
-    },
-    "effect": {
-      "Effect1Amount": "3",
-      "Effect2Amount": "150"
-    },
-    "depth": 2,
     "id": "2049",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2049.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 432,
-      "y": 192
-    },
     "price": {
       "base": 400,
       "total": 800,
@@ -1779,115 +315,19 @@
     "purchasable": true
   },
   {
-    "name": "Explorer's Ward",
-    "description": "<consumable>Click to Consume:</consumable> Places an invisible ward that reveals the surrounding area for 60 seconds.",
-    "plaintext": "",
-    "inStore": false,
-    "tags": [
-      "Consumable"
-    ],
-    "stats": {},
-    "id": "2050",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2050.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 0,
-      "y": 240
-    },
-    "price": {
-      "base": 0,
-      "total": 0,
-      "sell": 0
-    },
-    "purchasable": false
-  },
-  {
-    "name": "Guardian's Horn",
-    "description": "<stats>+150 Health</stats><br><br><passive>Passive: </passive>Restores 20 Health every 5 seconds.<br><unique>UNIQUE Passive:</unique> Blocks 12 damage from attacks and spells from champions (25% effectiveness vs. damage over time abilities).<br><br><groupLimit>Limited to 1 Guardian's Item.</groupLimit>",
-    "plaintext": "Good starting item for tanks",
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "Lane"
-    ],
-    "stats": {
-      "FlatHPPoolMod": 150,
-      "FlatHPRegenMod": 4
-    },
-    "effect": {
-      "Effect1Amount": "12",
-      "Effect2Amount": "0.25"
-    },
-    "id": "2051",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2051.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 48,
-      "y": 240
-    },
-    "price": {
-      "base": 950,
-      "total": 950,
-      "sell": 380
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Poro-Snax",
-    "description": "This savory blend of free-range, grass-fed Avarosan game hens and organic, non-ZMO Freljordian herbs contains the essential nutrients necessary to keep your Poro purring with pleasure.<br><br><i>All proceeds will be donated towards fighting Noxian animal cruelty.</i>",
-    "plaintext": "",
-    "stacks": 2,
-    "consumed": true,
-    "inStore": false,
-    "tags": [],
-    "stats": {},
-    "id": "2052",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2052.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 96,
-      "y": 240
-    },
-    "price": {
-      "base": 0,
-      "total": 0,
-      "sell": 0
-    },
-    "purchasable": false
-  },
-  {
-    "name": "Raptor Cloak",
-    "description": "<stats>+40 Armor<br>+125% Base Health Regen </stats><br><br><unique>UNIQUE Passive - Point Runner:</unique> Builds up to +20% Movement Speed over 2 seconds while near turrets, fallen turrets and Void Gates.",
     "plaintext": "Enhances Movement Speed near turrets",
+    "name": "Raptor Cloak",
     "from": [
       "1006",
       "1031"
-    ],
-    "into": [
-      "3512",
-      "3056",
-      "3069"
     ],
     "tags": [
       "Armor",
       "HealthRegen",
       "NonbootsMovement"
     ],
-    "stats": {
-      "FlatArmorMod": 40
-    },
-    "effect": {
-      "Effect1Amount": "20",
-      "Effect2Amount": "2"
-    },
-    "depth": 3,
     "id": "2053",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2053.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 144,
-      "y": 240
-    },
     "price": {
       "base": 250,
       "total": 1200,
@@ -1896,430 +336,8 @@
     "purchasable": true
   },
   {
-    "name": "Diet Poro-Snax",
-    "description": "All the flavor of regular Poro-Snax, without the calories! Keeps your Poro happy AND healthy.<br><br><consumable>Click to Consume:</consumable> Gives your Poros a delicious healthy treat.",
-    "plaintext": "",
-    "consumed": true,
-    "inStore": false,
-    "tags": [],
-    "stats": {},
-    "id": "2054",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2054.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 192,
-      "y": 240
-    },
-    "price": {
-      "base": 0,
-      "total": 0,
-      "sell": 0
-    },
-    "purchasable": false
-  },
-  {
-    "name": "Control Ward",
-    "description": "<groupLimit>Can only carry 3 Control Wards in inventory.</groupLimit><br><br><consumable>Click to Consume:</consumable> Places a ward that grants vision of the surrounding area. This device will also reveal invisible traps and reveal / disable wards. Control Wards do not disable other Control Wards. Camouflaged units will also be revealed. <br><br>Limit 1 <font color='#BBFFFF'>Control Ward</font> on the map per player.",
-    "plaintext": "Used to disable wards and invisible traps in an area.",
-    "stacks": 3,
-    "consumed": true,
-    "tags": [
-      "Consumable",
-      "Lane",
-      "Stealth",
-      "Vision"
-    ],
-    "stats": {},
-    "effect": {
-      "Effect1Amount": "1",
-      "Effect2Amount": "3"
-    },
-    "id": "2055",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2055.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 240,
-      "y": 240
-    },
-    "price": {
-      "base": 75,
-      "total": 75,
-      "sell": 30
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Elixir of Iron",
-    "description": "<stats><levelLimit>Level 9 required to purchase.</levelLimit></stats><br><br><consumable>Click to Consume:</consumable> Grants +300 Health, 25% Tenacity, increased champion size, and <font color='#FF8811'><u>Path of Iron</u></font> for 3 minutes.<br><br><font color='#FF8811'><u>Path of Iron:</u></font> Moving leaves a path behind that boosts allied champion's Movement Speed by 15%.<br><br><rules>(Only one Elixir effect may be active at a time.)</rules>",
-    "plaintext": "Temporarily increases defenses. Leaves a trail for allies to follow.",
-    "consumed": true,
-    "consumeOnFull": true,
-    "tags": [
-      "Health",
-      "Consumable",
-      "NonbootsMovement",
-      "Tenacity"
-    ],
-    "stats": {},
-    "effect": {
-      "Effect1Amount": "300",
-      "Effect2Amount": "0.25",
-      "Effect3Amount": "3",
-      "Effect4Amount": "0.15",
-      "Effect5Amount": "0.15",
-      "Effect6Amount": "0",
-      "Effect7Amount": "0",
-      "Effect8Amount": "9"
-    },
-    "id": "2138",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2138.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 288,
-      "y": 240
-    },
-    "price": {
-      "base": 500,
-      "total": 500,
-      "sell": 200
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Elixir of Sorcery",
-    "description": "<stats><levelLimit>Level 9 required to purchase.</levelLimit></stats><br><br><consumable>Click to Consume:</consumable> Grants +50 Ability Power, 15 bonus Mana Regen per 5 seconds and <font color='#FF8811'><u>Sorcery</u></font> for 3 minutes. <br><br><font color='#FF8811'><u>Sorcery:</u></font> Damaging a champion or turret deals 25 bonus True Damage. This effect has a 5 second cooldown versus champions but no cooldown versus turrets.<br><br><rules>(Only one Elixir effect may be active at a time.)</rules><br>",
-    "plaintext": "Temporarily grants Ability Power and Bonus Damage to champions and turrets.",
-    "consumed": true,
-    "consumeOnFull": true,
-    "tags": [
-      "Consumable",
-      "ManaRegen",
-      "SpellDamage"
-    ],
-    "stats": {},
-    "effect": {
-      "Effect1Amount": "50",
-      "Effect2Amount": "50",
-      "Effect3Amount": "25",
-      "Effect4Amount": "3",
-      "Effect5Amount": "5",
-      "Effect6Amount": "3",
-      "Effect7Amount": "0",
-      "Effect8Amount": "9"
-    },
-    "id": "2139",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2139.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 336,
-      "y": 240
-    },
-    "price": {
-      "base": 500,
-      "total": 500,
-      "sell": 200
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Elixir of Wrath",
-    "description": "<stats><levelLimit>Level 9 required to purchase.</levelLimit></stats><br><br><consumable>Click to Consume:</consumable> Grants +30 Attack Damage and <font color='#FF8811'><u>Bloodlust</u></font> for 3 minutes.<br><br><font color='#FF8811'><u>Bloodlust:</u></font> Dealing physical damage to champions heals for 15% of the damage dealt.<br><br><rules>(Only one Elixir effect may be active at a time.)</rules>",
-    "plaintext": "Temporarily grants Attack Damage and heals you when dealing physical damage to champions.",
-    "consumed": true,
-    "consumeOnFull": true,
-    "tags": [
-      "Consumable",
-      "Damage",
-      "LifeSteal",
-      "SpellVamp"
-    ],
-    "stats": {},
-    "effect": {
-      "Effect1Amount": "30",
-      "Effect2Amount": "30",
-      "Effect3Amount": "0.15",
-      "Effect4Amount": "3",
-      "Effect5Amount": "0",
-      "Effect6Amount": "0",
-      "Effect7Amount": "0",
-      "Effect8Amount": "9"
-    },
-    "id": "2140",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2140.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 384,
-      "y": 240
-    },
-    "price": {
-      "base": 500,
-      "total": 500,
-      "sell": 200
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Eye of the Watchers",
-    "description": "<stats>+200 Health<br><mana>+100% Base Mana Regen </mana><br>+25 Ability Power<br>+10% Cooldown Reduction<br>+2 Gold per 10 seconds</stats><br><br><unique>UNIQUE Passive - Tribute:</unique> Spells and basic attacks against champions or buildings deal 15 additional damage and grant 15 Gold. This can occur up to 3 times every 30 seconds.<br><active>UNIQUE Active - Warding:</active> Consumes a charge to place a <font color='#BBFFFF'>Stealth Ward</font> that reveals the surrounding area for 150 seconds. Holds up to 4 charges which refill upon visiting the shop. <br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit><br><br><rules>(A player may only have 3 <font color='#BBFFFF'>Stealth Wards</font> on the map at one time. Unique Passives with the same name don't stack.)</rules>",
-    "plaintext": "Provides Ability Power and Stealth Wards over time",
-    "from": [
-      "2049",
-      "3098"
-    ],
-    "tags": [
-      "Health",
-      "SpellDamage",
-      "ManaRegen",
-      "Vision",
-      "Active",
-      "GoldPer",
-      "CooldownReduction"
-    ],
-    "stats": {
-      "FlatHPPoolMod": 200,
-      "FlatMagicDamageMod": 25
-    },
-    "effect": {
-      "Effect1Amount": "2",
-      "Effect2Amount": "15",
-      "Effect3Amount": "15",
-      "Effect4Amount": "4",
-      "Effect5Amount": "30",
-      "Effect6Amount": "12",
-      "Effect7Amount": "150",
-      "Effect8Amount": "3"
-    },
-    "depth": 3,
-    "id": "2301",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2301.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 432,
-      "y": 240
-    },
-    "price": {
-      "base": 550,
-      "total": 2200,
-      "sell": 880
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Eye of the Oasis",
-    "description": "<stats>+200 Health<br>+100% Base Health Regen <br><mana>+100% Base Mana Regen </mana><br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Favor:</unique> Being near a minion's death without dealing the killing blow grants 6 Gold and 10 Health.<br><active>UNIQUE Active - Warding:</active> Consumes a charge to place a <font color='#BBFFFF'>Stealth Ward</font> that reveals the surrounding area for 150 seconds. Holds up to 4 charges which refill upon visiting the shop.<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit><br><br><rules>(A player may only have 3 <font color='#BBFFFF'>Stealth Wards</font> on the map at one time. Unique Passives with the same name don't stack.)</rules>",
-    "plaintext": "Provides Regeneration and Stealth Wards over time",
-    "from": [
-      "2049",
-      "3096"
-    ],
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "ManaRegen",
-      "Vision",
-      "Active",
-      "GoldPer",
-      "CooldownReduction"
-    ],
-    "stats": {
-      "FlatHPPoolMod": 200
-    },
-    "effect": {
-      "Effect1Amount": "0",
-      "Effect2Amount": "6",
-      "Effect3Amount": "10",
-      "Effect4Amount": "4",
-      "Effect5Amount": "0",
-      "Effect6Amount": "0",
-      "Effect7Amount": "150"
-    },
-    "depth": 3,
-    "id": "2302",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2302.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 0,
-      "y": 288
-    },
-    "price": {
-      "base": 250,
-      "total": 1900,
-      "sell": 760
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Eye of the Equinox",
-    "description": "<stats>+500 Health<br>+200% Base Health Regen <br>+10% Cooldown Reduction<br>+2 Gold per 10 seconds</stats><br><br><unique>UNIQUE Passive - Spoils of War:</unique> Melee basic attacks execute minions below 320 (+20 per level) Health. Killing a minion heals the owner and the nearest allied champion for 50 Health and grants them kill Gold. These effects require a nearby ally. Recharges every 30 seconds. Max 4 charges.<br><active>UNIQUE Active - Warding:</active> Consumes a charge to place a <font color='#BBFFFF'>Stealth Ward</font> that reveals the surrounding area for 150 seconds. Holds up to 4 charges which refill upon visiting the shop.<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit><br><br><rules>(A player may only have 3 <font color='#BBFFFF'>Stealth Wards</font> on the map at one time. Unique Passives with the same name don't stack.)</rules>",
-    "plaintext": "Provides Health and Stealth Wards over time",
-    "from": [
-      "2049",
-      "3097"
-    ],
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "Vision",
-      "Active",
-      "GoldPer"
-    ],
-    "stats": {
-      "FlatHPPoolMod": 500
-    },
-    "effect": {
-      "Effect1Amount": "320",
-      "Effect2Amount": "50",
-      "Effect3Amount": "30",
-      "Effect4Amount": "4",
-      "Effect5Amount": "0",
-      "Effect6Amount": "0",
-      "Effect7Amount": "150",
-      "Effect8Amount": "0",
-      "Effect9Amount": "2",
-      "Effect10Amount": "20"
-    },
-    "depth": 3,
-    "id": "2303",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2303.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 48,
-      "y": 288
-    },
-    "price": {
-      "base": 650,
-      "total": 2300,
-      "sell": 920
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Abyssal Scepter",
-    "description": "<stats>+60 Ability Power<br>+60 Magic Resist<br>+10% Cooldown Reduction</stats><br><br><aura>UNIQUE Aura:</aura> Nearby enemy champions take 10% more magic damage.",
-    "plaintext": "Nearby enemies take more magic damage",
-    "from": [
-      "3108",
-      "1057",
-      "1052"
-    ],
-    "tags": [
-      "SpellBlock",
-      "SpellDamage",
-      "Aura",
-      "CooldownReduction",
-      "MagicPenetration"
-    ],
-    "stats": {
-      "FlatSpellBlockMod": 60,
-      "FlatMagicDamageMod": 60
-    },
-    "effect": {
-      "Effect1Amount": "-10",
-      "Effect2Amount": "-25",
-      "Effect3Amount": "0.1"
-    },
-    "depth": 3,
-    "id": "3001",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3001.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 96,
-      "y": 288
-    },
-    "price": {
-      "base": 695,
-      "total": 2750,
-      "sell": 1925
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Archangel's Staff",
-    "description": "<stats>+80 Ability Power<br><mana>+250 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Grants Ability Power equal to 3% of maximum Mana. Refunds 25% of Mana spent.<br><unique>UNIQUE Passive - Mana Charge:</unique> Grants +8 maximum Mana (max +750 Mana) for each spell cast or Mana expenditure (occurs up to 2 times every 8 seconds).<br><br>Transforms into Seraph's Embrace at +750 Mana.</mana>",
-    "plaintext": "Increases Ability Power based on maximum Mana",
-    "from": [
-      "3070",
-      "1058"
-    ],
-    "tags": [
-      "Mana",
-      "ManaRegen",
-      "SpellDamage"
-    ],
-    "stats": {
-      "FlatMPPoolMod": 250,
-      "FlatMagicDamageMod": 80
-    },
-    "effect": {
-      "Effect1Amount": "0.03",
-      "Effect2Amount": "8",
-      "Effect3Amount": "750",
-      "Effect4Amount": "2",
-      "Effect5Amount": "8",
-      "Effect6Amount": "0",
-      "Effect7Amount": "0.25"
-    },
-    "depth": 3,
-    "id": "3003",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3003.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 144,
-      "y": 288
-    },
-    "price": {
-      "base": 1100,
-      "total": 3100,
-      "sell": 2170
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Manamune",
-    "description": "<stats>+25 Attack Damage<br><mana>+250 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Grants bonus Attack Damage equal to 2% of maximum Mana. Refunds 15% of Mana spent.<br><unique>UNIQUE Passive - Mana Charge:</unique> Grants +4 maximum Mana (max +750 Mana) for each basic attack, spell cast or Mana expenditure (occurs up to 2 times every 8 seconds).<br><br>Transforms into Muramana at +750 Mana.</mana>",
-    "plaintext": "Increases Attack Damage based on maximum Mana",
-    "from": [
-      "3070",
-      "1037"
-    ],
-    "tags": [
-      "Damage",
-      "Mana",
-      "ManaRegen",
-      "OnHit"
-    ],
-    "stats": {
-      "FlatPhysicalDamageMod": 25,
-      "FlatMPPoolMod": 250
-    },
-    "effect": {
-      "Effect1Amount": "0.02",
-      "Effect2Amount": "4",
-      "Effect3Amount": "750",
-      "Effect4Amount": "2",
-      "Effect5Amount": "8",
-      "Effect6Amount": "1",
-      "Effect7Amount": "0.15"
-    },
-    "depth": 3,
-    "id": "3004",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3004.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 192,
-      "y": 288
-    },
-    "price": {
-      "base": 775,
-      "total": 2400,
-      "sell": 1680
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Berserker's Greaves",
-    "description": "<stats> +35% Attack Speed</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
     "plaintext": "Enhances Movement Speed and Attack Speed",
+    "name": "Berserker's Greaves",
     "from": [
       "1001",
       "1042"
@@ -2328,18 +346,8 @@
       "AttackSpeed",
       "Boots"
     ],
-    "stats": {
-      "FlatMovementSpeedMod": 45,
-      "PercentAttackSpeedMod": 0.35
-    },
-    "depth": 2,
     "id": "3006",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3006.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 240,
-      "y": 288
-    },
     "price": {
       "base": 500,
       "total": 1100,
@@ -2348,112 +356,16 @@
     "purchasable": true
   },
   {
-    "name": "Archangel's Staff (Quick Charge)",
-    "description": "<stats>+80 Ability Power<br><mana>+250 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Grants Ability Power equal to 3% of maximum Mana. Refunds 25% of Mana spent. <br><unique>UNIQUE Passive - Mana Charge:</unique> Grants +12 maximum Mana (max +750 Mana) for each spell cast or Mana expenditure (occurs up to 2 times every 8 seconds).<br><br>Transforms into Seraph's Embrace at +750 Mana.</mana>",
-    "plaintext": "Increases Ability Power based on maximum Mana",
-    "from": [
-      "3073",
-      "1058"
-    ],
-    "tags": [
-      "Mana",
-      "ManaRegen",
-      "SpellDamage"
-    ],
-    "stats": {
-      "FlatMPPoolMod": 250,
-      "FlatMagicDamageMod": 80
-    },
-    "effect": {
-      "Effect1Amount": "0.03",
-      "Effect2Amount": "12",
-      "Effect3Amount": "750",
-      "Effect4Amount": "2",
-      "Effect5Amount": "8",
-      "Effect6Amount": "0",
-      "Effect7Amount": "0.25"
-    },
-    "depth": 3,
-    "id": "3007",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3007.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 288,
-      "y": 288
-    },
-    "price": {
-      "base": 1100,
-      "total": 3100,
-      "sell": 2170
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Manamune (Quick Charge)",
-    "description": "<stats>+25 Attack Damage<br><mana>+250 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Grants bonus Attack Damage equal to 2% of maximum Mana. Refunds 15% of Mana spent.<br><unique>UNIQUE Passive - Mana Charge:</unique> Grants +6 maximum Mana (max +750 Mana) for each basic attack, spell cast or Mana expenditure (occurs up to 2 times every 8 seconds).<br><br>Transforms into Muramana at +750 Mana.</mana>",
-    "plaintext": "Increases Attack Damage based on maximum Mana",
-    "from": [
-      "3073",
-      "1037"
-    ],
-    "tags": [
-      "Damage",
-      "Mana",
-      "ManaRegen",
-      "OnHit"
-    ],
-    "stats": {
-      "FlatPhysicalDamageMod": 25,
-      "FlatMPPoolMod": 250
-    },
-    "effect": {
-      "Effect1Amount": "0.02",
-      "Effect2Amount": "6",
-      "Effect3Amount": "750",
-      "Effect4Amount": "2",
-      "Effect5Amount": "8",
-      "Effect6Amount": "1",
-      "Effect7Amount": "0.15"
-    },
-    "depth": 3,
-    "id": "3008",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3008.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 336,
-      "y": 288
-    },
-    "price": {
-      "base": 775,
-      "total": 2400,
-      "sell": 1680
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Boots of Swiftness",
-    "description": "<unique>UNIQUE Passive - Enhanced Movement:</unique> +55 Movement Speed<br><unique>UNIQUE Passive - Slow Resist:</unique> Movement slowing effects are reduced by 25%.",
     "plaintext": "Enhances Movement Speed and reduces the effect of slows",
+    "name": "Boots of Swiftness",
     "from": [
       "1001"
     ],
     "tags": [
       "Boots"
     ],
-    "stats": {
-      "FlatMovementSpeedMod": 55
-    },
-    "effect": {
-      "Effect1Amount": "0.25"
-    },
-    "depth": 2,
     "id": "3009",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3009.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 384,
-      "y": 288
-    },
     "price": {
       "base": 600,
       "total": 900,
@@ -2462,436 +374,8 @@
     "purchasable": true
   },
   {
-    "name": "Catalyst of Aeons",
-    "description": "<stats>+225 Health<br><mana>+300 Mana</mana></stats><br><br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. <br><br>Spending Mana restores 20% of the cost as Health, up to 15 per spell cast.  <br><br><rules>(Toggled Spells heal for a maximum of 15 per second.)</rules>",
-    "plaintext": "Spend Mana to recover Health",
-    "from": [
-      "1028",
-      "1027"
-    ],
-    "into": [
-      "3027",
-      "3029",
-      "3030",
-      "3800"
-    ],
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "Mana",
-      "ManaRegen"
-    ],
-    "stats": {
-      "FlatHPPoolMod": 225,
-      "FlatMPPoolMod": 300
-    },
-    "effect": {
-      "Effect1Amount": "150",
-      "Effect2Amount": "200",
-      "Effect3Amount": "8",
-      "Effect4Amount": "15",
-      "Effect5Amount": "0.2",
-      "Effect6Amount": "0.15"
-    },
-    "depth": 2,
-    "id": "3010",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3010.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 432,
-      "y": 288
-    },
-    "price": {
-      "base": 350,
-      "total": 1100,
-      "sell": 770
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Sorcerer's Shoes",
-    "description": "<stats>+15 <a href='FlatMagicPen'>Magic Penetration</a></stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
-    "plaintext": "Enhances Movement Speed and magic damage",
-    "from": [
-      "1001"
-    ],
-    "tags": [
-      "Boots",
-      "MagicPenetration"
-    ],
-    "stats": {
-      "FlatMovementSpeedMod": 45
-    },
-    "effect": {
-      "Effect1Amount": "15"
-    },
-    "depth": 2,
-    "id": "3020",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3020.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 0,
-      "y": 336
-    },
-    "price": {
-      "base": 800,
-      "total": 1100,
-      "sell": 770
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Frozen Mallet",
-    "description": "<stats>+700 Health<br>+30 Attack Damage</stats><br><br><unique>UNIQUE Passive - Icy:</unique> Basic attacks slow the target's Movement Speed for 1.5 seconds on hit (40% slow for melee attacks, 30% slow for ranged attacks).",
-    "plaintext": "Basic attacks slow enemies",
-    "from": [
-      "3052",
-      "1011"
-    ],
-    "tags": [
-      "Damage",
-      "Health",
-      "OnHit",
-      "Slow"
-    ],
-    "stats": {
-      "FlatPhysicalDamageMod": 30,
-      "FlatHPPoolMod": 700
-    },
-    "effect": {
-      "Effect1Amount": "1.5",
-      "Effect2Amount": "0.4",
-      "Effect3Amount": "0.3"
-    },
-    "depth": 3,
-    "id": "3022",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3022.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 48,
-      "y": 336
-    },
-    "price": {
-      "base": 900,
-      "total": 3100,
-      "sell": 2170
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Glacial Shroud",
-    "description": "<stats>+25 Armor<br><mana>+250 Mana</mana></stats><br><br><unique>UNIQUE Passive:</unique> +10% Cooldown Reduction",
-    "plaintext": "Increases Armor and Cooldown Reduction",
-    "from": [
-      "1027",
-      "1029"
-    ],
-    "into": [
-      "3110",
-      "3025",
-      "3050",
-      "3060",
-      "3187"
-    ],
-    "tags": [
-      "Armor",
-      "CooldownReduction",
-      "Mana"
-    ],
-    "stats": {
-      "FlatMPPoolMod": 250,
-      "FlatArmorMod": 25
-    },
-    "effect": {
-      "Effect1Amount": "-0.1"
-    },
-    "depth": 2,
-    "id": "3024",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3024.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 96,
-      "y": 336
-    },
-    "price": {
-      "base": 350,
-      "total": 1000,
-      "sell": 700
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Iceborn Gauntlet",
-    "description": "<stats>+65 Armor<br>+20% Cooldown Reduction<br><mana>+500 Mana</mana></stats><br><br><unique>UNIQUE Passive - Spellblade:</unique> After using an ability, the next basic attack deals bonus physical damage equal to 100% of base Attack Damage in an area and creates an icy zone for 2 seconds that slows Movement Speed by 30% (1.5 second cooldown).<br><br>Size of zone increases with bonus armor.",
-    "plaintext": "Basic attacks create a slow field after spell cast",
-    "from": [
-      "3057",
-      "3024"
-    ],
-    "tags": [
-      "Armor",
-      "Mana",
-      "CooldownReduction",
-      "Slow"
-    ],
-    "stats": {
-      "FlatMPPoolMod": 500,
-      "FlatArmorMod": 65
-    },
-    "effect": {
-      "Effect1Amount": "-0.2",
-      "Effect2Amount": "1",
-      "Effect3Amount": "2",
-      "Effect4Amount": "-0.3",
-      "Effect5Amount": "1.5"
-    },
-    "depth": 3,
-    "id": "3025",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3025.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 144,
-      "y": 336
-    },
-    "price": {
-      "base": 650,
-      "total": 2700,
-      "sell": 1890
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Guardian Angel",
-    "description": "<stats>+60 Armor<br>+45 Magic Resist</stats><br><br><unique>UNIQUE Passive:</unique> Upon taking lethal damage, restores the greater of 700 Health or 30% of maximum Health and 30% of maximum Mana after 4 seconds of stasis (300 second cooldown).",
-    "plaintext": "Periodically revives champion upon death",
-    "from": [
-      "1057",
-      "1031"
-    ],
-    "tags": [
-      "Armor",
-      "SpellBlock"
-    ],
-    "stats": {
-      "FlatSpellBlockMod": 45,
-      "FlatArmorMod": 60
-    },
-    "effect": {
-      "Effect1Amount": "0.3",
-      "Effect2Amount": "4",
-      "Effect3Amount": "300",
-      "Effect4Amount": "700"
-    },
-    "depth": 3,
-    "id": "3026",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3026.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 192,
-      "y": 336
-    },
-    "price": {
-      "base": 880,
-      "total": 2400,
-      "sell": 960
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Rod of Ages",
-    "description": "<stats>+300 Health<br><mana>+300 Mana</mana><br>+60 Ability Power</stats><br><br><passive>Passive:</passive> Grants +20 Health, +10 Mana, and +4 Ability Power per stack (max +200 Health, +100 Mana, and +40 Ability Power). Grants 1 stack per minute (max 10 stacks).<br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.",
-    "plaintext": "Greatly increases Health, Mana, and Ability Power",
-    "from": [
-      "3010",
-      "1026"
-    ],
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "Mana",
-      "ManaRegen",
-      "SpellDamage"
-    ],
-    "stats": {
-      "FlatHPPoolMod": 300,
-      "FlatMPPoolMod": 300,
-      "FlatMagicDamageMod": 60
-    },
-    "effect": {
-      "Effect1Amount": "20",
-      "Effect2Amount": "10",
-      "Effect3Amount": "4",
-      "Effect4Amount": "1",
-      "Effect5Amount": "10",
-      "Effect6Amount": "150",
-      "Effect7Amount": "200",
-      "Effect8Amount": "8",
-      "Effect9Amount": "25",
-      "Effect10Amount": "0.2",
-      "Effect11Amount": "0.15"
-    },
-    "depth": 3,
-    "id": "3027",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3027.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 240,
-      "y": 336
-    },
-    "price": {
-      "base": 750,
-      "total": 2700,
-      "sell": 1890
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Chalice of Harmony",
-    "description": "<stats>+30 Magic Resist<br><mana>+50% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive - Harmony:</unique> Grants bonus % Base Health Regen equal to your bonus % Base Mana Regen.</unique>",
-    "plaintext": "Increases Mana and Health Regeneration",
-    "from": [
-      "1004",
-      "1033",
-      "1004"
-    ],
-    "into": [
-      "3174",
-      "3222"
-    ],
-    "tags": [
-      "SpellBlock",
-      "HealthRegen",
-      "ManaRegen"
-    ],
-    "stats": {
-      "FlatSpellBlockMod": 30
-    },
-    "effect": {
-      "Effect1Amount": "2",
-      "Effect2Amount": "5",
-      "Effect3Amount": "600",
-      "Effect4Amount": "180",
-      "Effect5Amount": "8",
-      "Effect6Amount": "1",
-      "Effect7Amount": "1"
-    },
-    "depth": 2,
-    "id": "3028",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3028.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 288,
-      "y": 336
-    },
-    "price": {
-      "base": 100,
-      "total": 800,
-      "sell": 560
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Rod of Ages (Quick Charge)",
-    "description": "<stats>+300 Health<br><mana>+300 Mana</mana><br>+60 Ability Power</stats><br><br><passive>Passive:</passive> Grants +20 Health, +10 Mana, and +4 Ability Power per stack (max +200 Health, +100 Mana, and +40 Ability Power). Grants 1 stack per 40 seconds (max 10 stacks).<br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.",
-    "plaintext": "Greatly increases Health, Mana, and Ability Power",
-    "from": [
-      "3010",
-      "1026"
-    ],
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "Mana",
-      "ManaRegen",
-      "SpellDamage"
-    ],
-    "stats": {
-      "FlatHPPoolMod": 300,
-      "FlatMPPoolMod": 300,
-      "FlatMagicDamageMod": 60
-    },
-    "effect": {
-      "Effect1Amount": "20",
-      "Effect2Amount": "10",
-      "Effect3Amount": "4",
-      "Effect4Amount": "1",
-      "Effect5Amount": "10",
-      "Effect6Amount": "150",
-      "Effect7Amount": "200",
-      "Effect8Amount": "8",
-      "Effect9Amount": "25",
-      "Effect10Amount": "0.2",
-      "Effect11Amount": "0.15"
-    },
-    "depth": 3,
-    "id": "3029",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3029.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 336,
-      "y": 336
-    },
-    "price": {
-      "base": 750,
-      "total": 2700,
-      "sell": 1890
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Hextech GLP-800",
-    "description": "<stats>+300 Health<br><mana>+400 Mana</mana><br>+80 Ability Power</stats><br><br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.<br><unique>UNIQUE Active - Frost Bolt:</unique> Fires a spray of icy bolts that explode, dealing <scaleLevel>100 - 200</scaleLevel> (+35% of your Ability Power) magic damage to all enemies hit. (40 second cooldown, shared with other <font color='#9999FF'><a href='itembolt'>Hextech</a></font> items).<br><br>Enemies hit are slowed by 65% decaying over 0.5 seconds.<br><br><rules>(Frost Bolt has a cast time, in contrast to most actives.)</rules> ",
-    "plaintext": "Activate to fire icy bolts to slow enemies",
-    "from": [
-      "3010",
-      "3145"
-    ],
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "SpellDamage",
-      "Mana",
-      "ManaRegen",
-      "Active"
-    ],
-    "stats": {
-      "FlatHPPoolMod": 300,
-      "FlatMPPoolMod": 400,
-      "FlatMagicDamageMod": 80
-    },
-    "effect": {
-      "Effect1Amount": "0",
-      "Effect2Amount": "0",
-      "Effect3Amount": "0",
-      "Effect4Amount": "0.5",
-      "Effect5Amount": "0.65",
-      "Effect6Amount": "100",
-      "Effect7Amount": "200",
-      "Effect8Amount": "0.35",
-      "Effect9Amount": "25",
-      "Effect10Amount": "0.2",
-      "Effect11Amount": "0.15",
-      "Effect12Amount": "40"
-    },
-    "depth": 3,
-    "id": "3030",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3030.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 384,
-      "y": 336
-    },
-    "price": {
-      "base": 850,
-      "total": 3000,
-      "sell": 2100
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Infinity Edge",
-    "description": "<stats>+70 Attack Damage<br>+20% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> Critical strike bonus damage is increased by 50%.",
     "plaintext": "Massively enhances critical strikes",
+    "name": "Infinity Edge",
     "from": [
       "1038",
       "1037",
@@ -2901,21 +385,8 @@
       "CriticalStrike",
       "Damage"
     ],
-    "stats": {
-      "FlatPhysicalDamageMod": 70,
-      "FlatCritChanceMod": 0.2
-    },
-    "effect": {
-      "Effect1Amount": "0.5"
-    },
-    "depth": 2,
     "id": "3031",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3031.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 432,
-      "y": 336
-    },
     "price": {
       "base": 625,
       "total": 3600,
@@ -2924,106 +395,18 @@
     "purchasable": true
   },
   {
-    "name": "Mortal Reminder",
-    "description": "<stats>+50 Attack Damage</stats><br><br><unique>UNIQUE Passive - Executioner:</unique> Physical damage inflicts <a href='GrievousWounds'>Grievous Wounds</a> on enemy champions for 5 seconds.<br><unique>UNIQUE Passive - Last Whisper:</unique> +45% <a href='BonusArmorPen'>Bonus Armor Penetration</a>.",
-    "plaintext": "Overcomes enemies with high Health recovery and Armor",
-    "from": [
-      "3035",
-      "3123"
-    ],
-    "tags": [
-      "ArmorPenetration",
-      "Damage"
-    ],
-    "stats": {
-      "FlatPhysicalDamageMod": 50
-    },
-    "effect": {
-      "Effect1Amount": "5",
-      "Effect2Amount": "0.45"
-    },
-    "depth": 3,
-    "id": "3033",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3033.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 0,
-      "y": 384
-    },
-    "price": {
-      "base": 600,
-      "total": 2700,
-      "sell": 1890
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Giant Slayer",
-    "description": "<stats>+10 Attack Damage</stats><br><br><unique>UNIQUE Passive - Giant Slayer:</unique> Grants up to +10% physical damage against enemy champions with greater maximum Health than you (+1% damage per 100 Health difference, maxing at 1000 Health difference).<br><br><rules>(Unique Passives with the same name don't stack.)</rules>",
-    "plaintext": "Overcomes enemies with high Health",
-    "from": [
-      "1036"
-    ],
-    "into": [
-      "3036"
-    ],
-    "tags": [
-      "Damage"
-    ],
-    "stats": {
-      "FlatPhysicalDamageMod": 10
-    },
-    "effect": {
-      "Effect1Amount": "0.1",
-      "Effect2Amount": "100",
-      "Effect3Amount": "0.01",
-      "Effect4Amount": "1000"
-    },
-    "depth": 2,
-    "id": "3034",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3034.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 48,
-      "y": 384
-    },
-    "price": {
-      "base": 650,
-      "total": 1000,
-      "sell": 700
-    },
-    "purchasable": true
-  },
-  {
-    "name": "Last Whisper",
-    "description": "<stats>+10 Attack Damage</stats><br><br><unique>UNIQUE Passive - Last Whisper:</unique> +45% <a href='BonusArmorPen'>Bonus Armor Penetration</a>",
     "plaintext": "Overcomes enemies with high Armor",
+    "name": "Last Whisper",
     "from": [
+      "1036",
       "1036"
-    ],
-    "into": [
-      "3033",
-      "3036"
     ],
     "tags": [
       "ArmorPenetration",
       "Damage"
     ],
-    "stats": {
-      "FlatPhysicalDamageMod": 10
-    },
-    "effect": {
-      "Effect1Amount": "0.45",
-      "Effect2Amount": "0.45"
-    },
-    "depth": 2,
     "id": "3035",
     "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3035.png",
-    "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/sprite/item0.png",
-      "x": 96,
-      "y": 384
-    },
     "price": {
       "base": 950,
       "total": 1300,

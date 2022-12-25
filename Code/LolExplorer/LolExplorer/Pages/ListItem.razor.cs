@@ -32,6 +32,7 @@ namespace LolExplorer.Pages
 
         [Inject]
         public NavigationManager NavigationManager { get; set; }
+        
         [CascadingParameter]
         public IModalService Modal { get; set; }
 
@@ -76,13 +77,13 @@ namespace LolExplorer.Pages
             var parameters = new ModalParameters();
             parameters.Add(nameof(ItemApi.Id), id);
 
-            /* var modal = Modal.Show<DeleteConfirmation>("Delete Confirmation", parameters);
-             var result = await modal.Result;
+            var modal = Modal.Show<DeleteConfirmation>("Delete Confirmation", parameters);
+            var result = await modal.Result;
 
-             if (result.Cancelled)
-             {
-                 return;
-             }*/
+            if (result.Cancelled)
+            {
+                return;
+            }
 
             await DataService.Delete(id);
 

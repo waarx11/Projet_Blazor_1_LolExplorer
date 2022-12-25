@@ -19,9 +19,19 @@ namespace LolExplorer.Pages
         private ItemApi ItemApi { get; set; } = new();
 
 
-        protected override async Task OnInitializedAsync()
+        /*protected override async Task OnInitializedAsync()
         {
             ItemApi = await DataService.GetById(Id);
+        }*/
+
+        protected override async Task OnAfterRenderAsync(bool firstRender)
+        {
+            if (firstRender)
+            {
+                ItemApi = await DataService.GetById(Id);
+
+                StateHasChanged();
+            }
         }
 
     }

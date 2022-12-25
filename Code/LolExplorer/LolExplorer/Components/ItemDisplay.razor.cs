@@ -2,13 +2,15 @@
 using LolExplorer.Modele;
 using LolExplorer.Services;
 using Microsoft.AspNetCore.Components;
+using static System.Net.WebRequestMethods;
+using System.Net.Http.Headers;
 
 namespace LolExplorer.Components
 {
     public partial class ItemDisplay
     {
         [Parameter]
-        public int Id { get; set; }
+        public int Id { get; set; } =-1;
 
         [Inject]
         public IWebHostEnvironment WebHostEnvironment { get; set; }
@@ -16,12 +18,14 @@ namespace LolExplorer.Components
         [Inject]
         public IDataService DataService { get; set; }
 
-        private ItemApi ItemApi { get; set; } = new();
+        [Parameter]
+        public ItemApi ItemApi { get; set; } = new();
 
 
         protected override async Task OnInitializedAsync()
         {
-           ItemApi = await DataService.GetById(Id); 
+            if(Id != -1)
+                ItemApi = await DataService.GetById(Id);
         }
     }
 }

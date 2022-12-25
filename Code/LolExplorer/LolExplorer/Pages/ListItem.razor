@@ -13,10 +13,10 @@
           TotalItems="@totalItem"
           ShowPager
           PageSize="10">
-
     <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Nom">
+    
         <DisplayTemplate>
-            <LolExplorer.Components.ItemDisplay Id=@(context.Id)></LolExplorer.Components.ItemDisplay>
+            <LolExplorer.Components.ItemDisplay ItemApi=@(context)></LolExplorer.Components.ItemDisplay>
          </DisplayTemplate>
     </DataGridColumn>
     @*<DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Nom" />

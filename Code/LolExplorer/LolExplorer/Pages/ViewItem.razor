@@ -1,4 +1,5 @@
 ﻿@page "/viewItem/{Id:int}"
+@using LolExplorer.Modele;
 
 
 <h3>@ItemApi.Name</h3>
@@ -28,37 +29,70 @@
     <h5>Total Pric @ItemApi.Price.Total</h5>
 }
 
-@if (@ItemApi.From != null)
-{
 
-    <DataGrid TItem="int"
-              Data="@ItemApi.From"
-              TotalItems="@ItemApi.From.Count()"
-              ShowPager
-              PageSize="2">
 
-        <DataGridColumn TItem="int"  Caption="From">
+<div class="container">
+    <div class="row">
+        <h4>From</h4>
+        <div class="col">
+            @if (@ItemApi.From != null)
+            {
+                @foreach (int fromItem in @ItemApi.From)
+                {
+                    <LolExplorer.Components.ItemDisplay id=@fromItem></LolExplorer.Components.ItemDisplay>
+                }
+                @*    <DataGrid TItem="int"
+            Data="@ItemApi.From"
+            TotalItems="@ItemApi.From.Count()"
+            ShowPager
+            PageSize="2">
+
+            <DataGridColumn TItem="int"  Caption="From">
             <DisplayTemplate>
-                <LolExplorer.Components.ItemDisplay Id=@(context)></LolExplorer.Components.ItemDisplay>
-             </DisplayTemplate>
-        </DataGridColumn>
-    </DataGrid>
-}
-
- @if (@ItemApi.Into != null){
-<DataGrid TItem="int"
-          Data="@ItemApi.Into"
-          TotalItems="@ItemApi.Into.Count()"
-          ShowPager
-          PageSize="2">
-
-    <DataGridColumn TItem="int"  Caption="Into">
-        <DisplayTemplate>
             <LolExplorer.Components.ItemDisplay Id=@(context)></LolExplorer.Components.ItemDisplay>
-         </DisplayTemplate>
-    </DataGridColumn>
-</DataGrid>
-}
+            </DisplayTemplate>
+            </DataGridColumn>
+            </DataGrid>*@
+            }
+            else
+            {
+                <h5>No Item</h5>
+            }
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <h4>Into</h4>
+        <div class="col">
+            @if (@ItemApi.Into != null)
+            {
+                @foreach (int intoItem in @ItemApi.Into)
+                {
+                    <LolExplorer.Components.ItemDisplay Id=@(intoItem)></LolExplorer.Components.ItemDisplay>
+                }
+                @*<DataGrid TItem="int"
+                Data="@ItemApi.Into"
+                TotalItems="@ItemApi.Into.Count()"
+                ShowPager
+                PageSize="2">
+
+                <DataGridColumn TItem="int"  Caption="Into">
+                <DisplayTemplate>
+                <LolExplorer.Components.ItemDisplay Id=@(context)></LolExplorer.Components.ItemDisplay>
+                </DisplayTemplate>
+                </DataGridColumn>
+                </DataGrid>*@
+            }
+            else
+            {
+                <h5>No Item</h5>
+            }
+        </div>
+    </div>
+</div>
 
 
 @*<div>
