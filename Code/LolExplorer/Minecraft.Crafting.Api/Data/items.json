@@ -1,0 +1,5073 @@
+[
+  {
+    "name": "Faerie Charm",
+    "plaintext": "Slightly increases Mana Regen",
+    "into": [
+      3028,
+      3070,
+      3073,
+      3114,
+      3098,
+      3096
+    ],
+    "tags": [
+      "ManaRegen"
+    ],
+    "id": 1004,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1004.png",
+    "price": {
+      "base": 125,
+      "total": 125,
+      "sell": 88
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Rejuvenation Bead",
+    "plaintext": "Slightly increases Health Regen",
+    "into": [
+      3077,
+      3097,
+      2053,
+      3801
+    ],
+    "tags": [
+      "HealthRegen"
+    ],
+    "id": 1006,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1006.png",
+    "price": {
+      "base": 150,
+      "total": 150,
+      "sell": 105
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Giant\u0027s Belt",
+    "plaintext": "Greatly increases Health",
+    "into": [
+      3083,
+      3143,
+      3084,
+      3022,
+      3742
+    ],
+    "tags": [
+      "Health"
+    ],
+    "id": 1011,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1011.png",
+    "price": {
+      "base": 600,
+      "total": 1000,
+      "sell": 700
+    },
+    "purchasable": true,
+    "from": [
+      1028
+    ]
+  },
+  {
+    "name": "Cloak of Agility",
+    "plaintext": "Increases critical strike chance",
+    "into": [
+      3031,
+      3185,
+      3508
+    ],
+    "tags": [
+      "CriticalStrike"
+    ],
+    "id": 1018,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1018.png",
+    "price": {
+      "base": 800,
+      "total": 800,
+      "sell": 560
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Blasting Wand",
+    "plaintext": "Moderately increases Ability Power",
+    "into": [
+      3089,
+      3135,
+      3124,
+      3029,
+      3151,
+      3027,
+      3100,
+      3116
+    ],
+    "tags": [
+      "SpellDamage"
+    ],
+    "id": 1026,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1026.png",
+    "price": {
+      "base": 850,
+      "total": 850,
+      "sell": 595
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Sapphire Crystal",
+    "plaintext": "Increases Mana",
+    "into": [
+      3057,
+      3070,
+      3010,
+      3024,
+      3073,
+      3802
+    ],
+    "tags": [
+      "Mana"
+    ],
+    "id": 1027,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1027.png",
+    "price": {
+      "base": 350,
+      "total": 350,
+      "sell": 245
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Ruby Crystal",
+    "plaintext": "Increases Health",
+    "into": [
+      1011,
+      3211,
+      3136,
+      2045,
+      2049,
+      3010,
+      3801,
+      3044,
+      3052,
+      3067,
+      3116,
+      3748,
+      3751
+    ],
+    "tags": [
+      "Health"
+    ],
+    "id": 1028,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1028.png",
+    "price": {
+      "base": 400,
+      "total": 400,
+      "sell": 280
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Cloth Armor",
+    "plaintext": "Slightly increases Armor",
+    "into": [
+      3047,
+      1031,
+      3191,
+      3024,
+      3082,
+      3075,
+      2053,
+      3105
+    ],
+    "tags": [
+      "Armor"
+    ],
+    "id": 1029,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1029.png",
+    "price": {
+      "base": 300,
+      "total": 300,
+      "sell": 210
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Chain Vest",
+    "plaintext": "Greatly increases Armor",
+    "into": [
+      3075,
+      3068,
+      3026,
+      3109,
+      2053,
+      3742
+    ],
+    "tags": [
+      "Armor"
+    ],
+    "id": 1031,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1031.png",
+    "price": {
+      "base": 500,
+      "total": 800,
+      "sell": 560
+    },
+    "purchasable": true,
+    "from": [
+      1029
+    ]
+  },
+  {
+    "name": "Null-Magic Mantle",
+    "plaintext": "Slightly increases Magic Resist",
+    "into": [
+      3111,
+      3211,
+      1057,
+      3028,
+      3140,
+      3155,
+      3105,
+      3814,
+      3190
+    ],
+    "tags": [
+      "SpellBlock"
+    ],
+    "id": 1033,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1033.png",
+    "price": {
+      "base": 450,
+      "total": 450,
+      "sell": 315
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Long Sword",
+    "plaintext": "Slightly increases Attack Damage",
+    "into": [
+      3134,
+      3077,
+      3123,
+      1053,
+      3133,
+      3034,
+      3035,
+      3044,
+      3052,
+      3053,
+      3072,
+      3122,
+      3144,
+      3155,
+      3252
+    ],
+    "tags": [
+      "Damage",
+      "Lane"
+    ],
+    "id": 1036,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1036.png",
+    "price": {
+      "base": 350,
+      "total": 350,
+      "sell": 245
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Pickaxe",
+    "plaintext": "Moderately increases Attack Damage",
+    "into": [
+      3124,
+      3004,
+      3008,
+      3031,
+      3074,
+      3814,
+      3812,
+      3139,
+      3181
+    ],
+    "tags": [
+      "Damage"
+    ],
+    "id": 1037,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1037.png",
+    "price": {
+      "base": 875,
+      "total": 875,
+      "sell": 613
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "B. F. Sword",
+    "plaintext": "Greatly increases Attack Damage",
+    "into": [
+      3031,
+      3072,
+      3147,
+      3508
+    ],
+    "tags": [
+      "Damage"
+    ],
+    "id": 1038,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1038.png",
+    "price": {
+      "base": 1300,
+      "total": 1300,
+      "sell": 910
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Hunter\u0027s Talisman",
+    "plaintext": "Provides damage against Monsters and Mana Regen in the Jungle",
+    "into": [
+      3706,
+      3711,
+      3715
+    ],
+    "tags": [
+      "LifeSteal",
+      "ManaRegen",
+      "OnHit",
+      "Jungle"
+    ],
+    "id": 1039,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1039.png",
+    "price": {
+      "base": 350,
+      "total": 350,
+      "sell": 245
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Hunter\u0027s Machete",
+    "plaintext": "Provides damage and life steal versus Monsters",
+    "into": [
+      3706,
+      3711,
+      3715
+    ],
+    "tags": [
+      "LifeSteal",
+      "OnHit",
+      "Jungle"
+    ],
+    "id": 1041,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1041.png",
+    "price": {
+      "base": 350,
+      "total": 350,
+      "sell": 245
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Dagger",
+    "plaintext": "Slightly increases Attack Speed",
+    "into": [
+      1043,
+      3091,
+      3006,
+      2015,
+      3046,
+      3086,
+      3101
+    ],
+    "tags": [
+      "AttackSpeed"
+    ],
+    "id": 1042,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1042.png",
+    "price": {
+      "base": 300,
+      "total": 300,
+      "sell": 210
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Recurve Bow",
+    "plaintext": "Greatly increases Attack Speed",
+    "into": [
+      3091,
+      3153,
+      3085,
+      3124,
+      3675,
+      1416,
+      1418,
+      1419
+    ],
+    "tags": [
+      "AttackSpeed",
+      "OnHit"
+    ],
+    "id": 1043,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1043.png",
+    "price": {
+      "base": 400,
+      "total": 1000,
+      "sell": 700
+    },
+    "purchasable": true,
+    "from": [
+      1042,
+      1042
+    ]
+  },
+  {
+    "name": "Brawler\u0027s Gloves",
+    "plaintext": "Slightly increases Critical Strike Chance",
+    "into": [
+      3086,
+      3122
+    ],
+    "tags": [
+      "CriticalStrike"
+    ],
+    "id": 1051,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1051.png",
+    "price": {
+      "base": 400,
+      "total": 400,
+      "sell": 280
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Amplifying Tome",
+    "plaintext": "Slightly increases Ability Power",
+    "into": [
+      3108,
+      3191,
+      3136,
+      3135,
+      3145,
+      3113,
+      3090,
+      3116,
+      1402,
+      1410,
+      1414,
+      3001,
+      3050,
+      3089,
+      3165,
+      3673,
+      3802
+    ],
+    "tags": [
+      "SpellDamage"
+    ],
+    "id": 1052,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1052.png",
+    "price": {
+      "base": 435,
+      "total": 435,
+      "sell": 305
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Vampiric Scepter",
+    "plaintext": "Basic attacks restore Health",
+    "into": [
+      3072,
+      3074,
+      3812,
+      3139,
+      3144,
+      3181
+    ],
+    "tags": [
+      "Damage",
+      "LifeSteal"
+    ],
+    "id": 1053,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1053.png",
+    "price": {
+      "base": 550,
+      "total": 900,
+      "sell": 630
+    },
+    "purchasable": true,
+    "from": [
+      1036
+    ]
+  },
+  {
+    "name": "Doran\u0027s Shield",
+    "plaintext": "Good defensive starting item",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Lane"
+    ],
+    "id": 1054,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1054.png",
+    "price": {
+      "base": 450,
+      "total": 450,
+      "sell": 180
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Doran\u0027s Blade",
+    "plaintext": "Good starting item for attackers",
+    "into": [],
+    "tags": [
+      "Damage",
+      "Health",
+      "Lane",
+      "LifeSteal"
+    ],
+    "id": 1055,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1055.png",
+    "price": {
+      "base": 450,
+      "total": 450,
+      "sell": 180
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Doran\u0027s Ring",
+    "plaintext": "Good starting item for casters",
+    "into": [],
+    "tags": [
+      "Health",
+      "Lane",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "id": 1056,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1056.png",
+    "price": {
+      "base": 400,
+      "total": 400,
+      "sell": 160
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Negatron Cloak",
+    "plaintext": "Moderately increases Magic Resist",
+    "into": [
+      3170,
+      3091,
+      3512,
+      3026,
+      3001,
+      3102
+    ],
+    "tags": [
+      "SpellBlock"
+    ],
+    "id": 1057,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1057.png",
+    "price": {
+      "base": 270,
+      "total": 720,
+      "sell": 504
+    },
+    "purchasable": true,
+    "from": [
+      1033
+    ]
+  },
+  {
+    "name": "Needlessly Large Rod",
+    "plaintext": "Greatly increases Ability Power",
+    "into": [
+      3089,
+      3090,
+      3003,
+      3007,
+      3285
+    ],
+    "tags": [
+      "SpellDamage"
+    ],
+    "id": 1058,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1058.png",
+    "price": {
+      "base": 1250,
+      "total": 1250,
+      "sell": 875
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "The Dark Seal",
+    "plaintext": "Provides Ability Power and Mana.  Increases in power as you kill enemies.",
+    "into": [
+      3041
+    ],
+    "tags": [
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "Lane"
+    ],
+    "id": 1082,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1082.png",
+    "price": {
+      "base": 350,
+      "total": 350,
+      "sell": 245
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Cull",
+    "plaintext": "Provides damage and Life Steal on hit - Killing minions grant bonus Gold",
+    "into": [],
+    "tags": [
+      "Damage",
+      "LifeSteal",
+      "Lane"
+    ],
+    "id": 1083,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1083.png",
+    "price": {
+      "base": 450,
+      "total": 450,
+      "sell": 180
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Enchantment: Warrior",
+    "plaintext": "Grants Attack Damage and Cooldown Reduction",
+    "into": [],
+    "tags": [],
+    "id": 1400,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1400.png",
+    "price": {
+      "base": 525,
+      "total": 2625,
+      "sell": 1838
+    },
+    "purchasable": true,
+    "from": [
+      3133,
+      3706
+    ]
+  },
+  {
+    "name": "Enchantment: Cinderhulk",
+    "plaintext": "Grants Health and Immolate Aura",
+    "into": [],
+    "tags": [],
+    "id": 1401,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1401.png",
+    "price": {
+      "base": 525,
+      "total": 2625,
+      "sell": 1838
+    },
+    "purchasable": true,
+    "from": [
+      3751,
+      3706
+    ]
+  },
+  {
+    "name": "Enchantment: Runic Echoes",
+    "plaintext": "Grants Ability Power and periodically empowers your Spells",
+    "into": [],
+    "tags": [],
+    "id": 1402,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1402.png",
+    "price": {
+      "base": 340,
+      "total": 2625,
+      "sell": 1838
+    },
+    "purchasable": true,
+    "from": [
+      3113,
+      1052,
+      3706
+    ]
+  },
+  {
+    "name": "Enchantment: Warrior",
+    "plaintext": "Grants Attack Damage and Cooldown Reduction",
+    "into": [],
+    "tags": [],
+    "id": 1408,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1408.png",
+    "price": {
+      "base": 525,
+      "total": 2625,
+      "sell": 1838
+    },
+    "purchasable": true,
+    "from": [
+      3133,
+      3711
+    ]
+  },
+  {
+    "name": "Enchantment: Cinderhulk",
+    "plaintext": "Grants Health and Immolate Aura",
+    "into": [],
+    "tags": [],
+    "id": 1409,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1409.png",
+    "price": {
+      "base": 525,
+      "total": 2625,
+      "sell": 1838
+    },
+    "purchasable": true,
+    "from": [
+      3751,
+      3711
+    ]
+  },
+  {
+    "name": "Enchantment: Runic Echoes",
+    "plaintext": "Grants Ability Power and periodically empowers your Spells",
+    "into": [],
+    "tags": [],
+    "id": 1410,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1410.png",
+    "price": {
+      "base": 340,
+      "total": 2625,
+      "sell": 1838
+    },
+    "purchasable": true,
+    "from": [
+      3113,
+      1052,
+      3711
+    ]
+  },
+  {
+    "name": "Enchantment: Warrior",
+    "plaintext": "Grants Attack Damage and Cooldown Reduction",
+    "into": [],
+    "tags": [],
+    "id": 1412,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1412.png",
+    "price": {
+      "base": 525,
+      "total": 2625,
+      "sell": 1838
+    },
+    "purchasable": true,
+    "from": [
+      3133,
+      3715
+    ]
+  },
+  {
+    "name": "Enchantment: Cinderhulk",
+    "plaintext": "Grants Health and Immolate Aura",
+    "into": [],
+    "tags": [],
+    "id": 1413,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1413.png",
+    "price": {
+      "base": 525,
+      "total": 2625,
+      "sell": 1838
+    },
+    "purchasable": true,
+    "from": [
+      3751,
+      3715
+    ]
+  },
+  {
+    "name": "Enchantment: Runic Echoes",
+    "plaintext": "Grants Ability Power and periodically empowers your Spells",
+    "into": [],
+    "tags": [],
+    "id": 1414,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1414.png",
+    "price": {
+      "base": 340,
+      "total": 2625,
+      "sell": 1838
+    },
+    "purchasable": true,
+    "from": [
+      3113,
+      1052,
+      3715
+    ]
+  },
+  {
+    "name": "Enchantment: Bloodrazor",
+    "plaintext": "Increases Attack Speed and deals damage based on the target\u0027s Health",
+    "into": [],
+    "tags": [],
+    "id": 1416,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1416.png",
+    "price": {
+      "base": 625,
+      "total": 2625,
+      "sell": 1838
+    },
+    "purchasable": true,
+    "from": [
+      1043,
+      3706
+    ]
+  },
+  {
+    "name": "Enchantment: Bloodrazor",
+    "plaintext": "Increases Attack Speed and deals damage based on the target\u0027s Health",
+    "into": [],
+    "tags": [],
+    "id": 1418,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1418.png",
+    "price": {
+      "base": 625,
+      "total": 2625,
+      "sell": 1838
+    },
+    "purchasable": true,
+    "from": [
+      1043,
+      3711
+    ]
+  },
+  {
+    "name": "Enchantment: Bloodrazor",
+    "plaintext": "Increases Attack Speed and deals damage based on the target\u0027s Health",
+    "into": [],
+    "tags": [],
+    "id": 1419,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1419.png",
+    "price": {
+      "base": 625,
+      "total": 2625,
+      "sell": 1838
+    },
+    "purchasable": true,
+    "from": [
+      1043,
+      3715
+    ]
+  },
+  {
+    "name": "Health Potion",
+    "plaintext": "Consume to restore Health over time",
+    "into": [],
+    "tags": [
+      "Consumable",
+      "Jungle",
+      "Lane"
+    ],
+    "id": 2003,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2003.png",
+    "price": {
+      "base": 50,
+      "total": 50,
+      "sell": 20
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Total Biscuit of Rejuvenation",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 2009,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2009.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Total Biscuit of Rejuvenation",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 2010,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2010.png",
+    "price": {
+      "base": 50,
+      "total": 50,
+      "sell": 20
+    },
+    "from": []
+  },
+  {
+    "name": "Kircheis Shard",
+    "plaintext": "Attack speed and a chargable magic hit",
+    "into": [
+      3094,
+      3087
+    ],
+    "tags": [
+      "AttackSpeed",
+      "OnHit"
+    ],
+    "id": 2015,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2015.png",
+    "price": {
+      "base": 450,
+      "total": 750,
+      "sell": 525
+    },
+    "purchasable": true,
+    "from": [
+      1042
+    ]
+  },
+  {
+    "name": "Refillable Potion",
+    "plaintext": "Restores Health over time. Refills at shop.",
+    "into": [
+      2032,
+      2033
+    ],
+    "tags": [
+      "HealthRegen",
+      "Consumable",
+      "Active",
+      "Lane",
+      "Jungle"
+    ],
+    "id": 2031,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2031.png",
+    "price": {
+      "base": 150,
+      "total": 150,
+      "sell": 60
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Hunter\u0027s Potion",
+    "plaintext": "Restores Health and Mana over time - Refills at shop and has increased capacity",
+    "into": [],
+    "tags": [
+      "HealthRegen",
+      "ManaRegen",
+      "Consumable",
+      "Active",
+      "Jungle"
+    ],
+    "id": 2032,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2032.png",
+    "price": {
+      "base": 250,
+      "total": 400,
+      "sell": 160
+    },
+    "purchasable": true,
+    "from": [
+      2031
+    ]
+  },
+  {
+    "name": "Corrupting Potion",
+    "plaintext": "Restores Health and Mana over time and boosts combat power - Refills at Shop",
+    "into": [],
+    "tags": [
+      "Active",
+      "Consumable",
+      "HealthRegen",
+      "Lane",
+      "ManaRegen"
+    ],
+    "id": 2033,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2033.png",
+    "price": {
+      "base": 350,
+      "total": 500,
+      "sell": 200
+    },
+    "purchasable": true,
+    "from": [
+      2031
+    ]
+  },
+  {
+    "name": "Ruby Sightstone",
+    "plaintext": "Greatly increases Health and provides Stealth Wards over time",
+    "into": [],
+    "tags": [
+      "Active",
+      "Health",
+      "Vision"
+    ],
+    "id": 2045,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2045.png",
+    "price": {
+      "base": 400,
+      "total": 1600,
+      "sell": 640
+    },
+    "purchasable": true,
+    "from": [
+      2049,
+      1028
+    ]
+  },
+  {
+    "name": "Oracle\u0027s Extract",
+    "plaintext": "Allows champion to see invisible or unseen enemy units",
+    "into": [],
+    "tags": [
+      "Consumable",
+      "Stealth",
+      "Vision"
+    ],
+    "id": 2047,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2047.png",
+    "price": {
+      "base": 300,
+      "total": 300,
+      "sell": 120
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Sightstone",
+    "plaintext": "Increases Health and provides Stealth Wards over time",
+    "into": [
+      2045,
+      2301,
+      2302,
+      2303
+    ],
+    "tags": [
+      "Active",
+      "Health",
+      "Vision"
+    ],
+    "id": 2049,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2049.png",
+    "price": {
+      "base": 400,
+      "total": 800,
+      "sell": 320
+    },
+    "purchasable": true,
+    "from": [
+      1028
+    ]
+  },
+  {
+    "name": "Explorer\u0027s Ward",
+    "plaintext": "",
+    "into": [],
+    "tags": [
+      "Consumable"
+    ],
+    "id": 2050,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2050.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Guardian\u0027s Horn",
+    "plaintext": "Good starting item for tanks",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Lane"
+    ],
+    "id": 2051,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2051.png",
+    "price": {
+      "base": 950,
+      "total": 950,
+      "sell": 380
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Poro-Snax",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 2052,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2052.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Raptor Cloak",
+    "plaintext": "Enhances Movement Speed near turrets",
+    "into": [
+      3512,
+      3056,
+      3069
+    ],
+    "tags": [
+      "Armor",
+      "HealthRegen",
+      "NonbootsMovement"
+    ],
+    "id": 2053,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2053.png",
+    "price": {
+      "base": 250,
+      "total": 1200,
+      "sell": 840
+    },
+    "purchasable": true,
+    "from": [
+      1006,
+      1031
+    ]
+  },
+  {
+    "name": "Diet Poro-Snax",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 2054,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2054.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Control Ward",
+    "plaintext": "Used to disable wards and invisible traps in an area.",
+    "into": [],
+    "tags": [
+      "Consumable",
+      "Lane",
+      "Stealth",
+      "Vision"
+    ],
+    "id": 2055,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2055.png",
+    "price": {
+      "base": 75,
+      "total": 75,
+      "sell": 30
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Elixir of Iron",
+    "plaintext": "Temporarily increases defenses. Leaves a trail for allies to follow.",
+    "into": [],
+    "tags": [
+      "Health",
+      "Consumable",
+      "NonbootsMovement",
+      "Tenacity"
+    ],
+    "id": 2138,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2138.png",
+    "price": {
+      "base": 500,
+      "total": 500,
+      "sell": 200
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Elixir of Sorcery",
+    "plaintext": "Temporarily grants Ability Power and Bonus Damage to champions and turrets.",
+    "into": [],
+    "tags": [
+      "Consumable",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "id": 2139,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2139.png",
+    "price": {
+      "base": 500,
+      "total": 500,
+      "sell": 200
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Elixir of Wrath",
+    "plaintext": "Temporarily grants Attack Damage and heals you when dealing physical damage to champions.",
+    "into": [],
+    "tags": [
+      "Consumable",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp"
+    ],
+    "id": 2140,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2140.png",
+    "price": {
+      "base": 500,
+      "total": 500,
+      "sell": 200
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Eye of the Watchers",
+    "plaintext": "Provides Ability Power and Stealth Wards over time",
+    "into": [],
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "Vision",
+      "Active",
+      "GoldPer",
+      "CooldownReduction"
+    ],
+    "id": 2301,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2301.png",
+    "price": {
+      "base": 550,
+      "total": 2200,
+      "sell": 880
+    },
+    "purchasable": true,
+    "from": [
+      2049,
+      3098
+    ]
+  },
+  {
+    "name": "Eye of the Oasis",
+    "plaintext": "Provides Regeneration and Stealth Wards over time",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "Active",
+      "GoldPer",
+      "CooldownReduction"
+    ],
+    "id": 2302,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2302.png",
+    "price": {
+      "base": 250,
+      "total": 1900,
+      "sell": 760
+    },
+    "purchasable": true,
+    "from": [
+      2049,
+      3096
+    ]
+  },
+  {
+    "name": "Eye of the Equinox",
+    "plaintext": "Provides Health and Stealth Wards over time",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Vision",
+      "Active",
+      "GoldPer"
+    ],
+    "id": 2303,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2303.png",
+    "price": {
+      "base": 650,
+      "total": 2300,
+      "sell": 920
+    },
+    "purchasable": true,
+    "from": [
+      2049,
+      3097
+    ]
+  },
+  {
+    "name": "Abyssal Scepter",
+    "plaintext": "Nearby enemies take more magic damage",
+    "into": [],
+    "tags": [
+      "SpellBlock",
+      "SpellDamage",
+      "Aura",
+      "CooldownReduction",
+      "MagicPenetration"
+    ],
+    "id": 3001,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3001.png",
+    "price": {
+      "base": 695,
+      "total": 2750,
+      "sell": 1925
+    },
+    "purchasable": true,
+    "from": [
+      3108,
+      1057,
+      1052
+    ]
+  },
+  {
+    "name": "Archangel\u0027s Staff",
+    "plaintext": "Increases Ability Power based on maximum Mana",
+    "into": [],
+    "tags": [
+      "Mana",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "id": 3003,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3003.png",
+    "price": {
+      "base": 1100,
+      "total": 3100,
+      "sell": 2170
+    },
+    "purchasable": true,
+    "from": [
+      3070,
+      1058
+    ]
+  },
+  {
+    "name": "Manamune",
+    "plaintext": "Increases Attack Damage based on maximum Mana",
+    "into": [],
+    "tags": [
+      "Damage",
+      "Mana",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "id": 3004,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3004.png",
+    "price": {
+      "base": 775,
+      "total": 2400,
+      "sell": 1680
+    },
+    "purchasable": true,
+    "from": [
+      3070,
+      1037
+    ]
+  },
+  {
+    "name": "Berserker\u0027s Greaves",
+    "plaintext": "Enhances Movement Speed and Attack Speed",
+    "into": [],
+    "tags": [
+      "AttackSpeed",
+      "Boots"
+    ],
+    "id": 3006,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3006.png",
+    "price": {
+      "base": 500,
+      "total": 1100,
+      "sell": 770
+    },
+    "purchasable": true,
+    "from": [
+      1042
+    ]
+  },
+  {
+    "name": "Archangel\u0027s Staff (Quick Charge)",
+    "plaintext": "Increases Ability Power based on maximum Mana",
+    "into": [],
+    "tags": [
+      "Mana",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "id": 3007,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3007.png",
+    "price": {
+      "base": 1100,
+      "total": 3100,
+      "sell": 2170
+    },
+    "purchasable": true,
+    "from": [
+      3073,
+      1058
+    ]
+  },
+  {
+    "name": "Manamune (Quick Charge)",
+    "plaintext": "Increases Attack Damage based on maximum Mana",
+    "into": [],
+    "tags": [
+      "Damage",
+      "Mana",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "id": 3008,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3008.png",
+    "price": {
+      "base": 775,
+      "total": 2400,
+      "sell": 1680
+    },
+    "purchasable": true,
+    "from": [
+      3073,
+      1037
+    ]
+  },
+  {
+    "name": "Boots of Swiftness",
+    "plaintext": "Enhances Movement Speed and reduces the effect of slows",
+    "into": [],
+    "tags": [
+      "Boots"
+    ],
+    "id": 3009,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3009.png",
+    "price": {
+      "base": 600,
+      "total": 900,
+      "sell": 630
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Catalyst of Aeons",
+    "plaintext": "Spend Mana to recover Health",
+    "into": [
+      3027,
+      3029,
+      3030,
+      3800
+    ],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen"
+    ],
+    "id": 3010,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3010.png",
+    "price": {
+      "base": 350,
+      "total": 1100,
+      "sell": 770
+    },
+    "purchasable": true,
+    "from": [
+      1028,
+      1027
+    ]
+  },
+  {
+    "name": "Sorcerer\u0027s Shoes",
+    "plaintext": "Enhances Movement Speed and magic damage",
+    "into": [],
+    "tags": [
+      "Boots",
+      "MagicPenetration"
+    ],
+    "id": 3020,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3020.png",
+    "price": {
+      "base": 800,
+      "total": 1100,
+      "sell": 770
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Frozen Mallet",
+    "plaintext": "Basic attacks slow enemies",
+    "into": [],
+    "tags": [
+      "Damage",
+      "Health",
+      "OnHit",
+      "Slow"
+    ],
+    "id": 3022,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3022.png",
+    "price": {
+      "base": 900,
+      "total": 3100,
+      "sell": 2170
+    },
+    "purchasable": true,
+    "from": [
+      3052,
+      1011
+    ]
+  },
+  {
+    "name": "Glacial Shroud",
+    "plaintext": "Increases Armor and Cooldown Reduction",
+    "into": [
+      3110,
+      3025,
+      3050,
+      3060,
+      3187
+    ],
+    "tags": [
+      "Armor",
+      "CooldownReduction",
+      "Mana"
+    ],
+    "id": 3024,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3024.png",
+    "price": {
+      "base": 350,
+      "total": 1000,
+      "sell": 700
+    },
+    "purchasable": true,
+    "from": [
+      1027,
+      1029
+    ]
+  },
+  {
+    "name": "Iceborn Gauntlet",
+    "plaintext": "Basic attacks create a slow field after spell cast",
+    "into": [],
+    "tags": [
+      "Armor",
+      "Mana",
+      "CooldownReduction",
+      "Slow"
+    ],
+    "id": 3025,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3025.png",
+    "price": {
+      "base": 650,
+      "total": 2700,
+      "sell": 1890
+    },
+    "purchasable": true,
+    "from": [
+      3057,
+      3024
+    ]
+  },
+  {
+    "name": "Guardian Angel",
+    "plaintext": "Periodically revives champion upon death",
+    "into": [],
+    "tags": [
+      "Armor",
+      "SpellBlock"
+    ],
+    "id": 3026,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3026.png",
+    "price": {
+      "base": 880,
+      "total": 2400,
+      "sell": 960
+    },
+    "purchasable": true,
+    "from": [
+      1057,
+      1031
+    ]
+  },
+  {
+    "name": "Rod of Ages",
+    "plaintext": "Greatly increases Health, Mana, and Ability Power",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "id": 3027,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3027.png",
+    "price": {
+      "base": 750,
+      "total": 2700,
+      "sell": 1890
+    },
+    "purchasable": true,
+    "from": [
+      3010,
+      1026
+    ]
+  },
+  {
+    "name": "Chalice of Harmony",
+    "plaintext": "Increases Mana and Health Regeneration",
+    "into": [
+      3174,
+      3222
+    ],
+    "tags": [
+      "SpellBlock",
+      "HealthRegen",
+      "ManaRegen"
+    ],
+    "id": 3028,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3028.png",
+    "price": {
+      "base": 100,
+      "total": 800,
+      "sell": 560
+    },
+    "purchasable": true,
+    "from": [
+      1004,
+      1033,
+      1004
+    ]
+  },
+  {
+    "name": "Rod of Ages (Quick Charge)",
+    "plaintext": "Greatly increases Health, Mana, and Ability Power",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "id": 3029,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3029.png",
+    "price": {
+      "base": 750,
+      "total": 2700,
+      "sell": 1890
+    },
+    "purchasable": true,
+    "from": [
+      3010,
+      1026
+    ]
+  },
+  {
+    "name": "Hextech GLP-800",
+    "plaintext": "Activate to fire icy bolts to slow enemies",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen",
+      "Active"
+    ],
+    "id": 3030,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3030.png",
+    "price": {
+      "base": 850,
+      "total": 3000,
+      "sell": 2100
+    },
+    "purchasable": true,
+    "from": [
+      3010,
+      3145
+    ]
+  },
+  {
+    "name": "Infinity Edge",
+    "plaintext": "Massively enhances critical strikes",
+    "into": [],
+    "tags": [
+      "CriticalStrike",
+      "Damage"
+    ],
+    "id": 3031,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3031.png",
+    "price": {
+      "base": 625,
+      "total": 3600,
+      "sell": 2520
+    },
+    "purchasable": true,
+    "from": [
+      1038,
+      1037,
+      1018
+    ]
+  },
+  {
+    "name": "Mortal Reminder",
+    "plaintext": "Overcomes enemies with high Health recovery and Armor",
+    "into": [],
+    "tags": [
+      "ArmorPenetration",
+      "Damage"
+    ],
+    "id": 3033,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3033.png",
+    "price": {
+      "base": 600,
+      "total": 2700,
+      "sell": 1890
+    },
+    "purchasable": true,
+    "from": [
+      3035,
+      3123
+    ]
+  },
+  {
+    "name": "Giant Slayer",
+    "plaintext": "Overcomes enemies with high Health",
+    "into": [
+      3036
+    ],
+    "tags": [
+      "Damage"
+    ],
+    "id": 3034,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3034.png",
+    "price": {
+      "base": 650,
+      "total": 1000,
+      "sell": 700
+    },
+    "purchasable": true,
+    "from": [
+      1036
+    ]
+  },
+  {
+    "name": "Last Whisper",
+    "plaintext": "Overcomes enemies with high Armor",
+    "into": [
+      3033,
+      3036
+    ],
+    "tags": [
+      "ArmorPenetration",
+      "Damage"
+    ],
+    "id": 3035,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3035.png",
+    "price": {
+      "base": 950,
+      "total": 1300,
+      "sell": 910
+    },
+    "purchasable": true,
+    "from": [
+      1036
+    ]
+  },
+  {
+    "name": "Lord Dominik\u0027s Regards",
+    "plaintext": "Overcomes enemies with high health and armor",
+    "into": [],
+    "tags": [
+      "Damage",
+      "ArmorPenetration"
+    ],
+    "id": 3036,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3036.png",
+    "price": {
+      "base": 400,
+      "total": 2700,
+      "sell": 1890
+    },
+    "purchasable": true,
+    "from": [
+      3035,
+      3034
+    ]
+  },
+  {
+    "name": "Seraph\u0027s Embrace",
+    "plaintext": "",
+    "into": [],
+    "tags": [
+      "Active"
+    ],
+    "id": 3040,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3040.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Mejai\u0027s Soulstealer",
+    "plaintext": "Grants Ability Power for kills and assists",
+    "into": [],
+    "tags": [
+      "SpellDamage",
+      "Mana"
+    ],
+    "id": 3041,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3041.png",
+    "price": {
+      "base": 1050,
+      "total": 1400,
+      "sell": 980
+    },
+    "purchasable": true,
+    "from": [
+      1082
+    ]
+  },
+  {
+    "name": "Muramana",
+    "plaintext": "",
+    "into": [],
+    "tags": [
+      "OnHit"
+    ],
+    "id": 3042,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3042.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Muramana",
+    "plaintext": "",
+    "into": [],
+    "tags": [
+      "OnHit"
+    ],
+    "id": 3043,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3043.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Phage",
+    "plaintext": "Attacks and kills give a small burst of speed",
+    "into": [
+      3078,
+      3071
+    ],
+    "tags": [
+      "Damage",
+      "Health",
+      "NonbootsMovement",
+      "OnHit"
+    ],
+    "id": 3044,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3044.png",
+    "price": {
+      "base": 500,
+      "total": 1250,
+      "sell": 875
+    },
+    "purchasable": true,
+    "from": [
+      1028,
+      1036
+    ]
+  },
+  {
+    "name": "Phantom Dancer",
+    "plaintext": "Move faster near enemies and reduce incoming damage",
+    "into": [],
+    "tags": [
+      "AttackSpeed",
+      "CriticalStrike",
+      "NonbootsMovement"
+    ],
+    "id": 3046,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3046.png",
+    "price": {
+      "base": 650,
+      "total": 2550,
+      "sell": 1785
+    },
+    "purchasable": true,
+    "from": [
+      1042,
+      3086,
+      1042
+    ]
+  },
+  {
+    "name": "Ninja Tabi",
+    "plaintext": "Enhances Movement Speed and reduces incoming basic attack damage",
+    "into": [],
+    "tags": [
+      "Armor",
+      "Boots"
+    ],
+    "id": 3047,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3047.png",
+    "price": {
+      "base": 500,
+      "total": 1100,
+      "sell": 770
+    },
+    "purchasable": true,
+    "from": [
+      1029
+    ]
+  },
+  {
+    "name": "Seraph\u0027s Embrace",
+    "plaintext": "",
+    "into": [],
+    "tags": [
+      "Active"
+    ],
+    "id": 3048,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3048.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Zeke\u0027s Harbinger",
+    "plaintext": "Grants an ally bursts of Critical Strike Chance and Ability Power",
+    "into": [],
+    "tags": [
+      "Armor",
+      "SpellDamage",
+      "Mana",
+      "Aura",
+      "Active",
+      "CooldownReduction"
+    ],
+    "id": 3050,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3050.png",
+    "price": {
+      "base": 380,
+      "total": 2250,
+      "sell": 1575
+    },
+    "purchasable": true,
+    "from": [
+      1052,
+      3024,
+      1052
+    ]
+  },
+  {
+    "name": "Jaurim\u0027s Fist",
+    "plaintext": "Attack Damage and stacking Health on Unit Kill",
+    "into": [
+      3104,
+      3022,
+      3053,
+      3748
+    ],
+    "tags": [
+      "Health",
+      "Damage"
+    ],
+    "id": 3052,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3052.png",
+    "price": {
+      "base": 450,
+      "total": 1200,
+      "sell": 840
+    },
+    "purchasable": true,
+    "from": [
+      1036,
+      1028
+    ]
+  },
+  {
+    "name": "Sterak\u0027s Gage",
+    "plaintext": "Shields against large bursts of damage",
+    "into": [],
+    "tags": [
+      "Health",
+      "Damage"
+    ],
+    "id": 3053,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3053.png",
+    "price": {
+      "base": 1050,
+      "total": 2600,
+      "sell": 1820
+    },
+    "purchasable": true,
+    "from": [
+      3052,
+      1036
+    ]
+  },
+  {
+    "name": "Ohmwrecker",
+    "plaintext": "Temporarily disables enemy turrets",
+    "into": [],
+    "tags": [
+      "Active",
+      "Armor",
+      "CooldownReduction",
+      "Health",
+      "HealthRegen",
+      "NonbootsMovement"
+    ],
+    "id": 3056,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3056.png",
+    "price": {
+      "base": 650,
+      "total": 2650,
+      "sell": 1855
+    },
+    "purchasable": true,
+    "from": [
+      2053,
+      3067
+    ]
+  },
+  {
+    "name": "Sheen",
+    "plaintext": "Grants a bonus to next attack after spell cast",
+    "into": [
+      3078,
+      3100,
+      3025
+    ],
+    "tags": [
+      "Mana",
+      "CooldownReduction"
+    ],
+    "id": 3057,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3057.png",
+    "price": {
+      "base": 700,
+      "total": 1050,
+      "sell": 735
+    },
+    "purchasable": true,
+    "from": [
+      1027
+    ]
+  },
+  {
+    "name": "Banner of Command",
+    "plaintext": "Promotes a siege minion to a more powerful unit",
+    "into": [],
+    "tags": [
+      "SpellBlock",
+      "Armor",
+      "Mana",
+      "Active",
+      "CooldownReduction"
+    ],
+    "id": 3060,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3060.png",
+    "price": {
+      "base": 100,
+      "total": 2200,
+      "sell": 1540
+    },
+    "purchasable": true,
+    "from": [
+      3105,
+      3024
+    ]
+  },
+  {
+    "name": "Spirit Visage",
+    "plaintext": "Increases Health and healing effects",
+    "into": [],
+    "tags": [
+      "CooldownReduction",
+      "Health",
+      "HealthRegen",
+      "SpellBlock"
+    ],
+    "id": 3065,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3065.png",
+    "price": {
+      "base": 800,
+      "total": 2800,
+      "sell": 1960
+    },
+    "purchasable": true,
+    "from": [
+      3211,
+      3067
+    ]
+  },
+  {
+    "name": "Kindlegem",
+    "plaintext": "Increases Health and Cooldown Reduction",
+    "into": [
+      3187,
+      3401,
+      3065,
+      3071,
+      3056,
+      3083,
+      3152
+    ],
+    "tags": [
+      "CooldownReduction",
+      "Health"
+    ],
+    "id": 3067,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3067.png",
+    "price": {
+      "base": 400,
+      "total": 800,
+      "sell": 560
+    },
+    "purchasable": true,
+    "from": [
+      1028
+    ]
+  },
+  {
+    "name": "Sunfire Cape",
+    "plaintext": "Constantly deals damage to nearby enemies",
+    "into": [],
+    "tags": [
+      "Armor",
+      "Health"
+    ],
+    "id": 3068,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3068.png",
+    "price": {
+      "base": 1000,
+      "total": 2900,
+      "sell": 2030
+    },
+    "purchasable": true,
+    "from": [
+      1031,
+      3751
+    ]
+  },
+  {
+    "name": "Talisman of Ascension",
+    "plaintext": "Increases Health / Mana Regeneration and Cooldown Reduction. Activate to speed up nearby allies.",
+    "into": [],
+    "tags": [
+      "HealthRegen",
+      "Armor",
+      "ManaRegen",
+      "Active",
+      "GoldPer",
+      "CooldownReduction",
+      "NonbootsMovement"
+    ],
+    "id": 3069,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3069.png",
+    "price": {
+      "base": 350,
+      "total": 2400,
+      "sell": 960
+    },
+    "purchasable": true,
+    "from": [
+      3096,
+      2053
+    ]
+  },
+  {
+    "name": "Tear of the Goddess",
+    "plaintext": "Increases maximum Mana as Mana is spent",
+    "into": [
+      3003,
+      3004
+    ],
+    "tags": [
+      "Mana",
+      "ManaRegen"
+    ],
+    "id": 3070,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3070.png",
+    "price": {
+      "base": 275,
+      "total": 750,
+      "sell": 525
+    },
+    "purchasable": true,
+    "from": [
+      1027,
+      1004
+    ]
+  },
+  {
+    "name": "The Black Cleaver",
+    "plaintext": "Dealing physical damage to enemy champions reduces their Armor",
+    "into": [],
+    "tags": [
+      "ArmorPenetration",
+      "CooldownReduction",
+      "Damage",
+      "Health",
+      "NonbootsMovement",
+      "OnHit"
+    ],
+    "id": 3071,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3071.png",
+    "price": {
+      "base": 950,
+      "total": 3000,
+      "sell": 2100
+    },
+    "purchasable": true,
+    "from": [
+      3044,
+      3067
+    ]
+  },
+  {
+    "name": "The Bloodthirster",
+    "plaintext": "Grants Attack Damage, Life Steal and Life Steal now overheals",
+    "into": [],
+    "tags": [
+      "Damage",
+      "LifeSteal"
+    ],
+    "id": 3072,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3072.png",
+    "price": {
+      "base": 1150,
+      "total": 3700,
+      "sell": 2590
+    },
+    "purchasable": true,
+    "from": [
+      1038,
+      1036,
+      1053
+    ]
+  },
+  {
+    "name": "Tear of the Goddess (Quick Charge)",
+    "plaintext": "Increases maximum Mana as Mana is spent",
+    "into": [
+      3007,
+      3008
+    ],
+    "tags": [
+      "Mana",
+      "ManaRegen"
+    ],
+    "id": 3073,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3073.png",
+    "price": {
+      "base": 275,
+      "total": 750,
+      "sell": 525
+    },
+    "purchasable": true,
+    "from": [
+      1027,
+      1004
+    ]
+  },
+  {
+    "name": "Ravenous Hydra",
+    "plaintext": "Melee attacks hit nearby enemies, dealing damage and restoring Health",
+    "into": [],
+    "tags": [
+      "Active",
+      "Damage",
+      "HealthRegen",
+      "LifeSteal",
+      "OnHit"
+    ],
+    "id": 3074,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3074.png",
+    "price": {
+      "base": 525,
+      "total": 3500,
+      "sell": 2450
+    },
+    "purchasable": true,
+    "from": [
+      3077,
+      1053,
+      1037
+    ]
+  },
+  {
+    "name": "Thornmail",
+    "plaintext": "Returns damage taken from basic attacks as magic damage",
+    "into": [],
+    "tags": [
+      "Armor"
+    ],
+    "id": 3075,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3075.png",
+    "price": {
+      "base": 1250,
+      "total": 2350,
+      "sell": 1645
+    },
+    "purchasable": true,
+    "from": [
+      1029,
+      1031
+    ]
+  },
+  {
+    "name": "Tiamat",
+    "plaintext": "Melee attacks hit nearby enemies",
+    "into": [
+      3074,
+      3748
+    ],
+    "tags": [
+      "HealthRegen",
+      "Damage",
+      "Active"
+    ],
+    "id": 3077,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3077.png",
+    "price": {
+      "base": 350,
+      "total": 1200,
+      "sell": 840
+    },
+    "purchasable": true,
+    "from": [
+      1036,
+      1006,
+      1036
+    ]
+  },
+  {
+    "name": "Trinity Force",
+    "plaintext": "Tons of Damage",
+    "into": [],
+    "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "Mana",
+      "CooldownReduction",
+      "OnHit",
+      "NonbootsMovement"
+    ],
+    "id": 3078,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3078.png",
+    "price": {
+      "base": 333,
+      "total": 3733,
+      "sell": 2613
+    },
+    "purchasable": true,
+    "from": [
+      3101,
+      3057,
+      3044
+    ]
+  },
+  {
+    "name": "Warden\u0027s Mail",
+    "plaintext": "Slows Attack Speed of enemy champions when receiving basic attacks",
+    "into": [
+      3110,
+      3143
+    ],
+    "tags": [
+      "Armor",
+      "Slow"
+    ],
+    "id": 3082,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3082.png",
+    "price": {
+      "base": 400,
+      "total": 1000,
+      "sell": 700
+    },
+    "purchasable": true,
+    "from": [
+      1029,
+      1029
+    ]
+  },
+  {
+    "name": "Warmog\u0027s Armor",
+    "plaintext": "Grants massive Health and Health Regen",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "CooldownReduction"
+    ],
+    "id": 3083,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3083.png",
+    "price": {
+      "base": 400,
+      "total": 2850,
+      "sell": 1995
+    },
+    "purchasable": true,
+    "from": [
+      1011,
+      3067,
+      3801
+    ]
+  },
+  {
+    "name": "Overlord\u0027s Bloodmail",
+    "plaintext": "Restores Health on kill or assist",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen"
+    ],
+    "id": 3084,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3084.png",
+    "price": {
+      "base": 900,
+      "total": 2550,
+      "sell": 1785
+    },
+    "purchasable": true,
+    "from": [
+      1011,
+      3801
+    ]
+  },
+  {
+    "name": "Runaan\u0027s Hurricane",
+    "plaintext": "Ranged attacks fire two bolts at nearby enemies",
+    "into": [],
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ],
+    "id": 3085,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3085.png",
+    "price": {
+      "base": 300,
+      "total": 2600,
+      "sell": 1820
+    },
+    "purchasable": true,
+    "from": [
+      1043,
+      3086
+    ]
+  },
+  {
+    "name": "Zeal",
+    "plaintext": "Slight bonuses to Critical Strike Chance, Movement Speed and Attack Speed",
+    "into": [
+      3094,
+      3085,
+      3046,
+      3087
+    ],
+    "tags": [
+      "AttackSpeed",
+      "CriticalStrike",
+      "NonbootsMovement"
+    ],
+    "id": 3086,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3086.png",
+    "price": {
+      "base": 600,
+      "total": 1300,
+      "sell": 910
+    },
+    "purchasable": true,
+    "from": [
+      1051,
+      1042
+    ]
+  },
+  {
+    "name": "Statikk Shiv",
+    "plaintext": "Movement builds charges that release chain lightning on basic attack",
+    "into": [],
+    "tags": [
+      "AttackSpeed",
+      "CriticalStrike",
+      "NonbootsMovement",
+      "OnHit"
+    ],
+    "id": 3087,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3087.png",
+    "price": {
+      "base": 550,
+      "total": 2600,
+      "sell": 1820
+    },
+    "purchasable": true,
+    "from": [
+      3086,
+      2015
+    ]
+  },
+  {
+    "name": "Rabadon\u0027s Deathcap",
+    "plaintext": "Massively increases Ability Power",
+    "into": [],
+    "tags": [
+      "SpellDamage"
+    ],
+    "id": 3089,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3089.png",
+    "price": {
+      "base": 1265,
+      "total": 3800,
+      "sell": 2660
+    },
+    "purchasable": true,
+    "from": [
+      1026,
+      1058,
+      1052
+    ]
+  },
+  {
+    "name": "Wooglet\u0027s Witchcap",
+    "plaintext": "Massively increases Ability Power and can be activated to enter stasis",
+    "into": [],
+    "tags": [
+      "Active",
+      "Armor",
+      "SpellDamage"
+    ],
+    "id": 3090,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3090.png",
+    "price": {
+      "base": 1050,
+      "total": 3500,
+      "sell": 2450
+    },
+    "purchasable": true,
+    "from": [
+      3191,
+      1058
+    ]
+  },
+  {
+    "name": "Wit\u0027s End",
+    "plaintext": "Deals bonus magic damage on basic attacks",
+    "into": [],
+    "tags": [
+      "AttackSpeed",
+      "OnHit",
+      "SpellBlock"
+    ],
+    "id": 3091,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3091.png",
+    "price": {
+      "base": 480,
+      "total": 2500,
+      "sell": 1750
+    },
+    "purchasable": true,
+    "from": [
+      1043,
+      1057,
+      1042
+    ]
+  },
+  {
+    "name": "Frost Queen\u0027s Claim",
+    "plaintext": "Sends out seeking wraiths that track hidden enemies and slow them",
+    "into": [],
+    "tags": [
+      "Active",
+      "CooldownReduction",
+      "GoldPer",
+      "ManaRegen",
+      "Slow",
+      "SpellDamage"
+    ],
+    "id": 3092,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3092.png",
+    "price": {
+      "base": 450,
+      "total": 2200,
+      "sell": 880
+    },
+    "purchasable": true,
+    "from": [
+      3098,
+      3108
+    ]
+  },
+  {
+    "name": "Rapid Firecannon",
+    "plaintext": "Movement builds charges that release a sieging fire attack on release",
+    "into": [],
+    "tags": [
+      "AttackSpeed",
+      "CriticalStrike",
+      "NonbootsMovement",
+      "OnHit"
+    ],
+    "id": 3094,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3094.png",
+    "price": {
+      "base": 550,
+      "total": 2600,
+      "sell": 1820
+    },
+    "purchasable": true,
+    "from": [
+      3086,
+      2015
+    ]
+  },
+  {
+    "name": "Nomad\u0027s Medallion",
+    "plaintext": "Grants gold when nearby enemy minions die, Health Regen and Mana Regen",
+    "into": [
+      2302,
+      3069
+    ],
+    "tags": [
+      "HealthRegen",
+      "ManaRegen",
+      "Active",
+      "GoldPer",
+      "CooldownReduction"
+    ],
+    "id": 3096,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3096.png",
+    "price": {
+      "base": 375,
+      "total": 850,
+      "sell": 340
+    },
+    "purchasable": true,
+    "from": [
+      1004,
+      3301
+    ]
+  },
+  {
+    "name": "Targon\u0027s Brace",
+    "plaintext": "Periodically kill enemy minions to heal and grant gold to a nearby ally",
+    "into": [
+      2303,
+      3401
+    ],
+    "tags": [
+      "Aura",
+      "GoldPer",
+      "Health",
+      "HealthRegen"
+    ],
+    "id": 3097,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3097.png",
+    "price": {
+      "base": 350,
+      "total": 850,
+      "sell": 340
+    },
+    "purchasable": true,
+    "from": [
+      3302,
+      1006
+    ]
+  },
+  {
+    "name": "Frostfang",
+    "plaintext": "Grants gold when you damage an enemy with a Spell or Attack",
+    "into": [
+      2301,
+      3092
+    ],
+    "tags": [
+      "Active",
+      "GoldPer",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "id": 3098,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3098.png",
+    "price": {
+      "base": 375,
+      "total": 850,
+      "sell": 340
+    },
+    "purchasable": true,
+    "from": [
+      3303,
+      1004
+    ]
+  },
+  {
+    "name": "Lich Bane",
+    "plaintext": "Grants a bonus to next attack after spell cast",
+    "into": [],
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "NonbootsMovement"
+    ],
+    "id": 3100,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3100.png",
+    "price": {
+      "base": 450,
+      "total": 3200,
+      "sell": 2240
+    },
+    "purchasable": true,
+    "from": [
+      3057,
+      3113,
+      1026
+    ]
+  },
+  {
+    "name": "Stinger",
+    "plaintext": "Increased Attack Speed and Cooldown Reduction",
+    "into": [
+      3115,
+      3137,
+      3078
+    ],
+    "tags": [
+      "AttackSpeed",
+      "CooldownReduction"
+    ],
+    "id": 3101,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3101.png",
+    "price": {
+      "base": 500,
+      "total": 1100,
+      "sell": 770
+    },
+    "purchasable": true,
+    "from": [
+      1042,
+      1042
+    ]
+  },
+  {
+    "name": "Banshee\u0027s Veil",
+    "plaintext": "Periodically blocks enemy abilities",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellBlock"
+    ],
+    "id": 3102,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3102.png",
+    "price": {
+      "base": 530,
+      "total": 2450,
+      "sell": 1715
+    },
+    "purchasable": true,
+    "from": [
+      3211,
+      1057
+    ]
+  },
+  {
+    "name": "Lord Van Damm\u0027s Pillager",
+    "plaintext": "Reduces Armor of nearby enemies",
+    "into": [],
+    "tags": [
+      "Health",
+      "Damage",
+      "Aura",
+      "CooldownReduction",
+      "OnHit",
+      "ArmorPenetration"
+    ],
+    "id": 3104,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3104.png",
+    "price": {
+      "base": 700,
+      "total": 3000,
+      "sell": 2100
+    },
+    "purchasable": true,
+    "from": [
+      3133,
+      3052
+    ]
+  },
+  {
+    "name": "Aegis of the Legion",
+    "plaintext": "Grants Armor and Magic Resistance",
+    "into": [
+      3190,
+      3060
+    ],
+    "tags": [
+      "SpellBlock",
+      "Armor"
+    ],
+    "id": 3105,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3105.png",
+    "price": {
+      "base": 350,
+      "total": 1100,
+      "sell": 770
+    },
+    "purchasable": true,
+    "from": [
+      1033,
+      1029
+    ]
+  },
+  {
+    "name": "Redemption",
+    "plaintext": "Further improves defenses for nearby allies",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "CooldownReduction"
+    ],
+    "id": 3107,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3107.png",
+    "price": {
+      "base": 650,
+      "total": 2100,
+      "sell": 1470
+    },
+    "purchasable": true,
+    "from": [
+      3114,
+      3801
+    ]
+  },
+  {
+    "name": "Fiendish Codex",
+    "plaintext": "Increases Ability Power and Cooldown Reduction",
+    "into": [
+      3174,
+      3092,
+      3115,
+      3165,
+      3001,
+      3157
+    ],
+    "tags": [
+      "CooldownReduction",
+      "SpellDamage"
+    ],
+    "id": 3108,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3108.png",
+    "price": {
+      "base": 465,
+      "total": 900,
+      "sell": 630
+    },
+    "purchasable": true,
+    "from": [
+      1052
+    ]
+  },
+  {
+    "name": "Knight\u0027s Vow",
+    "plaintext": "Partner with an ally to protect each other",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Armor",
+      "Aura",
+      "NonbootsMovement"
+    ],
+    "id": 3109,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3109.png",
+    "price": {
+      "base": 850,
+      "total": 2300,
+      "sell": 1610
+    },
+    "purchasable": true,
+    "from": [
+      3801,
+      1031
+    ]
+  },
+  {
+    "name": "Frozen Heart",
+    "plaintext": "Massively increases Armor and slows enemy basic attacks",
+    "into": [],
+    "tags": [
+      "Armor",
+      "Aura",
+      "CooldownReduction",
+      "Mana"
+    ],
+    "id": 3110,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3110.png",
+    "price": {
+      "base": 700,
+      "total": 2700,
+      "sell": 1890
+    },
+    "purchasable": true,
+    "from": [
+      3082,
+      3024
+    ]
+  },
+  {
+    "name": "Mercury\u0027s Treads",
+    "plaintext": "Increases Movement Speed and reduces duration of disabling effects",
+    "into": [],
+    "tags": [
+      "Boots",
+      "SpellBlock",
+      "Tenacity"
+    ],
+    "id": 3111,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3111.png",
+    "price": {
+      "base": 350,
+      "total": 1100,
+      "sell": 770
+    },
+    "purchasable": true,
+    "from": [
+      1033
+    ]
+  },
+  {
+    "name": "Guardian\u0027s Orb",
+    "plaintext": "Good starting item for mages",
+    "into": [],
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Mana",
+      "Lane"
+    ],
+    "id": 3112,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3112.png",
+    "price": {
+      "base": 950,
+      "total": 950,
+      "sell": 380
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Aether Wisp",
+    "plaintext": "Increases Ability Power and Movement Speed",
+    "into": [
+      1402,
+      1410,
+      1414,
+      3100,
+      3285,
+      3504,
+      3673
+    ],
+    "tags": [
+      "NonbootsMovement",
+      "SpellDamage"
+    ],
+    "id": 3113,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3113.png",
+    "price": {
+      "base": 415,
+      "total": 850,
+      "sell": 595
+    },
+    "purchasable": true,
+    "from": [
+      1052
+    ]
+  },
+  {
+    "name": "Forbidden Idol",
+    "plaintext": "Increases Mana Regeneration and Cooldown Reduction",
+    "into": [
+      3107,
+      3222,
+      3504
+    ],
+    "tags": [
+      "CooldownReduction",
+      "ManaRegen"
+    ],
+    "id": 3114,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3114.png",
+    "price": {
+      "base": 550,
+      "total": 800,
+      "sell": 560
+    },
+    "purchasable": true,
+    "from": [
+      1004,
+      1004
+    ]
+  },
+  {
+    "name": "Nashor\u0027s Tooth",
+    "plaintext": "Increases Attack Speed, Ability Power, and Cooldown Reduction",
+    "into": [],
+    "tags": [
+      "AttackSpeed",
+      "CooldownReduction",
+      "OnHit",
+      "SpellDamage"
+    ],
+    "id": 3115,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3115.png",
+    "price": {
+      "base": 1000,
+      "total": 3000,
+      "sell": 2100
+    },
+    "purchasable": true,
+    "from": [
+      3101,
+      3108
+    ]
+  },
+  {
+    "name": "Rylai\u0027s Crystal Scepter",
+    "plaintext": "Abilities slow enemies",
+    "into": [],
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Slow"
+    ],
+    "id": 3116,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3116.png",
+    "price": {
+      "base": 915,
+      "total": 2600,
+      "sell": 1820
+    },
+    "purchasable": true,
+    "from": [
+      1026,
+      1052,
+      1028
+    ]
+  },
+  {
+    "name": "Boots of Mobility",
+    "plaintext": "Greatly enhances Movement Speed when out of combat",
+    "into": [],
+    "tags": [
+      "Boots"
+    ],
+    "id": 3117,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3117.png",
+    "price": {
+      "base": 600,
+      "total": 900,
+      "sell": 630
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Wicked Hatchet",
+    "plaintext": "Critical Strikes cause your target to bleed",
+    "into": [
+      3104,
+      3185
+    ],
+    "tags": [
+      "CriticalStrike",
+      "Damage",
+      "OnHit"
+    ],
+    "id": 3122,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3122.png",
+    "price": {
+      "base": 450,
+      "total": 1200,
+      "sell": 840
+    },
+    "purchasable": true,
+    "from": [
+      1051,
+      1036
+    ]
+  },
+  {
+    "name": "Executioner\u0027s Calling",
+    "plaintext": "Overcomes enemies with high health gain",
+    "into": [
+      3033
+    ],
+    "tags": [
+      "Damage"
+    ],
+    "id": 3123,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3123.png",
+    "price": {
+      "base": 450,
+      "total": 800,
+      "sell": 560
+    },
+    "purchasable": true,
+    "from": [
+      1036
+    ]
+  },
+  {
+    "name": "Guinsoo\u0027s Rageblade",
+    "plaintext": "Increases Ability Power and Attack Damage",
+    "into": [],
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit"
+    ],
+    "id": 3124,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3124.png",
+    "price": {
+      "base": 875,
+      "total": 3600,
+      "sell": 2520
+    },
+    "purchasable": true,
+    "from": [
+      1026,
+      1043,
+      1037
+    ]
+  },
+  {
+    "name": "Caulfield\u0027s Warhammer",
+    "plaintext": "Attack Damage and Cooldown Reduction",
+    "into": [
+      3142,
+      1400,
+      3104,
+      1408,
+      1412,
+      3812,
+      3156,
+      3508,
+      3671
+    ],
+    "tags": [
+      "Damage",
+      "CooldownReduction"
+    ],
+    "id": 3133,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3133.png",
+    "price": {
+      "base": 400,
+      "total": 1100,
+      "sell": 770
+    },
+    "purchasable": true,
+    "from": [
+      1036,
+      1036
+    ]
+  },
+  {
+    "name": "Serrated Dirk",
+    "plaintext": "Increases Attack Damage and Lethality",
+    "into": [
+      3142,
+      3814,
+      3147
+    ],
+    "tags": [
+      "Damage",
+      "NonbootsMovement",
+      "ArmorPenetration"
+    ],
+    "id": 3134,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3134.png",
+    "price": {
+      "base": 400,
+      "total": 1100,
+      "sell": 770
+    },
+    "purchasable": true,
+    "from": [
+      1036,
+      1036
+    ]
+  },
+  {
+    "name": "Void Staff",
+    "plaintext": "Increases magic damage",
+    "into": [],
+    "tags": [
+      "MagicPenetration",
+      "SpellDamage"
+    ],
+    "id": 3135,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3135.png",
+    "price": {
+      "base": 1365,
+      "total": 2650,
+      "sell": 1855
+    },
+    "purchasable": true,
+    "from": [
+      1026,
+      1052
+    ]
+  },
+  {
+    "name": "Haunting Guise",
+    "plaintext": "Increases magic damage",
+    "into": [
+      3151
+    ],
+    "tags": [
+      "Health",
+      "MagicPenetration",
+      "SpellDamage"
+    ],
+    "id": 3136,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3136.png",
+    "price": {
+      "base": 665,
+      "total": 1500,
+      "sell": 1050
+    },
+    "purchasable": true,
+    "from": [
+      1028,
+      1052
+    ]
+  },
+  {
+    "name": "Dervish Blade",
+    "plaintext": "Activate to remove all debuffs and grant massive Movement Speed",
+    "into": [],
+    "tags": [
+      "Active",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "SpellBlock"
+    ],
+    "id": 3137,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3137.png",
+    "price": {
+      "base": 300,
+      "total": 2700,
+      "sell": 1890
+    },
+    "purchasable": true,
+    "from": [
+      3140,
+      3101
+    ]
+  },
+  {
+    "name": "Mercurial Scimitar",
+    "plaintext": "Activate to remove all crowd control debuffs and grant massive Movement Speed",
+    "into": [],
+    "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "Active",
+      "NonbootsMovement"
+    ],
+    "id": 3139,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3139.png",
+    "price": {
+      "base": 525,
+      "total": 3600,
+      "sell": 2520
+    },
+    "purchasable": true,
+    "from": [
+      3140,
+      1037,
+      1053
+    ]
+  },
+  {
+    "name": "Quicksilver Sash",
+    "plaintext": "Activate to remove all crowd control debuffs",
+    "into": [
+      3139,
+      3137
+    ],
+    "tags": [
+      "Active",
+      "SpellBlock"
+    ],
+    "id": 3140,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3140.png",
+    "price": {
+      "base": 850,
+      "total": 1300,
+      "sell": 910
+    },
+    "purchasable": true,
+    "from": [
+      1033
+    ]
+  },
+  {
+    "name": "Youmuu\u0027s Ghostblade",
+    "plaintext": "Activate to greatly increase Movement Speed",
+    "into": [],
+    "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "ArmorPenetration"
+    ],
+    "id": 3142,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3142.png",
+    "price": {
+      "base": 700,
+      "total": 2900,
+      "sell": 2030
+    },
+    "purchasable": true,
+    "from": [
+      3133,
+      3134
+    ]
+  },
+  {
+    "name": "Randuin\u0027s Omen",
+    "plaintext": "Greatly increases defenses, activate to slow nearby enemies",
+    "into": [],
+    "tags": [
+      "Active",
+      "Armor",
+      "Health",
+      "Slow"
+    ],
+    "id": 3143,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3143.png",
+    "price": {
+      "base": 900,
+      "total": 2900,
+      "sell": 2030
+    },
+    "purchasable": true,
+    "from": [
+      3082,
+      1011
+    ]
+  },
+  {
+    "name": "Bilgewater Cutlass",
+    "plaintext": "Activate to deal magic damage and slow target champion",
+    "into": [
+      3146,
+      3153
+    ],
+    "tags": [
+      "Active",
+      "Damage",
+      "LifeSteal",
+      "Slow"
+    ],
+    "id": 3144,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3144.png",
+    "price": {
+      "base": 250,
+      "total": 1500,
+      "sell": 1050
+    },
+    "purchasable": true,
+    "from": [
+      1053,
+      1036
+    ]
+  },
+  {
+    "name": "Hextech Revolver",
+    "plaintext": "Increases Ability Power. Deal bonus magic damage on attack periodically.",
+    "into": [
+      3146,
+      3152,
+      3030
+    ],
+    "tags": [
+      "SpellDamage"
+    ],
+    "id": 3145,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3145.png",
+    "price": {
+      "base": 180,
+      "total": 1050,
+      "sell": 735
+    },
+    "purchasable": true,
+    "from": [
+      1052,
+      1052
+    ]
+  },
+  {
+    "name": "Hextech Gunblade",
+    "plaintext": "Increases Attack Damage and Ability Power, activate to slow a target",
+    "into": [],
+    "tags": [
+      "Active",
+      "Damage",
+      "LifeSteal",
+      "Slow",
+      "SpellDamage",
+      "SpellVamp"
+    ],
+    "id": 3146,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3146.png",
+    "price": {
+      "base": 850,
+      "total": 3400,
+      "sell": 2380
+    },
+    "purchasable": true,
+    "from": [
+      3144,
+      3145
+    ]
+  },
+  {
+    "name": "Duskblade of Draktharr",
+    "plaintext": "Deals additional true damage on-hit and provides true sight periodically",
+    "into": [],
+    "tags": [
+      "Damage",
+      "OnHit",
+      "NonbootsMovement",
+      "ArmorPenetration"
+    ],
+    "id": 3147,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3147.png",
+    "price": {
+      "base": 850,
+      "total": 3250,
+      "sell": 2275
+    },
+    "purchasable": true,
+    "from": [
+      3134,
+      1038
+    ]
+  },
+  {
+    "name": "Liandry\u0027s Torment",
+    "plaintext": "Spell damage burns enemies for a portion of their Health",
+    "into": [],
+    "tags": [
+      "Health",
+      "MagicPenetration",
+      "SpellDamage"
+    ],
+    "id": 3151,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3151.png",
+    "price": {
+      "base": 750,
+      "total": 3100,
+      "sell": 2170
+    },
+    "purchasable": true,
+    "from": [
+      3136,
+      1026
+    ]
+  },
+  {
+    "name": "Hextech Protobelt-01",
+    "plaintext": "Activate to dash forward and unleash a fiery explosion",
+    "into": [],
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction"
+    ],
+    "id": 3152,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3152.png",
+    "price": {
+      "base": 650,
+      "total": 2500,
+      "sell": 1750
+    },
+    "purchasable": true,
+    "from": [
+      3145,
+      3067
+    ]
+  },
+  {
+    "name": "Blade of the Ruined King",
+    "plaintext": "Deals damage based on target\u0027s Health, can steal Movement Speed",
+    "into": [],
+    "tags": [
+      "Active",
+      "AttackSpeed",
+      "Damage",
+      "LifeSteal",
+      "NonbootsMovement",
+      "OnHit"
+    ],
+    "id": 3153,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3153.png",
+    "price": {
+      "base": 800,
+      "total": 3300,
+      "sell": 2310
+    },
+    "purchasable": true,
+    "from": [
+      3144,
+      1043
+    ]
+  },
+  {
+    "name": "Hexdrinker",
+    "plaintext": "Increases Attack Damage and Magic Resist",
+    "into": [
+      3156
+    ],
+    "tags": [
+      "Damage",
+      "SpellBlock"
+    ],
+    "id": 3155,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3155.png",
+    "price": {
+      "base": 500,
+      "total": 1300,
+      "sell": 910
+    },
+    "purchasable": true,
+    "from": [
+      1036,
+      1033
+    ]
+  },
+  {
+    "name": "Maw of Malmortius",
+    "plaintext": "Grants bonus Attack Damage when Health is low",
+    "into": [],
+    "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "CooldownReduction",
+      "SpellVamp"
+    ],
+    "id": 3156,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3156.png",
+    "price": {
+      "base": 850,
+      "total": 3250,
+      "sell": 2275
+    },
+    "purchasable": true,
+    "from": [
+      3155,
+      3133
+    ]
+  },
+  {
+    "name": "Zhonya\u0027s Hourglass",
+    "plaintext": "Activate to become invincible but unable to take actions",
+    "into": [],
+    "tags": [
+      "Armor",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction"
+    ],
+    "id": 3157,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3157.png",
+    "price": {
+      "base": 800,
+      "total": 2900,
+      "sell": 2030
+    },
+    "purchasable": true,
+    "from": [
+      3191,
+      3108
+    ]
+  },
+  {
+    "name": "Ionian Boots of Lucidity",
+    "plaintext": "Increases Movement Speed and Cooldown Reduction",
+    "into": [],
+    "tags": [
+      "Boots",
+      "CooldownReduction"
+    ],
+    "id": 3158,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3158.png",
+    "price": {
+      "base": 600,
+      "total": 900,
+      "sell": 630
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Morellonomicon",
+    "plaintext": "Greatly increases Ability Power and Cooldown Reduction",
+    "into": [],
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "ManaRegen",
+      "CooldownReduction"
+    ],
+    "id": 3165,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3165.png",
+    "price": {
+      "base": 665,
+      "total": 2900,
+      "sell": 2030
+    },
+    "purchasable": true,
+    "from": [
+      3108,
+      1052,
+      3802
+    ]
+  },
+  {
+    "name": "Moonflair Spellblade",
+    "plaintext": "Improves defense and reduces duration of disabling effects",
+    "into": [],
+    "tags": [
+      "Armor",
+      "SpellBlock",
+      "SpellDamage",
+      "Tenacity"
+    ],
+    "id": 3170,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3170.png",
+    "price": {
+      "base": 580,
+      "total": 2500,
+      "sell": 1750
+    },
+    "purchasable": true,
+    "from": [
+      3191,
+      1057
+    ]
+  },
+  {
+    "name": "Athene\u0027s Unholy Grail",
+    "plaintext": "Deal damage to empower your heals and shields",
+    "into": [],
+    "tags": [
+      "SpellBlock",
+      "HealthRegen",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction"
+    ],
+    "id": 3174,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3174.png",
+    "price": {
+      "base": 400,
+      "total": 2100,
+      "sell": 1470
+    },
+    "purchasable": true,
+    "from": [
+      3108,
+      3028
+    ]
+  },
+  {
+    "name": "Head of Kha\u0027Zix",
+    "plaintext": "",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3175,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3175.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Sanguine Blade",
+    "plaintext": "Greatly increases Attack Damage and Life Steal",
+    "into": [],
+    "tags": [
+      "Damage",
+      "LifeSteal"
+    ],
+    "id": 3181,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3181.png",
+    "price": {
+      "base": 625,
+      "total": 2400,
+      "sell": 1680
+    },
+    "purchasable": true,
+    "from": [
+      1037,
+      1053
+    ]
+  },
+  {
+    "name": "Guardian\u0027s Hammer",
+    "plaintext": "Good starting item for attackers",
+    "into": [],
+    "tags": [
+      "Health",
+      "Damage",
+      "LifeSteal",
+      "Lane"
+    ],
+    "id": 3184,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3184.png",
+    "price": {
+      "base": 950,
+      "total": 950,
+      "sell": 380
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "The Lightbringer",
+    "plaintext": "Critical Strikes cause your target to bleed and be revealed",
+    "into": [],
+    "tags": [
+      "Active",
+      "CriticalStrike",
+      "Damage",
+      "OnHit",
+      "Stealth",
+      "Vision"
+    ],
+    "id": 3185,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3185.png",
+    "price": {
+      "base": 350,
+      "total": 2350,
+      "sell": 1645
+    },
+    "purchasable": true,
+    "from": [
+      3122,
+      1018
+    ]
+  },
+  {
+    "name": "Arcane Sweeper",
+    "plaintext": "Activate to reveal a nearby area of the map",
+    "into": [],
+    "tags": [
+      "Active",
+      "Armor",
+      "CooldownReduction",
+      "Health",
+      "Mana",
+      "Stealth",
+      "Vision"
+    ],
+    "id": 3187,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3187.png",
+    "price": {
+      "base": 350,
+      "total": 2150,
+      "sell": 1505
+    },
+    "purchasable": true,
+    "from": [
+      3024,
+      3067
+    ]
+  },
+  {
+    "name": "Locket of the Iron Solari",
+    "plaintext": "Activate to shield nearby allies from damage",
+    "into": [],
+    "tags": [
+      "SpellBlock",
+      "Armor",
+      "Active"
+    ],
+    "id": 3190,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3190.png",
+    "price": {
+      "base": 650,
+      "total": 2200,
+      "sell": 1540
+    },
+    "purchasable": true,
+    "from": [
+      3105,
+      1033
+    ]
+  },
+  {
+    "name": "Seeker\u0027s Armguard",
+    "plaintext": "Increases Armor and Ability Power",
+    "into": [
+      3090,
+      3170,
+      3157
+    ],
+    "tags": [
+      "Armor",
+      "SpellDamage"
+    ],
+    "id": 3191,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3191.png",
+    "price": {
+      "base": 165,
+      "total": 1200,
+      "sell": 840
+    },
+    "purchasable": true,
+    "from": [
+      1029,
+      1052,
+      1029
+    ]
+  },
+  {
+    "name": "The Hex Core mk-1",
+    "plaintext": "Allows Viktor to improve an ability of his choice",
+    "into": [
+      3197
+    ],
+    "tags": [
+      "Mana",
+      "SpellDamage"
+    ],
+    "id": 3196,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3196.png",
+    "price": {
+      "base": 1250,
+      "total": 1250,
+      "sell": 875
+    },
+    "purchasable": true,
+    "from": [
+      3200
+    ]
+  },
+  {
+    "name": "The Hex Core mk-2",
+    "plaintext": "Allows Viktor to improve an ability of his choice",
+    "into": [
+      3198
+    ],
+    "tags": [
+      "Mana",
+      "SpellDamage"
+    ],
+    "id": 3197,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3197.png",
+    "price": {
+      "base": 1000,
+      "total": 2250,
+      "sell": 1575
+    },
+    "purchasable": true,
+    "from": [
+      3196
+    ]
+  },
+  {
+    "name": "Perfect Hex Core",
+    "plaintext": "Allows Viktor to improve an ability of his choice",
+    "into": [],
+    "tags": [
+      "Mana",
+      "SpellDamage"
+    ],
+    "id": 3198,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3198.png",
+    "price": {
+      "base": 750,
+      "total": 3000,
+      "sell": 2100
+    },
+    "purchasable": true,
+    "from": [
+      3197
+    ]
+  },
+  {
+    "name": "Prototype Hex Core",
+    "plaintext": "Increases Ability Power and can be upgraded to improve Viktor\u0027s abilities",
+    "into": [
+      3196
+    ],
+    "tags": [],
+    "id": 3200,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3200.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Spectre\u0027s Cowl",
+    "plaintext": "Improves defense and grants regeneration upon being damaged",
+    "into": [
+      3065,
+      3102
+    ],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellBlock"
+    ],
+    "id": 3211,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3211.png",
+    "price": {
+      "base": 350,
+      "total": 1200,
+      "sell": 840
+    },
+    "purchasable": true,
+    "from": [
+      1028,
+      1033
+    ]
+  },
+  {
+    "name": "Mikael\u0027s Crucible",
+    "plaintext": "Activate to heal and remove all disabling effects from an allied champion",
+    "into": [],
+    "tags": [
+      "SpellBlock",
+      "HealthRegen",
+      "ManaRegen",
+      "Active",
+      "CooldownReduction"
+    ],
+    "id": 3222,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3222.png",
+    "price": {
+      "base": 500,
+      "total": 2100,
+      "sell": 1470
+    },
+    "purchasable": true,
+    "from": [
+      3028,
+      3114
+    ]
+  },
+  {
+    "name": "Poacher\u0027s Dirk",
+    "plaintext": "Transforms into a Serrated Dirk after poaching in the enemy jungle.",
+    "into": [],
+    "tags": [
+      "Damage",
+      "NonbootsMovement",
+      "ArmorPenetration"
+    ],
+    "id": 3252,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3252.png",
+    "price": {
+      "base": 400,
+      "total": 750,
+      "sell": 525
+    },
+    "purchasable": true,
+    "from": [
+      1036
+    ]
+  },
+  {
+    "name": "Luden\u0027s Echo",
+    "plaintext": "Movement and casting builds charges that release chain lightning on next spell hit",
+    "into": [],
+    "tags": [
+      "NonbootsMovement",
+      "OnHit",
+      "SpellDamage"
+    ],
+    "id": 3285,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3285.png",
+    "price": {
+      "base": 1100,
+      "total": 3200,
+      "sell": 2240
+    },
+    "purchasable": true,
+    "from": [
+      1058,
+      3113
+    ]
+  },
+  {
+    "name": "Ancient Coin",
+    "plaintext": "Grants gold when nearby minions die that you didn\u0027t kill",
+    "into": [
+      3096
+    ],
+    "tags": [
+      "ManaRegen",
+      "GoldPer",
+      "CooldownReduction",
+      "Lane"
+    ],
+    "id": 3301,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3301.png",
+    "price": {
+      "base": 350,
+      "total": 350,
+      "sell": 140
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Relic Shield",
+    "plaintext": "Kill minions periodically to heal and grant gold to a nearby ally",
+    "into": [
+      3097
+    ],
+    "tags": [
+      "Aura",
+      "GoldPer",
+      "Health",
+      "Lane"
+    ],
+    "id": 3302,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3302.png",
+    "price": {
+      "base": 350,
+      "total": 350,
+      "sell": 140
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Spellthief\u0027s Edge",
+    "plaintext": "Grants gold when you attack enemies",
+    "into": [
+      3098
+    ],
+    "tags": [
+      "GoldPer",
+      "Lane",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "id": 3303,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3303.png",
+    "price": {
+      "base": 350,
+      "total": 350,
+      "sell": 140
+    },
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Warding Totem (Trinket)",
+    "plaintext": "Periodically place a Stealth Ward",
+    "into": [],
+    "tags": [
+      "Active",
+      "Jungle",
+      "Lane",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3340,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3340.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Sweeping Lens (Trinket)",
+    "plaintext": "Detects and disables nearby invisible wards and traps",
+    "into": [],
+    "tags": [
+      "Active",
+      "Jungle",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3341,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3341.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Soul Anchor (Trinket)",
+    "plaintext": "Consumes charge to revive champion.",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3345,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3345.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Arcane Sweeper",
+    "plaintext": "Activate to reveal a nearby area of the map",
+    "into": [],
+    "tags": [
+      "Vision",
+      "Trinket",
+      "Stealth",
+      "Active"
+    ],
+    "id": 3348,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3348.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Greater Stealth Totem (Trinket)",
+    "plaintext": "Periodically place a Stealth Ward",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3361,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3361.png",
+    "price": {
+      "base": 250,
+      "total": 250,
+      "sell": 175
+    },
+    "from": []
+  },
+  {
+    "name": "Greater Vision Totem (Trinket)",
+    "plaintext": "Periodically place a Vision Ward",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3362,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3362.png",
+    "price": {
+      "base": 250,
+      "total": 250,
+      "sell": 175
+    },
+    "from": []
+  },
+  {
+    "name": "Farsight Alteration",
+    "plaintext": "Grants increased range and reveals the targetted area",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3363,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3363.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Oracle Alteration",
+    "plaintext": "Disables nearby invisible wards and traps for a duration",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3364,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3364.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Face of the Mountain",
+    "plaintext": "Shield an ally from damage based on your Health",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Active",
+      "GoldPer",
+      "CooldownReduction"
+    ],
+    "id": 3401,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3401.png",
+    "price": {
+      "base": 550,
+      "total": 2200,
+      "sell": 880
+    },
+    "purchasable": true,
+    "from": [
+      3097,
+      3067
+    ]
+  },
+  {
+    "name": "Head of Kha\u0027Zix",
+    "plaintext": "",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3410,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3410.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Head of Kha\u0027Zix",
+    "plaintext": "",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3416,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3416.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Head of Kha\u0027Zix",
+    "plaintext": "",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3422,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3422.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Head of Kha\u0027Zix",
+    "plaintext": "",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3455,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3455.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Golden Transcendence",
+    "plaintext": "",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket"
+    ],
+    "id": 3460,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3460.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Golden Transcendence (Disabled)",
+    "plaintext": "",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket"
+    ],
+    "id": 3461,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3461.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Seer Stone (Trinket)",
+    "plaintext": "Briefly reveals a nearby targeted area",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3462,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3462.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Ardent Censer",
+    "plaintext": "Shield and heal effects on other units grant them Attack Speed and their attacks drain life",
+    "into": [],
+    "tags": [
+      "CooldownReduction",
+      "ManaRegen",
+      "NonbootsMovement",
+      "SpellDamage"
+    ],
+    "id": 3504,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3504.png",
+    "price": {
+      "base": 650,
+      "total": 2300,
+      "sell": 1610
+    },
+    "purchasable": true,
+    "from": [
+      3114,
+      3113
+    ]
+  },
+  {
+    "name": "Essence Reaver",
+    "plaintext": "Critical Strike provides Cooldown Reduction and Mana",
+    "into": [],
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction"
+    ],
+    "id": 3508,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3508.png",
+    "price": {
+      "base": 400,
+      "total": 3600,
+      "sell": 2520
+    },
+    "purchasable": true,
+    "from": [
+      1038,
+      3133,
+      1018
+    ]
+  },
+  {
+    "name": "Zz\u0027Rot Portal",
+    "plaintext": "Makes a Voidspawn generating Void Gate to push a lane with.",
+    "into": [],
+    "tags": [
+      "SpellBlock",
+      "HealthRegen",
+      "Armor",
+      "Active",
+      "NonbootsMovement"
+    ],
+    "id": 3512,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3512.png",
+    "price": {
+      "base": 780,
+      "total": 2700,
+      "sell": 1890
+    },
+    "purchasable": true,
+    "from": [
+      2053,
+      1057
+    ]
+  },
+  {
+    "name": "The Black Spear",
+    "plaintext": "Kalista\u0027s spear that binds an Oathsworn Ally.",
+    "into": [],
+    "tags": [
+      "Active"
+    ],
+    "id": 3599,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3599.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Siege Teleport",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 3630,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3630.png",
+    "price": {
+      "base": 10,
+      "total": 10,
+      "sell": 7
+    },
+    "from": []
+  },
+  {
+    "name": "Siege Ballista",
+    "plaintext": "Place a long range anti-turret ballista",
+    "into": [],
+    "tags": [],
+    "id": 3631,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3631.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 3632,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3632.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Siege Teleport",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 3633,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3633.png",
+    "price": {
+      "base": 10,
+      "total": 10,
+      "sell": 7
+    },
+    "from": []
+  },
+  {
+    "name": "Tower: Beam of Ruination",
+    "plaintext": "Attaches a three shot beam to a turret which can then be aimed and fired",
+    "into": [],
+    "tags": [],
+    "id": 3634,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3634.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Port Pad",
+    "plaintext": "Creates another point for your team to Teleport to",
+    "into": [],
+    "tags": [],
+    "id": 3635,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3635.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Tower: Storm Bulwark",
+    "plaintext": "Make a turret go invulnerable while charging a powerful barrage",
+    "into": [],
+    "tags": [],
+    "id": 3636,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3636.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Nexus Siege: Siege Weapon Slot",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 3637,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3637.png",
+    "price": {
+      "base": 10,
+      "total": 10,
+      "sell": 7
+    },
+    "from": []
+  },
+  {
+    "name": "Flash Zone",
+    "plaintext": "Allows you and allies to repeatedly flash while in a zone",
+    "into": [],
+    "tags": [],
+    "id": 3640,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3640.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Vanguard Banner",
+    "plaintext": "Strengthens nearby minions",
+    "into": [],
+    "tags": [],
+    "id": 3641,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3641.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Siege Refund",
+    "plaintext": "Refunds all current Siege Weapons",
+    "into": [],
+    "tags": [],
+    "id": 3642,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3642.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Entropy Field",
+    "plaintext": "Places a field that stuns enemy minions and slows champions",
+    "into": [],
+    "tags": [],
+    "id": 3643,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3643.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Seer Stone (Trinket)",
+    "plaintext": "Briefly reveals a nearby targeted area",
+    "into": [],
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "id": 3645,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3645.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Shield Totem",
+    "plaintext": "Grants bonus health to nearby Siege Weapons",
+    "into": [],
+    "tags": [],
+    "id": 3647,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3647.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Siege Teleport (Inactive)",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 3648,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3648.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Siege Sight Warder",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 3649,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3649.png",
+    "price": {},
+    "from": []
+  },
+  {
+    "name": "Enchantment: Warrior",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 3671,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3671.png",
+    "price": {
+      "base": 525,
+      "total": 1625,
+      "sell": 1138
+    },
+    "purchasable": true,
+    "from": [
+      3133
+    ]
+  },
+  {
+    "name": "Enchantment: Cinderhulk",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 3672,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3672.png",
+    "price": {
+      "base": 525,
+      "total": 1625,
+      "sell": 1138
+    },
+    "purchasable": true,
+    "from": [
+      3751
+    ]
+  },
+  {
+    "name": "Enchantment: Runic Echoes",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 3673,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3673.png",
+    "price": {
+      "base": 340,
+      "total": 1625,
+      "sell": 1138
+    },
+    "purchasable": true,
+    "from": [
+      3113,
+      1052
+    ]
+  },
+  {
+    "name": "Enchantment: Bloodrazor",
+    "plaintext": "",
+    "into": [],
+    "tags": [],
+    "id": 3675,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3675.png",
+    "price": {
+      "base": 625,
+      "total": 1625,
+      "sell": 1138
+    },
+    "purchasable": true,
+    "from": [
+      1043
+    ]
+  },
+  {
+    "name": "Frosted Snax",
+    "plaintext": "King: Fires a barrage of icy artillery",
+    "into": [],
+    "tags": [
+      "Trinket",
+      "Lane"
+    ],
+    "id": 3680,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3680.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Super Spicy Snax",
+    "plaintext": "King: Shoots flames that burn units and Turrets",
+    "into": [],
+    "tags": [
+      "Trinket",
+      "Lane"
+    ],
+    "id": 3681,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3681.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Espresso Snax",
+    "plaintext": "King: Knocks back and grants a large shield",
+    "into": [],
+    "tags": [
+      "Trinket",
+      "Lane"
+    ],
+    "id": 3682,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3682.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Rainbow Snax Party Pack!",
+    "plaintext": "King: Poros knock enemies towards him",
+    "into": [],
+    "tags": [
+      "Trinket",
+      "Lane"
+    ],
+    "id": 3683,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3683.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Stalker\u0027s Blade",
+    "plaintext": "Lets your Smite slow Champions",
+    "into": [
+      1400,
+      1401,
+      1402,
+      1416
+    ],
+    "tags": [
+      "LifeSteal",
+      "ManaRegen",
+      "Slow",
+      "OnHit",
+      "NonbootsMovement",
+      "Jungle"
+    ],
+    "id": 3706,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3706.png",
+    "price": {
+      "base": 300,
+      "total": 1000,
+      "sell": 700
+    },
+    "purchasable": true,
+    "from": [
+      1039,
+      1041
+    ]
+  },
+  {
+    "name": "Tracker\u0027s Knife",
+    "plaintext": "Provides Stealth Wards over time",
+    "into": [
+      1408,
+      1409,
+      1410,
+      1418
+    ],
+    "tags": [
+      "LifeSteal",
+      "ManaRegen",
+      "Vision",
+      "Active",
+      "OnHit",
+      "Jungle"
+    ],
+    "id": 3711,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3711.png",
+    "price": {
+      "base": 300,
+      "total": 1000,
+      "sell": 700
+    },
+    "purchasable": true,
+    "from": [
+      1039,
+      1041
+    ]
+  },
+  {
+    "name": "Skirmisher\u0027s Sabre",
+    "plaintext": "Lets your Smite mark Champions, giving you combat power against them.",
+    "into": [
+      1412,
+      1413,
+      1414,
+      1419
+    ],
+    "tags": [
+      "LifeSteal",
+      "ManaRegen",
+      "OnHit",
+      "Jungle"
+    ],
+    "id": 3715,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3715.png",
+    "price": {
+      "base": 300,
+      "total": 1000,
+      "sell": 700
+    },
+    "purchasable": true,
+    "from": [
+      1039,
+      1041
+    ]
+  },
+  {
+    "name": "Dead Man\u0027s Plate",
+    "plaintext": "Build momentum as you move around then smash into enemies.",
+    "into": [],
+    "tags": [
+      "Health",
+      "Armor",
+      "OnHit",
+      "NonbootsMovement",
+      "Bilgewater"
+    ],
+    "id": 3742,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3742.png",
+    "price": {
+      "base": 1100,
+      "total": 2900,
+      "sell": 2030
+    },
+    "purchasable": true,
+    "from": [
+      1031,
+      1011
+    ]
+  },
+  {
+    "name": "Titanic Hydra",
+    "plaintext": "Deals area of effect damage based on owner\u0027s health",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Damage",
+      "Active",
+      "OnHit"
+    ],
+    "id": 3748,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3748.png",
+    "price": {
+      "base": 700,
+      "total": 3500,
+      "sell": 2450
+    },
+    "purchasable": true,
+    "from": [
+      3077,
+      1028,
+      3052
+    ]
+  },
+  {
+    "name": "Bami\u0027s Cinder",
+    "plaintext": "Grants Health and Immolate Aura",
+    "into": [
+      3068,
+      1401,
+      1409,
+      1413,
+      3672
+    ],
+    "tags": [
+      "Health"
+    ],
+    "id": 3751,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3751.png",
+    "price": {
+      "base": 700,
+      "total": 1100,
+      "sell": 770
+    },
+    "purchasable": true,
+    "from": [
+      1028
+    ]
+  },
+  {
+    "name": "Righteous Glory",
+    "plaintext": "Grants Health, Mana. Activate to speed towards enemies and slow them.",
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen",
+      "Active",
+      "Slow",
+      "NonbootsMovement"
+    ],
+    "id": 3800,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3800.png",
+    "price": {
+      "base": 750,
+      "total": 2500,
+      "sell": 1750
+    },
+    "purchasable": true,
+    "from": [
+      3010,
+      3801
+    ]
+  },
+  {
+    "name": "Crystalline Bracer",
+    "plaintext": "Grants Health and Health Regen",
+    "into": [
+      3109,
+      3800,
+      3083,
+      3084,
+      3107
+    ],
+    "tags": [
+      "Health",
+      "HealthRegen"
+    ],
+    "id": 3801,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3801.png",
+    "price": {
+      "base": 100,
+      "total": 650,
+      "sell": 455
+    },
+    "purchasable": true,
+    "from": [
+      1028,
+      1006
+    ]
+  },
+  {
+    "name": "Lost Chapter",
+    "plaintext": "Restores Mana upon levelling up.",
+    "into": [
+      3165
+    ],
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+    ],
+    "id": 3802,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3802.png",
+    "price": {
+      "base": 115,
+      "total": 900,
+      "sell": 630
+    },
+    "purchasable": true,
+    "from": [
+      1052,
+      1027
+    ]
+  },
+  {
+    "name": "Death\u0027s Dance",
+    "plaintext": "Trades incoming damage now for incoming damage later",
+    "into": [],
+    "tags": [
+      "Damage",
+      "LifeSteal",
+      "CooldownReduction"
+    ],
+    "id": 3812,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3812.png",
+    "price": {
+      "base": 625,
+      "total": 3500,
+      "sell": 2450
+    },
+    "purchasable": true,
+    "from": [
+      1053,
+      1037,
+      3133
+    ]
+  },
+  {
+    "name": "Edge of Night",
+    "plaintext": "Blocks an incoming enemy spell.",
+    "into": [],
+    "tags": [
+      "SpellBlock",
+      "Damage",
+      "NonbootsMovement",
+      "ArmorPenetration"
+    ],
+    "id": 3814,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3814.png",
+    "price": {
+      "base": 675,
+      "total": 3100,
+      "sell": 2170
+    },
+    "purchasable": true,
+    "from": [
+      1037,
+      3134,
+      1033
+    ]
+  },
+  {
+    "name": "Fire at Will",
+    "plaintext": "Cannon Barrage gains extra waves",
+    "into": [],
+    "tags": [],
+    "id": 3901,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3901.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Death\u0027s Daughter",
+    "plaintext": "Cannon Barrage fires a mega-cannonball",
+    "into": [],
+    "tags": [],
+    "id": 3902,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3902.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  },
+  {
+    "name": "Raise Morale",
+    "plaintext": "Cannon Barrage hastes allies",
+    "into": [],
+    "tags": [],
+    "id": 3903,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/3903.png",
+    "price": {},
+    "purchasable": true,
+    "from": []
+  }
+]

@@ -1,0 +1,8 @@
+﻿.item {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}

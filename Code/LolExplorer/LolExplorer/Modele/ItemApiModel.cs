@@ -27,7 +27,8 @@ namespace LolExplorer.Modele
         public int Sell { get; set;}
         [Required]
         public bool Purchasable { get; set; } = true;
-        public List<string> Tags { get; set; } = new(); 
+        public List<string> Tags { get; set; } = new();
+        public string ImageBase64 { get; set; }
 
     }
 }

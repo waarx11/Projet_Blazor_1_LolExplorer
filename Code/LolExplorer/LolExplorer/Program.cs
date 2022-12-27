@@ -8,7 +8,7 @@ using Microsoft.Extensions.Options;
 using System.Globalization;
 using Blazored.Modal;
 using LolExplorer.Services;
-
+using LolExplorer.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +16,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
-builder.Services.AddScoped<IDataService, DataLocalService>();
+//builder.Services.AddScoped<IDataService, DataLocalService>();
 
 builder.Services
 .AddBlazorise()
@@ -45,6 +45,7 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
     options.SupportedUICultures = new List<CultureInfo> { new CultureInfo("en-US"), new CultureInfo("fr-FR") };
 });
 builder.Services.AddBlazoredLocalStorage();
+builder.Services.AddScoped<IDataService, DataApiService>();
 builder.Services.AddBlazoredModal();
 var app = builder.Build();
 

@@ -1,7 +1,10 @@
 ﻿using LolExplorer.Modele;
-public class CraftingAction
+namespace LolExplorer.Components
 {
-    public List<CraftingAction> Action { get; set; }
-    public int Index { get; set; }
-    public ItemApi Item { get; set; }
+    public class CraftingAction
+    {
+        public string Action { get; set; }
+        public int Index { get; set; }
+        public ItemApi Item { get; set; }
+    }
 }

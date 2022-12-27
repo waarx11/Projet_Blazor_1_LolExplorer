@@ -40,6 +40,12 @@
 
     <p>
         <label>
+            <p>
+                <label>
+                    Current Item image:
+                    <img src="data:image/png;base64, @(itemModel.ImageBase64)" class="img-thumbnail" title="@itemModel.Name" alt="@itemModel.Name" style="min-width: 50px; max-width: 150px" />
+                </label>
+            </p>
             Item image:
             <InputFile OnChange="@LoadImage" accept=".png" />
         </label>

@@ -37,22 +37,7 @@ namespace LolExplorer.Services
             itemModel.Id = currentData.Max(s => s.Id) + 1;
 
             // Add the item to the current data c
-        
-
-            // Save the image
-            var imagePathInfo = new DirectoryInfo($"{_webHostEnvironment.WebRootPath}/images");
-
-            // Check if the folder "images" exist
-            if (!imagePathInfo.Exists)
-            {
-                imagePathInfo.Create();
-            }
-
-            // Determine the image name
-            var fileName = new FileInfo($"{imagePathInfo}/{itemModel.Name}.png");
-
-            // Write the file content
-            await File.WriteAllBytesAsync(fileName.FullName, itemModel.Icon);
+       
 
          /*   currentData.Add(new ItemApi
             {
@@ -65,7 +50,7 @@ namespace LolExplorer.Services
                 Tags=itemModel.Tags
             });*/
 
-            currentData.Add(ItemFactory.Create(itemModel, $"{imagePathInfo}/{itemModel.Id}.png"));
+            currentData.Add(ItemFactory.Create(itemModel));
 
             await _localStorage.SetItemAsync("data", currentData);
         }
@@ -143,7 +128,6 @@ namespace LolExplorer.Services
 
         public async Task Update(int id, ItemApiModel model)
         {
-            string imgPath = null;
             // Get the current data
             var currentData = await _localStorage.GetItemAsync<List<ItemApi>>("data");
 
@@ -155,36 +139,7 @@ namespace LolExplorer.Services
             {
                 throw new Exception($"Unable to found the item with ID: {id}");
             }
-            if(model.Icon!=null) { 
-                // Save the image
-                var imagePathInfo = new DirectoryInfo($"{_webHostEnvironment.WebRootPath}/images");
-
-                // Check if the folder "images" exist
-                if (!imagePathInfo.Exists)
-                {
-                    imagePathInfo.Create();
-                }
-
-                // Delete the previous image
-                if (item.Name != model.Name)
-                {
-                    var oldFileName = new FileInfo($"{imagePathInfo}/{item.Name}.png");
-
-                    if (oldFileName.Exists)
-                    {
-                        File.Delete(oldFileName.FullName);
-                    }
-                }
-
-                // Determine the image name
-                var fileName = new FileInfo($"{imagePathInfo}/{model.Name}.png");
-
-                // Write the file content
-                await File.WriteAllBytesAsync(fileName.FullName, model.Icon);
-                //item.Icon = $"{imagePathInfo}/{model.Name}.png";
-                imgPath= $"{imagePathInfo}/{model.Name}.png";
-
-            }
+           
             // Modify the content of the item
             /* item.Id = model.Id;
              item.Name = model.Name;
@@ -193,7 +148,7 @@ namespace LolExplorer.Services
              item.Purchasable = model.Purchasable;
              item.Tags = model.Tags;
      */
-            ItemFactory.Update(item, model, imgPath);
+            ItemFactory.Update(item, model);
 
             // Save the data
             await _localStorage.SetItemAsync("data", currentData);
@@ -211,13 +166,7 @@ namespace LolExplorer.Services
             currentData.Remove(item);
 
             // Delete the image
-            var imagePathInfo = new DirectoryInfo($"{_webHostEnvironment.WebRootPath}/images");
-            var fileName = new FileInfo($"{imagePathInfo}/{item.Name}.png");
-
-            if (fileName.Exists)
-            {
-                File.Delete(fileName.FullName);
-            }
+          
 
             // Save the data
             await _localStorage.SetItemAsync("data", currentData);

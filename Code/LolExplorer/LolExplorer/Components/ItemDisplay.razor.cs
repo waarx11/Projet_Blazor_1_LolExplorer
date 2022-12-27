@@ -21,11 +21,17 @@ namespace LolExplorer.Components
         [Parameter]
         public ItemApi ItemApi { get; set; } = new();
 
+        [Inject]
+        public NavigationManager NavigationManager { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
             if(Id != -1)
                 ItemApi = await DataService.GetById(Id);
+        }
+        private void NavigateTo()
+        {
+            NavigationManager.NavigateTo("viewItem/"+ ItemApi.Id);
         }
     }
 }
