@@ -13,9 +13,9 @@ namespace Minecraft.Crafting.Api.Models
         public Price() { }
         public Price(int Base, int Total, int Sell)
         {
-            Base = Base;
-            Total = Total;
-            Sell = Sell;
+            this.Base = Base;
+            this.Total = Total;
+            this.Sell = Sell;
         }
     }
 }

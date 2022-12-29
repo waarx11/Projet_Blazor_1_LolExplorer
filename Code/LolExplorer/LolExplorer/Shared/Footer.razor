@@ -1,0 +1,21 @@
+﻿<div class="bottom-row px-4 footer">
+     <div class="container">
+        <div class="row">
+            <div class="col-md-6 footer-box">
+                <p><b><i class="fa fa-university" aria-hidden="true"></i> @positionOptions.Institution @positionOptions.Year</b></p>
+                <p><i class="fa fa-graduation-cap" aria-hidden="true"></i> Groupe: @positionOptions.Group</p>
+            </div>
+            <div class="col-md-6 footer-box">
+                <p><b><i class="fa fa-users" aria-hidden="true"></i></b> Collaborateurs</p>
+                @foreach (string editer in @positionOptions.Name)
+                {
+                    <p><i class="fa fa-user-secret" aria-hidden="true"></i> @editer</p>
+                }
+               
+
+            </div>
+        </div>
+    </div>
+
+</div>
+   

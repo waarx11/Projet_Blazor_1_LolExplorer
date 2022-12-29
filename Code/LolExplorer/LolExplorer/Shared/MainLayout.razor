@@ -7,8 +7,8 @@
         <NavMenu />
     </div>
 
-    <main>
-        <div class="top-row px-4">
+    <main class="main">
+        <div class="top-row px-4 logindisplay">
             <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
             <div class="px-4">
                 <CultureSelector/>
@@ -18,5 +18,11 @@
         <article class="content px-4">
             @Body
         </article>
+        <div style="height:400px;"></div>
+        <footer>
+            <Footer />
+        </footer>
+        
     </main>
+   
 </div>

@@ -35,9 +35,12 @@ namespace Minecraft.Crafting.Api.Controllers
         /// <param name="item">The item.</param>
         /// <returns>The async task.</returns>
         [HttpPost]
-        [Route("")]
-        public Task Add(ItemApi item)
+        [Route("add")]
+        public Task Add(JsonElement itemObject)
         {
+            var currentData=  JsonSerializer.Deserialize<List<ItemApi>>(System.IO.File.ReadAllText("Data/items.json"), _jsonSerializerOptions);
+            ItemApi item = JsonSerializer.Deserialize<ItemApi>(itemObject);
+            item.Id = currentData.Max(s => s.Id) + 1;
             var data = JsonSerializer.Deserialize<List<ItemApi>>(System.IO.File.ReadAllText("Data/items.json"), _jsonSerializerOptions);
             if (data == null)
             {
@@ -51,6 +54,17 @@ namespace Minecraft.Crafting.Api.Controllers
             return Task.CompletedTask;
         }
 
+        [HttpPost]
+        [Route("addInventory")]
+        public Task AddInventory(JsonElement itemObject)
+        {
+            List<ItemApi> data = JsonSerializer.Deserialize<List<ItemApi>>(itemObject);
+
+            System.IO.File.WriteAllText("Data/inventory.json", JsonSerializer.Serialize(data, _jsonSerializerOptions));
+
+            return Task.CompletedTask;
+        }
+
         /// <summary>
         /// Get all items.
         /// </summary>
@@ -59,7 +73,7 @@ namespace Minecraft.Crafting.Api.Controllers
         [Route("all")]
         public Task<List<ItemApi>> All()
         {
-            var data = JsonSerializer.Deserialize<List<ItemApi>>(System.IO.File.ReadAllText("Data/Item.json"), _jsonSerializerOptions);
+            var data = JsonSerializer.Deserialize<List<ItemApi>>(System.IO.File.ReadAllText("Data/items.json"), _jsonSerializerOptions);
 
             if (data == null)
             {
@@ -68,6 +82,26 @@ namespace Minecraft.Crafting.Api.Controllers
 
             return Task.FromResult(data.ToList());
         }
+
+
+        /// <summary>
+        /// Get all items.
+        /// </summary>
+        /// <returns>All items.</returns>
+        [HttpGet]
+        [Route("inventory")]
+        public Task<List<ItemApi>> AllInventory()
+        {
+            var data = JsonSerializer.Deserialize<List<ItemApi>>(System.IO.File.ReadAllText("Data/inventory.json"), _jsonSerializerOptions);
+
+            if (data == null)
+            {
+                throw new Exception("Unable to get the items.");
+            }
+
+            return Task.FromResult(data.ToList());
+        }
+
 
         /// <summary>
         /// Count the number of items.
@@ -206,10 +240,10 @@ namespace Minecraft.Crafting.Api.Controllers
         /// <returns>The async task.</returns>
         [HttpPut]
         [Route("{id}")]
-        public Task Update(int id, [FromBody]  ItemApi item)
+        public Task Update(int id, JsonElement itemObject)
         {
             var data = JsonSerializer.Deserialize<List<ItemApi>>(System.IO.File.ReadAllText("Data/items.json"), _jsonSerializerOptions);
-
+            ItemApi item = JsonSerializer.Deserialize<ItemApi>(itemObject);
             var itemOriginal = data?.FirstOrDefault(w => w.Id == id);
 
             if (itemOriginal == null)

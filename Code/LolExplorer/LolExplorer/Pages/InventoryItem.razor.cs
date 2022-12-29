@@ -2,11 +2,16 @@
 using LolExplorer.Modele;
 using LolExplorer.Services;
 using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 
 namespace LolExplorer.Pages
 {
-    public partial class CraftingItem
+    public partial class InventoryItem : Crafting 
     {
+        private const int inventorySize = 33;
+       
         public List<ItemApi> Items { get; set; } = new List<ItemApi>();
         [Inject]
         public IDataService DataService { get; set; }
@@ -20,10 +25,19 @@ namespace LolExplorer.Pages
             {
                 return;
             }
-
-            Items = await DataService.AllInventory();
+            base.RecipeItems = await DataService.AllInventory();
+            Items = await DataService.List(0, await DataService.Count());
             Recipes = await DataService.GetRecipes();
             StateHasChanged();
         }
+
+
+        public async override void CheckRecipe()
+        {
+            await DataService.AddInventory(base.RecipeItems);
+            StateHasChanged();
+        }
+
+
     }
 }

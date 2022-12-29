@@ -5,21 +5,21 @@
 <h3>@ItemApi.Name</h3>
 @if (@ItemApi.Icon != null)
 {
-            @if (@ItemApi.Icon.Contains("ddragon"))
+    @if (@ItemApi.Icon.Contains("ddragon"))
     {
         <img src="@ItemApi.Icon" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px" />
     }
     else
     {
-        @if (File.Exists($"{WebHostEnvironment.WebRootPath}/images/{ItemApi.Name}.png"))
+        @if (!string.IsNullOrWhiteSpace(@ItemApi.Icon))
         {
-            <img src="images/@(ItemApi.Name).png" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px"/>
+            <img src="data:image/png;base64, @(ItemApi.Icon)" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="width: 150px; height: 150px" />
         }
         else
         {
-            <img src="images/default.png" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px"/>
+            <img src="images/default.png" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px" />
         }
-    } 
+    }
 }
 <h5>@ItemApi.Plaintext</h5>
 @if (@ItemApi.Price != null)

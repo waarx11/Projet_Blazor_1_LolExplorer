@@ -1,4 +1,5 @@
 ﻿using LolExplorer.Modele;
+using LolExplorer.Pages;
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 using System.Collections.ObjectModel;
@@ -8,13 +9,12 @@ namespace LolExplorer.Components
 {
     public partial class Crafting
     {
-        private ItemApi _recipeResult;
 
         public Crafting()
         {
             Actions = new ObservableCollection<CraftingAction>();
             Actions.CollectionChanged += OnActionsCollectionChanged;
-            this.RecipeItems = new List<ItemApi> { null, null, null, null, null, null, null, null, null };
+            this.RecipeItems = new List<ItemApi> { null, null, null };
         }
 
         public ObservableCollection<CraftingAction> Actions { get; set; }
@@ -25,20 +25,7 @@ namespace LolExplorer.Components
 
         public List<ItemApi> RecipeItems { get; set; }
 
-        public ItemApi RecipeResult
-        {
-            get => this._recipeResult;
-            set
-            {
-                if (this._recipeResult == value)
-                {
-                    return;
-                }
-
-                this._recipeResult = value;
-                this.StateHasChanged();
-            }
-        }
+        public List<ItemApi> RecipeResult { get; set; }=new();
 
         [Parameter]
         public List<CraftingRecipe> Recipes { get; set; }
@@ -49,33 +36,82 @@ namespace LolExplorer.Components
         [Inject]
         internal IJSRuntime JavaScriptRuntime { get; set; }
 
-        public void CheckRecipe()
+       
+        public virtual  void CheckRecipe()
         {
-            RecipeResult = null;
-
+            RecipeResult.Clear();
+            List<String> currentModel = new();
             // Get the current model
-            var currentModel = string.Join("|", this.RecipeItems.Select(s => s != null ? s.Name : string.Empty));
+            foreach (ItemApi item in RecipeItems)
+            {
+                if(item!=null)
+                 currentModel.Add(item.Id.ToString());
+            }
 
             this.Actions.Add(new CraftingAction { Action = $"Items : {currentModel}" });
-
+            bool foundItem = false;
             foreach (var craftingRecipe in Recipes)
             {
+                bool correctRecepie=true;
                 // Get the recipe model
-                var recipeModel = string.Join("|", craftingRecipe.Have.SelectMany(s => s));
-
+                List<String> recipeModel = new List<String>(craftingRecipe.Have);
+                foreach(String id in currentModel) {
+                    if (recipeModel.Contains(id))
+                    {
+                        recipeModel.Remove(id);
+                    }
+                    else
+                    {
+                        correctRecepie=false;
+                    }
+                }
                 this.Actions.Add(new CraftingAction { Action = $"Recipe model : {recipeModel}" });
 
-                if (currentModel == recipeModel)
+
+                if ( recipeModel.Count() == 0 && correctRecepie)
                 {
-                    RecipeResult = craftingRecipe.Give;
+                    
+                    foundItem = true;
+                    RecipeResult.Add(craftingRecipe.Give);
                 }
             }
+            if (!foundItem )
+                RecipeResult.Clear();
+            StateHasChanged();
         }
 
         private void OnActionsCollectionChanged(object? sender, NotifyCollectionChangedEventArgs e)
         {
             JavaScriptRuntime.InvokeVoidAsync("Crafting.AddActions", e.NewItems);
+  
         }
+
+        //ces fonction exister pour supprimer contenu de la craft table sauf que avec l'arriver de la demande de inventory y a plus besoin
+       /* protected virtual void ClearCrafting0()
+        {
+            RecipeItems[0] = null;
+            craftingItem0.Item = null;
+            CheckRecipe();
+        }
+        protected virtual void ClearCrafting1()
+        {
+            RecipeItems[1] = null;
+            craftingItem1.Item = null;
+            CheckRecipe();
+        }
+        protected virtual void ClearCrafting2()
+        {
+
+            RecipeItems[2] = null;
+            craftingItem2.Item = null;
+            CheckRecipe(); 
+         
+        }
+*/
+       
+
+        
+
     }
 
 }

@@ -9,6 +9,9 @@ using System.Globalization;
 using Blazored.Modal;
 using LolExplorer.Services;
 using LolExplorer.Service;
+using LolExplorer.Shared;
+using Microsoft.Extensions.Logging;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,6 +36,20 @@ builder.Services.AddControllers();
 
 // Add the localization to the app and specify the resources path
 builder.Services.AddLocalization(opts => { opts.ResourcesPath = "Resources"; });
+
+
+builder.Services.Configure<PositionOptions>(option =>
+{
+    var positionOptions = builder.Configuration.GetSection(PositionOptions.Position).Get<PositionOptions>();
+
+    option.Name = positionOptions.Name;
+    option.Title = positionOptions.Title;
+    option.Group= positionOptions.Group;
+    option.Year = positionOptions.Year;
+    option.Institution = positionOptions.Institution;
+
+});
+builder.Logging.AddConfiguration(builder.Configuration.GetSection("Logging"));
 
 // Configure the localtization
 builder.Services.Configure<RequestLocalizationOptions>(options =>

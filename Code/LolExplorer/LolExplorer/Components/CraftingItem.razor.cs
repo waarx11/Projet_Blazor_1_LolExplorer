@@ -1,4 +1,5 @@
 ﻿using LolExplorer.Modele;
+using LolExplorer.Pages;
 using Microsoft.AspNetCore.Components;
 //namespace de la page
 namespace LolExplorer.Components;
@@ -27,13 +28,19 @@ public partial class CraftingItem
         Parent.Actions.Add(new CraftingAction { Action = "Drag Enter", Item = this.Item, Index = this.Index });
     }
 
-    internal void OnDragLeave()
+    internal async void OnDragLeave()
     {
         if (NoDrop)
         {
             return;
         }
-
+        Parent.RecipeItems[this.Index] = null;
+        Item = null;
+        
+        if(Parent is InventoryItem)
+        {
+            Parent.CheckRecipe();
+        }
         Parent.Actions.Add(new CraftingAction { Action = "Drag Leave", Item = this.Item, Index = this.Index });
     }
 

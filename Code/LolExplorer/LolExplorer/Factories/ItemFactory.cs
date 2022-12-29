@@ -33,15 +33,16 @@ namespace LolExplorer.Factories
             else {
                 image = Convert.ToBase64String(model.Icon);
             }
+            Price price = new Price(model.Base, model.Total, model.Sell);
             return new ItemApi
             {
                 Id = model.Id,
                 Name = model.Name,
                 Plaintext = model.Plaintext,
-                Price = new Price(model.Base, model.Total, model.Sell),
+                Price = price,
                 Purchasable = model.Purchasable,
                 Icon = image,
-                Tags = model.Tags,
+                Tags = model.Tags
             };
         }
 

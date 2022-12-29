@@ -1,4 +1,5 @@
-﻿using LolExplorer.Modele;
+﻿using LolExplorer.Components;
+using LolExplorer.Modele;
 namespace LolExplorer.Services
 {
     public interface IDataService
@@ -14,5 +15,10 @@ namespace LolExplorer.Services
 
         Task Update(int id, ItemApiModel model);
         Task Delete(int id);
+        Task<List<CraftingRecipe>> GetRecipes();
+        Task AddInventory(List<ItemApi> items);
+
+        Task<List<ItemApi>> AllInventory();
+
     }
 }

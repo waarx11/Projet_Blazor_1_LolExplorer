@@ -17,4 +17,12 @@
 		</Content>  
 	</ItemGroup>
     
+	<ItemGroup>
+	  <Content Remove="Data\inventory.json" />
+	</ItemGroup>
+    
+	<ItemGroup>
+	  <None Include="Data\inventory.json" />
+	</ItemGroup>
+    
 </Project>

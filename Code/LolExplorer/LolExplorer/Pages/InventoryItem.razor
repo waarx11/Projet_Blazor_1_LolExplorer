@@ -1,0 +1,31 @@
+﻿@page "/inventory"
+@inherits Crafting
+@using LolExplorer.Components
+
+<h3>Inventory</h3>
+<CascadingValue Value="@this">
+   <div class="container">
+        <div class="row">
+
+            <div class="container col">
+                <div class="row">
+  
+                    @foreach (var item in RecipeItems)
+                    {
+
+                        <div class="col">
+                            <LolExplorer.Components.CraftingItem Item=item Index=RecipeItems.IndexOf(item) />
+                        </div>
+       
+                    }
+                </div>
+            </div>
+
+
+            <div class="col">
+                    <Inventory Items="Items" LimitedList="true" />
+            </div>
+
+        </div>
+    </div>
+</CascadingValue>

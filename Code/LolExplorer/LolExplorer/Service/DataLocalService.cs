@@ -1,5 +1,6 @@
 ﻿using Blazored.LocalStorage;
 using Blazorise;
+using LolExplorer.Components;
 using LolExplorer.Factories;
 using LolExplorer.Modele;
 using Microsoft.AspNetCore.Components;
@@ -171,11 +172,50 @@ namespace LolExplorer.Services
             // Save the data
             await _localStorage.SetItemAsync("data", currentData);
         }
+        public async Task<List<CraftingRecipe>> GetRecipes()
+        {
+            List<CraftingRecipe> craftingRecipes = new();
+            List<ItemApi> items = await _localStorage.GetItemAsync<List<ItemApi>>("data");
+            foreach (var item in items)
+            {
+                CraftingRecipe craftingRecipe = new();
+                craftingRecipe.Give = item;
+                int cpt = 3;
+                foreach (int i in item.From)
+                {
+                    craftingRecipe.Have.Add(i.ToString());
+                    cpt--;
+                }
+                if (cpt > 0 && cpt != 3)
+                {
+                    for (int j = 0; j < cpt; j++)
+                    {
+                        craftingRecipe.Have.Add(null);
+                    }
+                }
+                if (craftingRecipe.Have.Count > 0)
+                {
+                    craftingRecipes.Add(craftingRecipe);
+                }
+            }
 
-        /*
-        Task<List<ItemApi>> IDataService.List(int currentPage, int pageSize)
+            return craftingRecipes;
+
+        }
+
+        public Task AddInventory(List<ItemApi> items)
         {
             throw new NotImplementedException();
-        }*/
+        }
+
+        public Task<List<ItemApi>> AllInventory()
+        {
+            throw new NotImplementedException();
+        }
+        /*
+Task<List<ItemApi>> IDataService.List(int currentPage, int pageSize)
+{
+throw new NotImplementedException();
+}*/
     }
 }
