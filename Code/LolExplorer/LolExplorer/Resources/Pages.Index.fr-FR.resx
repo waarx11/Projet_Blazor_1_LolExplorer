@@ -121,14 +121,15 @@
     <value>La langue actuelle est le Français</value>
   </data>
   <data name="PresentationIndex" xml:space="preserve">
-    <value>Cette page a pour but de présenter tous les champions des jeux League Of Legends.
+    <value>Cette page a pour but de présenter tous les articles des jeux League Of Legends.
 
-Il se compose de 3 pages :
-Le premier est dédié au champion est à leur caractéristique.
-La seconde est pour les articles avec des détails de prix et une petite description.
-Le dernier sera dédié à l’artisanat, il testera tous les objets d’artisanat possibles.</value>
+Il se compose de  :
+un page est pour chaque articles avec des détails de prix et une petite description.
+un page est pour la liste des articles avec des action(ajouter, supprimer, editer).
+un page pour avoir des articles dans ton inventaire (attenion tu peux avoir qu'une seule fois un article).
+un page pour pouvoir crafter.</value>
   </data>
   <data name="TitleIndex" xml:space="preserve">
-    <value>Bienvenue!!</value>
+    <value>BienVenu</value>
   </data>
 </root>

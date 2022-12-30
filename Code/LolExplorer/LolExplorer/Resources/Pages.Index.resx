@@ -121,12 +121,19 @@
     <value>The current language is English.</value>
   </data>
   <data name="PresentationIndex" xml:space="preserve">
-    <value>This page aims to present all the champions of the League Of Legends games.
+    <value>This page aims to present all items in League Of Legends games.
 
-It consists of 3 pages:
-The first is dedicated to the champion is to their characteristic.
-The second is for items with price details and a small description.
-The last one will be dedicated to crafting, it will test all possible item craft.</value>
+
+
+It's made of  :
+
+one page is for each items with price details and a small description.
+
+a page is for the list of articles with actions (add, delete, edit).
+
+a page to have items in your inventory (be careful you can only have an item once).
+
+a page to be able to craft.</value>
   </data>
   <data name="TitleIndex" xml:space="preserve">
     <value>Welcome!!</value>
