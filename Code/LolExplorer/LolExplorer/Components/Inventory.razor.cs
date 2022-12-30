@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Components;
 using System.Collections.Generic;
 using System.Linq;
 using static System.Net.WebRequestMethods;
+using LolExplorer.Pages;
+using Microsoft.Extensions.Localization;
 
 namespace LolExplorer.Components
 {
@@ -15,6 +17,8 @@ namespace LolExplorer.Components
         public List<ItemApi> Items { get; set; }=new List<ItemApi>();
 
 
+        [Inject]
+        public IStringLocalizer<ListItem> Localizer { get; set; }
         [Parameter]
         public bool ResearcheBar { get; set; }=true;
         [Parameter]

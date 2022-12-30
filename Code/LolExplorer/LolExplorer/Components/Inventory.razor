@@ -18,7 +18,7 @@
                   Responsive
                   Style="color:#fff;"
                   >
-            <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Nom">
+            <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="@Localizer["ColNom"]">
                 <DisplayTemplate>
                     <CraftingItem Item=@(context) NoDrop="true" />
                 </DisplayTemplate>

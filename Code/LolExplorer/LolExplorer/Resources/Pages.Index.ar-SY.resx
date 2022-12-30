@@ -118,15 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="PresentationIndex" xml:space="preserve">
-    <value>Cette page a pour but de présenter tous les articles des jeux League Of Legends.
+    <value>تهدف هذه الصفحة إلى تقديم جميع العناصر في ألعاب دوري الأساطير.
 
-Il se compose de  :
-un page est pour chaque articles avec des détails de prix et une petite description.
-un page est pour la liste des articles avec des action(ajouter, supprimer, editer).
-un page pour avoir des articles dans ton inventaire (attenion tu peux avoir qu'une seule fois un article).
-un page pour pouvoir crafter.</value>
+
+
+انه صنع من  :
+
+صفحة واحدة لكل عنصر مع تفاصيل الأسعار ووصف صغير.
+
+صفحة لقائمة المقالات ذات الإجراءات (إضافة ، حذف ، تحرير).
+
+صفحة تحتوي على عناصر في مخزونك (كن حذرًا ، يمكنك الحصول على عنصر مرة واحدة فقط).
+
+صفحة لتكون قادرًا على الصياغة.</value>
   </data>
   <data name="TitleIndex" xml:space="preserve">
-    <value>BienVenu</value>
+    <value>أهلا بك!!</value>
   </data>
 </root>

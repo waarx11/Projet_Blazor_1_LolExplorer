@@ -2,11 +2,15 @@
 using LolExplorer.Modele;
 using LolExplorer.Services;
 using Microsoft.AspNetCore.Components;
+using Microsoft.Extensions.Localization;
 
 namespace LolExplorer.Pages
 {
     public partial class CraftingItem
     {
+
+        [Inject]
+        public IStringLocalizer<CraftingItem> Localizer { get; set; }
         public List<ItemApi> Items { get; set; } = new List<ItemApi>();
         [Inject]
         public IDataService DataService { get; set; }

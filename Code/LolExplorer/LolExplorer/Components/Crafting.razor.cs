@@ -1,6 +1,7 @@
 ﻿using LolExplorer.Modele;
 using LolExplorer.Pages;
 using Microsoft.AspNetCore.Components;
+using Microsoft.Extensions.Localization;
 using Microsoft.JSInterop;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
@@ -16,6 +17,9 @@ namespace LolExplorer.Components
             Actions.CollectionChanged += OnActionsCollectionChanged;
             this.RecipeItems = new List<ItemApi> { null, null, null };
         }
+
+        [Inject]
+        public IStringLocalizer<Crafting> Localizer { get; set; }
 
         public ObservableCollection<CraftingAction> Actions { get; set; }
         public ItemApi CurrentDragItem { get; set; }

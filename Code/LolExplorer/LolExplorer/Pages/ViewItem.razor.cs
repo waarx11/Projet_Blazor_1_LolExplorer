@@ -1,7 +1,9 @@
-﻿using LolExplorer.Modele;
+﻿using LolExplorer.Components;
+using LolExplorer.Modele;
 using LolExplorer.Services;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Extensions.Localization;
 
 namespace LolExplorer.Pages
 {
@@ -9,6 +11,9 @@ namespace LolExplorer.Pages
     {
         [Parameter]
         public int Id { get; set; }
+
+        [Inject]
+        public IStringLocalizer<ViewItem> Localizer { get; set; }
 
         [Inject]
         public IWebHostEnvironment WebHostEnvironment { get; set; }

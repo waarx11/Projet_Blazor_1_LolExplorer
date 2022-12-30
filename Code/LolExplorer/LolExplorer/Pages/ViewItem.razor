@@ -32,9 +32,9 @@
 </div>
 @if (@ItemApi.Price != null)
 {
-    <h5>Base Price @ItemApi.Price.Base</h5>
-    <h5>Sell Pric @(ItemApi.Price.Sell) </h5>
-    <h5>Total Pric @ItemApi.Price.Total</h5>
+    <h5>@Localizer["Base"] @ItemApi.Price.Base</h5>
+    <h5>@Localizer["Sell"] @(ItemApi.Price.Sell) </h5>
+    <h5>@Localizer["Total"] @ItemApi.Price.Total</h5>
 }
 
 
@@ -42,7 +42,7 @@
 
 <div class="container">
     <div class="row">
-        <h4>From</h4>
+        <h4>@Localizer["From"]</h4>
         <div class="col">
             @if (@ItemApi.From != null && @ItemApi.From.Count!=0)
             {
@@ -66,7 +66,7 @@
             else
             {
                <div class="alert alert-danger col-1" role="alert">
-                  No item
+                    @Localizer["Void"]
                 </div>
             }
         </div>
@@ -76,7 +76,7 @@
 
 <div class="container">
     <div class="row">
-        <h4>Into</h4>
+        <h4>@Localizer["Into"]</h4>
         <div class="col">
             @if (@ItemApi.Into != null && @ItemApi.Into.Count != 0)
             {
@@ -100,7 +100,7 @@
             else
             {
                 <div class="alert alert-danger col-1" role="alert">
-                  No item
+                    @Localizer["Void"]
                 </div>
             }
         </div>
@@ -129,7 +129,7 @@
 {
 
     <div class="row">
-        Tags: 
+        @Localizer["Tag"]
         @foreach (string tag in ItemApi.Tags)
         {
             <span class="col-1 badge btn-outline-warning badge-primary">#@tag</span>

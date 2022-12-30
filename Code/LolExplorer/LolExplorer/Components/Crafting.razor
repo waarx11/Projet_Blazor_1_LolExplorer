@@ -8,7 +8,7 @@
             </div>*@
             <div class="col">
 
-                <div>Available items:</div>
+                <div>@Localizer["Available"]</div>
                 <div>
                     <Inventory Items="@Items" ResearcheBar=true />
                 </div>
@@ -16,7 +16,7 @@
             </div>
 
             <div class="col">
-                <div>Recipe</div>
+                <div>@Localizer["Recipe"]</div>
 
                 <div>
 
@@ -30,7 +30,7 @@
                     </div>
                 </div>
 
-                <div>Result</div>
+                <div>@Localizer["Result"]</div>
                 <div class="css-grid">
 
                     @foreach (var item in RecipeResult)

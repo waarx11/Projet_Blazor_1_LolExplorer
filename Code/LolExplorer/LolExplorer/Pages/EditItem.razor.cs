@@ -4,6 +4,7 @@ using LolExplorer.Modele;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using LolExplorer.Services;
+using Microsoft.Extensions.Localization;
 
 namespace LolExplorer.Pages
 {
@@ -13,6 +14,10 @@ namespace LolExplorer.Pages
         public int Id { get; set; }
 
         private bool loadedImage = false;
+
+
+        [Inject]
+        public IStringLocalizer<EditItem> Localizer { get; set; }
 
         [Inject]
         public IDataService DataService { get; set; }

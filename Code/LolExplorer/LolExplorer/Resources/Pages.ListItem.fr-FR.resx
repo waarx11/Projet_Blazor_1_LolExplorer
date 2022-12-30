@@ -117,6 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ActionAdd" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="ActionEditer" xml:space="preserve">
+    <value>Editer</value>
+  </data>
+  <data name="ActionSupprimer" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="ColAction" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="ColNom" xml:space="preserve">
+    <value>Elément</value>
+  </data>
   <data name="TitleItems" xml:space="preserve">
     <value>Liste des items</value>
   </data>

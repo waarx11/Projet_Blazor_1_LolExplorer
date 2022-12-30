@@ -71,13 +71,14 @@ namespace LolExplorer.Pages
                 totalItem = await DataService.Count();
             }
         }
-
+        [Inject]
+        public IStringLocalizer<DeleteConfirmation> LocalizerDelet { get; set; }
         private async void OnDelete(int id)
         {
             var parameters = new ModalParameters();
             parameters.Add(nameof(ItemApi.Id), id);
 
-            var modal = Modal.Show<DeleteConfirmation>("Delete Confirmation", parameters);
+            var modal = Modal.Show<DeleteConfirmation>(LocalizerDelet["Title"], parameters);
             var result = await modal.Result;
 
             if (result.Cancelled)
