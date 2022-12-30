@@ -6,6 +6,7 @@ using LolExplorer.Modele;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using LolExplorer.Services;
+using Microsoft.Extensions.Localization;
 
 namespace LolExplorer.Pages
 {
@@ -18,6 +19,9 @@ namespace LolExplorer.Pages
         public IWebHostEnvironment WebHostEnvironment { get; set; }
         [Inject]
         public IDataService DataService { get; set; }
+
+        [Inject]
+        public IStringLocalizer<EditItem> Localizer { get; set; }
 
         private ItemApiModel itemModel = new();
         private string TagContent;

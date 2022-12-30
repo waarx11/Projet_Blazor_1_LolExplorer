@@ -1,6 +1,6 @@
 ﻿@page "/add"
 
-<h3>Add</h3>
+<h3>@Localizer["TitleAdd"]</h3>
 
 <EditForm Model="@itemModel" OnValidSubmit="@HandleValidSubmit">
     <DataAnnotationsValidator />
@@ -8,64 +8,64 @@
 
     <p>
         <label for="name">
-            Name:
+             @Localizer["Name"]
             <InputText id="name" @bind-Value="itemModel.Name" />
         </label>
     </p>
     <p>
         <label for="stack-size">
-            Base Price:
+            @Localizer["BasePrice"]
             <InputNumber id="base-price" @bind-Value="itemModel.Base" />
         </label>
     </p>
     <p>
         <label for="max-durability">
-            Total Price:
+            @Localizer["TotalPrice"]
             <InputNumber id="total-price" @bind-Value="itemModel.Total" />
         </label>
     </p>
     <p>
         <label for="max-durability">
-            Sell Price:
+            @Localizer["SellPrice"]
             <InputNumber id="sell-durability" @bind-Value="itemModel.Sell" />
         </label>
     </p>
 
     <p>
         <label for="Description">
-            Description :
+            @Localizer["Description"]
             <InputText id="sell-durability" @bind-Value="itemModel.Plaintext" />
         </label>
     </p>
 
     <p>
         <label>
-            Item image:
+            @Localizer["ItemImage"]
             <InputFile OnChange="@LoadImage" accept=".png" />
         </label>
     </p>
     <p>
         <label>
-            Tags :
+            @Localizer["Tags"]
             <label>
                 @foreach (var item in itemModel.Tags)
                 {
                     <text>#@item </text>
                 }
                 <InputText id="tag" @bind-Value="TagContent" />
-                <button type="button" @onclick="ajoutTag"></button>
+                <button class="btn btn-outline-warning" type="button" @onclick="ajoutTag">Add</button>
             </label>
         </label>
     </p>
 
     <p>
         <label>
-            Prushsable :
+            @Localizer["Prushsable"]
             <label>
                 <input type="checkbox" @bind-value="itemModel.Purchasable" />
             </label>
         </label>
     </p>
 
-    <button type="submit">Submit</button>
+    <button class="btn btn-outline-success" type="submit">@Localizer["Submit"]</button>
 </EditForm>

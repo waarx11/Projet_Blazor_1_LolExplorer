@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components;
+using Microsoft.Extensions.Localization;
 
 namespace LolExplorer.Pages
 {
@@ -6,6 +7,10 @@ namespace LolExplorer.Pages
     {
         [Inject]
         public ILogger<CreateLog> Logger { get; set; }
+
+
+        [Inject]
+        public IStringLocalizer<CreateLog> Localizer { get; set; }
 
         private void CreateLogs()
         {
