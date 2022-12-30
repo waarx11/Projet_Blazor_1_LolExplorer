@@ -1,50 +1,50 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">LolExplorer</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+﻿<header>
+    <nav class="navbar sticky-top  navbar-dark navbar-expand-lg myNav "  >
+        <a class="navbar-brand title" href="/">LolExplorer </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-    </div>
-</div>
 
-<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="listitems">
-                <span class="oi oi-plus" aria-hidden="true"></span> ListeItem
-            </NavLink>
-        </div>
+        <div class="collapse navbar-collapse ">
+            <div class="navbar-nav ml-auto" >
+                <a class="nav-item nav-link" href="#" style=" cursor: default;"></a>
+                <div class="nav-item px-3">
+                    <a class="nav-link" href="/" Match="NavLinkMatch.All">
+                        <span class="oi oi-home" aria-hidden="true"></span> Home
+                    </a>
+                </div>
+
+                <div class="nav-item px-3">
+                    <a class="nav-link" href="listitems" Match="NavLinkMatch.All">
+                        <span class="oi oi-plus" aria-hidden="true"></span> ListeItem
+                    </a>
+                </div>
       
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="crafting">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Crafting
-            </NavLink>
+                <div class="nav-item px-3">
+                    <a class="nav-link" href="crafting"Match="NavLinkMatch.All">
+                        <span class="oi oi-list-rich" aria-hidden="true"></span> Crafting
+                    </a>
+                </div>
+                <div class="nav-item px-3">
+                    <a class="nav-link" href="inventory" Match="NavLinkMatch.All">
+                        <span class="oi oi-list-rich" aria-hidden="true"></span> Inventory
+                    </a>
+                </div>
+
+                <div class="nav-item px-3">
+                    <a class="nav-link" href="logs" Match="NavLinkMatch.All">
+                        <span class="oi oi-list-rich" aria-hidden="true"></span> Logs
+                    </a>
+                </div>
+
+                
+            
+            </div>  
+            <div >
+                <CultureSelector />
+            </div>
         </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="logs">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Logs
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="inventory">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Inventory
-            </NavLink>
-        </div>
+    
     </nav>
-</div>
-
-@code {
-    private bool collapseNavMenu = true;
-
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}
+</header>

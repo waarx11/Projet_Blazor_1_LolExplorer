@@ -9,21 +9,18 @@
 
             <div class="container col">
                 <div class="row">
-  
-                    @foreach (var item in RecipeItems)
+                    @for (int i = 0; i < RecipeItems.Count; i++)
                     {
-
                         <div class="col">
-                            <LolExplorer.Components.CraftingItem Item=item Index=RecipeItems.IndexOf(item) />
+                            <LolExplorer.Components.CraftingItem Item=RecipeItems[i] Index=i />
                         </div>
-       
                     }
                 </div>
             </div>
 
 
             <div class="col">
-                    <Inventory Items="Items" LimitedList="true" />
+                    <Inventory Items="Items" LimitedList="true" ResearcheBar="false" />
             </div>
 
         </div>

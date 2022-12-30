@@ -3,25 +3,33 @@
 
 
 <h3>@ItemApi.Name</h3>
-@if (@ItemApi.Icon != null)
-{
-    @if (@ItemApi.Icon.Contains("ddragon"))
-    {
-        <img src="@ItemApi.Icon" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px" />
-    }
-    else
-    {
-        @if (!string.IsNullOrWhiteSpace(@ItemApi.Icon))
-        {
-            <img src="data:image/png;base64, @(ItemApi.Icon)" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="width: 150px; height: 150px" />
-        }
-        else
-        {
-            <img src="images/default.png" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px" />
-        }
-    }
-}
-<h5>@ItemApi.Plaintext</h5>
+<div class="row">
+
+    <div class="col-1">
+            @if (@ItemApi.Icon != null)
+            {
+                @if (@ItemApi.Icon.Contains("ddragon"))
+                {
+                    <img src="@ItemApi.Icon" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px" />
+                }
+                else
+                {
+                    @if (!string.IsNullOrWhiteSpace(@ItemApi.Icon))
+                    {
+                        <img src="data:image/png;base64, @(ItemApi.Icon)" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="width: 150px; height: 150px" />
+                    }
+                    else
+                    {
+                        <img src="images/default.png" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px" />
+                    }
+                }
+            }
+    </div>
+    <div class="col-4">
+        <h5>@ItemApi.Plaintext</h5>
+    </div>
+
+</div>
 @if (@ItemApi.Price != null)
 {
     <h5>Base Price @ItemApi.Price.Base</h5>
@@ -31,11 +39,12 @@
 
 
 
+
 <div class="container">
     <div class="row">
         <h4>From</h4>
         <div class="col">
-            @if (@ItemApi.From != null)
+            @if (@ItemApi.From != null && @ItemApi.From.Count!=0)
             {
                 @foreach (int fromItem in @ItemApi.From)
                 {
@@ -56,7 +65,9 @@
             }
             else
             {
-                <h5>No Item</h5>
+               <div class="alert alert-danger col-1" role="alert">
+                  No item
+                </div>
             }
         </div>
     </div>
@@ -67,7 +78,7 @@
     <div class="row">
         <h4>Into</h4>
         <div class="col">
-            @if (@ItemApi.Into != null)
+            @if (@ItemApi.Into != null && @ItemApi.Into.Count != 0)
             {
                 @foreach (int intoItem in @ItemApi.Into)
                 {
@@ -88,7 +99,9 @@
             }
             else
             {
-                <h5>No Item</h5>
+                <div class="alert alert-danger col-1" role="alert">
+                  No item
+                </div>
             }
         </div>
     </div>
@@ -112,3 +125,16 @@
      }
 </div>
 *@
+@if (@ItemApi.Tags != null)
+{
+
+    <div class="row">
+        Tags: 
+        @foreach (string tag in ItemApi.Tags)
+        {
+            <span class="col-1 badge btn-outline-warning badge-primary">#@tag</span>
+        }
+    </div>
+
+
+}

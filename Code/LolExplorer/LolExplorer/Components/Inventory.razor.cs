@@ -36,7 +36,14 @@ namespace LolExplorer.Components
             if(currentPage>1)
                 currentPage--;
         }
-        List<ItemApi> ItemsSearched => Items.AsEnumerable().Where(item  => item == null || (item !=null && item.Name.ToLower().Contains(SearchTerm.ToLower()))).ToList();
+        List<ItemApi> ItemsSearched => Items.AsEnumerable().Where( 
+                    item  => 
+                    item == null || 
+                    ( item !=null &&
+                    ( item.Name.ToLower().Contains(SearchTerm.ToLower()) || 
+                      item.Tags.Any(i => i.ToLower().Contains(SearchTerm.ToLower()) ) ) //recherche par le tag
+                    )
+        ).ToList();
         List<ItemApi> currentData => ItemsSearched.Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
        
 

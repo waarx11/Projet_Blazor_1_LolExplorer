@@ -1,27 +1,29 @@
 ﻿@page "/itemdisplay"
 
 @if(@ItemApi!=null){
-    <div @onclick="NavigateTo" class="item btn btn-primary" style="margin:5px;">
-        @if (@ItemApi.Icon != null)
-        {
-            @if (@ItemApi.Icon.Contains("ddragon"))
+    <a href="viewItem/@(ItemApi.Id)" style="all=unset;">
+        <div class="item btn btn-primary" style="margin:5px; background-color: #2c3e50;border-color:#e3cd96;">
+            @if (@ItemApi.Icon != null)
             {
-                <img src="@ItemApi.Icon" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px" />
-            }
-            else
-            {
-                @if (!string.IsNullOrWhiteSpace(@ItemApi.Icon))
+                @if (@ItemApi.Icon.Contains("ddragon"))
                 {
-                    <img src="data:image/png;base64, @(ItemApi.Icon)" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="width: 73.8px; height: 73.8px" />
+                    <img src="@ItemApi.Icon" class="king img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px;" />
                 }
                 else
                 {
-                    <img src="images/default.png" class="img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px" />
+                    @if (!string.IsNullOrWhiteSpace(@ItemApi.Icon))
+                    {
+                        <img src="data:image/png;base64, @(ItemApi.Icon)" class="king img-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="width: 73.8px; height: 73.8px;" />
+                    }
+                    else
+                    {
+                        <img src="images/default.png" class="kingimg-thumbnail" title="@ItemApi.Name" alt="@ItemApi.Name" style="max-width: 150px;" />
+                    }
                 }
             }
-        }
-        <p>@ItemApi.Name</p>
-    </div>
+            <p>@ItemApi.Name</p>
+        </div>
+    </a>
 }
 else{
     <p>Item Does Not Exist</p>

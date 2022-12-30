@@ -1,4 +1,23 @@
-.navbar-toggler {
+.myNav {
+    background-color: rgb(44,62,80,0.75);
+}
+
+
+.myNav button {
+    font-size: 10px !important;
+}
+
+.myNav {
+    font-size: 15px !important;
+}
+
+.title {
+    font-size: 40px !important;
+}
+
+
+
+/*.navbar-toggler {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -55,8 +74,8 @@
         display: none;
     }
 
-    .collapse {
+    .collapse {*/
         /* Never collapse the sidebar for wide screens */
-        display: block;
+        /*display: block;
     }
-}
+}*/

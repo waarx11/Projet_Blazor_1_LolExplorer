@@ -3,11 +3,10 @@
 
 <p>
     <label>
-        Select your locale:
-        <select @bind="Culture">
+        <select @bind="Culture" class="form-select form-select-sm">
             @foreach (var culture in supportedCultures)
             {
-                <option value="@culture">@culture.DisplayName</option>
+                <option value="@culture">@culture.CompareInfo.Name</option>
             }
         </select>
     </label>

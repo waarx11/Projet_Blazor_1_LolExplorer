@@ -28,20 +28,25 @@ public partial class CraftingItem
         Parent.Actions.Add(new CraftingAction { Action = "Drag Enter", Item = this.Item, Index = this.Index });
     }
 
-    internal async void OnDragLeave()
+    internal  void OnDragLeave()
     {
         if (NoDrop)
         {
             return;
         }
+        
+        Parent.Actions.Add(new CraftingAction { Action = "Drag Leave", Item = this.Item, Index = this.Index });
+    }
+    internal void OnDragEnd()
+    {
+        if (NoDrop)
+        {
+            return;
+        }
+
         Parent.RecipeItems[this.Index] = null;
         Item = null;
-        
-        if(Parent is InventoryItem)
-        {
-            Parent.CheckRecipe();
-        }
-        Parent.Actions.Add(new CraftingAction { Action = "Drag Leave", Item = this.Item, Index = this.Index });
+        Parent.CheckRecipe();
     }
 
     internal void OnDrop()
@@ -52,7 +57,21 @@ public partial class CraftingItem
         }
 
         this.Item = Parent.CurrentDragItem;
-        Parent.RecipeItems[this.Index] = this.Item;
+        if(Parent is InventoryItem) /// so inventory dont have the same item multipls time its a personnel choice
+        {
+            if (this.Item != null)
+            {
+                if (!Parent.RecipeItems.Any(i => i!=null && i.Id == this.Item.Id))
+                {
+                    Parent.RecipeItems[this.Index] = this.Item;
+                }
+            }
+        }
+        else
+        {
+            Parent.RecipeItems[this.Index] = this.Item;
+        }
+       
 
         Parent.Actions.Add(new CraftingAction { Action = "Drop", Item = this.Item, Index = this.Index });
 

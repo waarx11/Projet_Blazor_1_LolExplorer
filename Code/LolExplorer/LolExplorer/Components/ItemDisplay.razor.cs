@@ -29,9 +29,6 @@ namespace LolExplorer.Components
             if(Id != -1)
                 ItemApi = await DataService.GetById(Id);
         }
-        private void NavigateTo()
-        {
-            NavigationManager.NavigateTo("viewItem/"+ ItemApi.Id);
-        }
+       
     }
 }

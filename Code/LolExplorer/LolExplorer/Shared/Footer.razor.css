@@ -1,8 +1,7 @@
 ﻿.footer {
-    background-image: linear-gradient(270deg, rgb(5, 39, 103) 0%, #3a0647 70%);
-    color: #fff;
+    background-color: rgb(44,62,80,0.75);
+    /* background-image: linear-gradient(270deg, rgb(5, 39, 103) 0%, #3a0647 70%);*/
     font-family: 'Godofthunder', sans-serif;
-   
 }
 
 
@@ -17,7 +16,7 @@
 }
 
 .footer-box {
-    padding: 10px;
+    mar-top: 10px;
     text-align: left;
     font-size: 15px;
 }

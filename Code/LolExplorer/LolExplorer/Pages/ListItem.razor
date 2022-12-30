@@ -3,20 +3,22 @@
 
 <h3>@Localizer["TitleItems"]</h3>
 <div>
-    <NavLink class="btn btn-primary" href="Add" Match="NavLinkMatch.All">
+    <NavLink class="btn btn-outline-light" href="Add" Match="NavLinkMatch.All">
         <i class="fa fa-plus"></i> Ajouter
     </NavLink>
 </div>
+
 <DataGrid TItem="ItemApi"
           Data="@items"
           ReadData="@OnReadData"
           TotalItems="@totalItem"
           ShowPager
+          Style="color:#fff;"
           PageSize="10">
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Nom">
-    
+    <DataGridColumn  TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Nom">
         <DisplayTemplate>
             <LolExplorer.Components.ItemDisplay ItemApi=@(context)></LolExplorer.Components.ItemDisplay>
+
          </DisplayTemplate>
     </DataGridColumn>
     @*<DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Name)" Caption="Nom" />
@@ -87,10 +89,10 @@
             }
         </DisplayTemplate>
     </DataGridColumn>*@
-    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Id)" Caption="Action">
+    <DataGridColumn TItem="ItemApi" Field="@nameof(ItemApi.Id)" Caption="Action" >
         <DisplayTemplate>
-            <a href="Edit/@(context.Id)" class="btn btn-primary"><i class="fa fa-edit"></i> Editer</a>
-            <button type="button" class="btn btn-danger" @onclick="() => OnDelete(context.Id)"><i class="fa fa-trash"></i> Supprimer</button>
+            <a href="Edit/@(context.Id)" class="btn btn-outline-warning"><i class="fa fa-edit"></i> Editer</a>
+            <button type="button" class="btn btn-outline-danger" @onclick="() => OnDelete(context.Id)"><i class="fa fa-trash"></i> Supprimer</button>
         </DisplayTemplate>
     </DataGridColumn>
 </DataGrid>
