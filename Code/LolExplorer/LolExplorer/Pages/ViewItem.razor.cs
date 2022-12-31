@@ -4,6 +4,8 @@ using LolExplorer.Services;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Localization;
+using Microsoft.JSInterop;
+using System;
 
 namespace LolExplorer.Pages
 {
@@ -20,6 +22,8 @@ namespace LolExplorer.Pages
 
         [Inject]
         public IDataService DataService { get; set; }
+        [Inject]
+        public IJSRuntime JSRuntime  { get; set; }
 
         private ItemApi ItemApi { get; set; } = new();
 
@@ -34,6 +38,8 @@ namespace LolExplorer.Pages
         protected override async Task OnParametersSetAsync()
         {
             await OnInitializedAsync();
+           
+            
         }
 
     }

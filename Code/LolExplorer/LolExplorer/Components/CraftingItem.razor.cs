@@ -1,6 +1,7 @@
 ﻿using LolExplorer.Modele;
 using LolExplorer.Pages;
 using Microsoft.AspNetCore.Components;
+using System.Linq;
 //namespace de la page
 namespace LolExplorer.Components;
 
@@ -56,19 +57,30 @@ public partial class CraftingItem
             return;
         }
 
-        this.Item = Parent.CurrentDragItem;
         if(Parent is InventoryItem) /// so inventory dont have the same item multipls time its a personnel choice
         {
-            if (this.Item != null)
+            if (Parent.CurrentDragItem != null)
             {
-                if (!Parent.RecipeItems.Any(i => i!=null && i.Id == this.Item.Id))
+                if (!Parent.RecipeItems.Any(i => i !=null && i.Id == Parent.CurrentDragItem.Id) )
                 {
+                    this.Item = Parent.CurrentDragItem;
                     Parent.RecipeItems[this.Index] = this.Item;
+                }
+                else
+                {
+                    if (Parent.RecipeItems.Contains(Parent.CurrentDragItem))
+                    {
+
+                        this.Item = Parent.CurrentDragItem;
+                        Parent.RecipeItems[Parent.RecipeItems.IndexOf(this.Item)] =null  ;
+                        Parent.RecipeItems[this.Index] = this.Item;
+                    }
                 }
             }
         }
         else
         {
+            this.Item = Parent.CurrentDragItem;
             Parent.RecipeItems[this.Index] = this.Item;
         }
        
