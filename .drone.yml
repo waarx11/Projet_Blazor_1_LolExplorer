@@ -1,0 +1,56 @@
+kind: pipeline
+type: docker
+name: default
+ 
+trigger:
+  event:
+    - push
+
+steps:
+  - name: build
+    image: mcr.microsoft.com/dotnet/sdk:6.0
+    commands:
+      - cd Code/
+      - dotnet restore LolExplorer.sln
+      - dotnet build  LolExplorer.sln -c Release --no-restore
+
+  - name: tests
+    image: mcr.microsoft.com/dotnet/sdk:6.0
+    commands:
+      - cd Code/
+      - dotnet restore LolExplorer.sln
+      - dotnet test LolExplorer.sln --no-restore
+    depends_on: [build]
+
+
+  - name: generate-and-deploy-docs
+    image: hub.codefirst.iut.uca.fr/thomas.bellembois/codefirst-docdeployer
+    failure: ignore
+    volumes:
+      - name: Doc
+        path: /Doc
+    commands:
+      - /entrypoint.sh
+    when:
+      branch:
+        - master
+    depends_on: [ build ]
+
+  # - name: docker-build
+  #   image: plugins/docker
+  #   settings:
+  #      dockerfile: Code/LolExplorer/LolExplorer
+  #      context: .
+  #      registry: hub.codefirst.iut.uca.fr
+  #      repo: hub.codefirst.iut.uca.fr/git/rami.khedair/LolExplorer
+  #      username:
+  #        from_secret: SECRET_REGISTRY_USERNAME
+  #      password:
+  #        from_secret: SECRET_REGISTRY_PASSWORD
+  #   when:
+  #     branch:
+  #       - master
+
+volumes:
+- name: docs
+  temp: {}

@@ -166,7 +166,32 @@
     "purchasable": true,
     "from": []
   },
-  null,
+  {
+    "name": "Sightstone",
+    "plaintext": "Increases Health and provides Stealth Wards over time",
+    "into": [
+      2045,
+      2301,
+      2302,
+      2303
+    ],
+    "tags": [
+      "Active",
+      "Health",
+      "Vision"
+    ],
+    "id": 2049,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/2049.png",
+    "price": {
+      "base": 400,
+      "total": 800,
+      "sell": 320
+    },
+    "purchasable": true,
+    "from": [
+      1028
+    ]
+  },
   {
     "name": "Faerie Charm",
     "plaintext": "Slightly increases Mana Regen",
