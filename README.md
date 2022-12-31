@@ -6,12 +6,12 @@ author: Rami Khedair, Nathan Verdier
 # Tutoriel des fonctionnalités disponible
 vous lancer le projet depuis la branche master.
 ## Visialisation
-Tous les éléments sont affichés dans une liste et que nous pouvons cliquer sur un élément pour obtenir plus d'informations sur celui-ci. Cela signifie que chaque élément de la liste est accompagné d'un lien qui nous permet de voir plus de détails sur l'élément en question. Cela peut être utile si nous voulons en savoir plus sur un élément spécifique, par exemple pour voir des images supplémentaires ou des informations détaillées sur l'élément.
+Tous les éléments sont affichés dans une liste, ou nous pouvons cliquer sur un élément pour obtenir plus d'informations sur celui-ci. Cela signifie que chaque élément de la liste est accompagné d'un lien qui nous permet de voir plus de détails sur l'élément en question. Cela peut être utile si nous voulons en savoir plus sur un élément spécifique, par exemple pour voir des images supplémentaires ou des informations détaillées sur l'élément.
 
 ## Action Sur La Liste
 Nous avons la possibilité de faire trois opérations différentes sur les éléments de la liste : ajouter de nouveaux éléments, supprimer des éléments existants et éditer des éléments existants.
 
-**L'ajout** d'un nouvel élément consiste à créer un nouvel élément et à l'ajouter à la liste. Cela peut être utile si nous voulons ajouter de nouvelles informations ou de nouveaux éléments à la liste.
+**L'ajout** d'un nouvel élément consiste à créer un nouvel élément et à l'ajouter dans la liste. Cela peut être utile si nous voulons ajouter de nouvelles informations ou de nouveaux éléments à la liste.
 
 **La suppression** d'un élément consiste à supprimer un élément existant de la liste. Cela peut être utile si nous voulons retirer de l'information obsolète ou inutile de la liste.
 
