@@ -82,4 +82,4 @@ Ce composant est responsable de l'affichage d'un élément sur tout le site, ce 
 Il y a un dernier composant, mais il n'est pas dans le dossier Pages :
 
 #### InventoryItem.razor :
-Ce composant hérite du composant Crafting pour pouvoir utiliser le composant CraftingItem, ce qui évite de recréer un composant InventoryItem. Cependant, un point d'amélioration pour mon site serait de créer une classe mère abstraite dont les classes InventoryItem et Crafting hériteraient, plutôt que de faire un héritage direct entre InventoryItem et Crafting. Cependant, je n'ai pas pu mettre cela en place en raison d'un problème du delai :'( .
+Ce composant hérite du composant Crafting pour pouvoir utiliser le composant CraftingItem, ce qui évite de recréer un composant InventoryItem. Cependant, un point d'amélioration pour mon site serait de créer une classe mère abstraite dont les classes InventoryItem et Crafting hériteraient, plutôt que de faire un héritage direct entre InventoryItem et Crafting. Cependant, je n'ai pas pu mettre cela en place en raison d'un problème du delai :'(.
